@@ -48,9 +48,7 @@ jobs:
           exclude_assets: ".github,merge.py,sources.yaml,__pycache__,.nojekyll"
 
       - name: Commit stats
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "stats: ${BLOCK_COUNT} block / ${WHITE_COUNT} whitelist"
-          git push origin main 2>/dev/null || true
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "stats: ${BLOCK_COUNT} block / ${WHITE_COUNT} whitelist"
+          file_pattern: stats.json
