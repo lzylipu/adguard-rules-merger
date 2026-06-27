@@ -1,4 +1,4 @@
-name: 🔄 Merge & Update Rules
+name: Merge & Update Rules
 
 on:
   schedule:
@@ -12,59 +12,45 @@ on:
 permissions:
   contents: write
   pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
   merge:
     runs-on: ubuntu-latest
-    outputs:
-      block_count: ${{ steps.stats.outputs.block_count }}
-      white_count: ${{ steps.stats.outputs.white_count }}
     steps:
-      - name: 📥 Checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: 🐍 Setup Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: 📦 Install deps
+      - name: Install deps
         run: pip install pyyaml
 
-      - name: 🔄 Run merger
+      - name: Run merger
         run: python merge.py
 
-      - name: 📊 Generate stats
-        id: stats
+      - name: Stats
         run: |
           BLOCK=$(python3 -c "import json; print(json.load(open('stats.json'))['blocklist']['total'])")
           WHITE=$(python3 -c "import json; print(json.load(open('stats.json'))['whitelist']['total'])")
-          echo "block_count=$BLOCK" >> "$GITHUB_OUTPUT"
-          echo "white_count=$WHITE" >> "$GITHUB_OUTPUT"
+          echo "BLOCK_COUNT=$BLOCK" >> "$GITHUB_ENV"
+          echo "WHITE_COUNT=$WHITE" >> "$GITHUB_ENV"
 
-      - name: 📤 Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: 🏠 Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: |
-            blocklist.txt
-            whitelist.txt
-            stats.json
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          force_orphan: true
+          exclude_assets: ".github,merge.py,sources.yaml,__pycache__,.nojekyll"
 
-  deploy:
-    needs: merge
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: 🚀 Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "stats: ${BLOCK_COUNT} block / ${WHITE_COUNT} whitelist"
+          git push origin main 2>/dev/null || true
