@@ -1,12 +1,10 @@
 # ============================================================
 # 🛡️ AdGuard Home Rules Merger - Sources Configuration
 # ============================================================
-# 黑名单(拦截) + 白名单(反误杀) 分钟级自动合并去重
-# Modify and push, GitHub Actions handles the rest.
+# 黑名单(拦截) + 白名单(反误杀) 自动合并去重
 # ============================================================
 
 blocklist:
-  # ─── 原有规则 (保留) ───
   - name: 217heidai-DNS
     url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
     desc: DNS层拦截规则 ⚡
@@ -23,7 +21,6 @@ blocklist:
     url: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
     desc: GOODBYEADS DNS规则 🚫
 
-  # ─── 中文/亚洲专杀 (新增) ───
   - name: Anti-Ad
     url: https://anti-ad.net/easylist.txt
     desc: 国内最流行中文DNS去广告 🇨🇳
@@ -36,7 +33,6 @@ blocklist:
     url: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
     desc: AdGuard官方中文广告服务器 🏢
 
-  # ─── 隐私/追踪 (互补层) ───
   - name: EasyPrivacy
     url: https://easylist-downloads.adblockplus.org/easyprivacy.txt
     desc: 全球隐私追踪拦截 🔒
@@ -45,64 +41,60 @@ blocklist:
     url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblock&showintro=0&mimetype=plaintext
     desc: 经典广告服务器列表 📋
 
-  # ─── 全球综合 ───
   - name: Hagezi-ProPlus
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
     desc: 广告+追踪+挖矿+诈骗+仿冒全覆盖 🌍
 
 whitelist:
-  # ─── 上游白名单源 (自动拉取) ───
+  # ─── 上游白名单源 (中文网络推荐) ───
   sources:
     - name: GOODBYEADS-Allow
       url: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt
       desc: GOODBYEADS官方反误杀白名单(1.4万条) ✅
 
-    - name: AnudeepND-Whitelist
-      url: https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
-      desc: 经典通用白名单(191条) 🛡️
-
-    - name: Hagezi-Native-Amazon
-      url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt
-      desc: 亚马逊反误杀(保护购物功能) 🛒
-
-    - name: Hagezi-Native-Apple
-      url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt
-      desc: 苹果反误杀(保护iCloud/推送) 🍎
-
     - name: Hagezi-Native-TikTok
       url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt
-      desc: TikTok反误杀(保护正常使用) 🎵
+      desc: 抖音/TikTok反误杀 🎵
 
-  # ─── 自定义白名单 (手动维护) ───
+  # ─── 自定义白名单 (国内核心服务) ───
   custom:
-    # 国内大站 - 保护核心服务
+    # 国内大站
     - "||bilibili.com^"
+    - "||hdslb.com^"
     - "||qq.com^"
     - "||taobao.com^"
     - "||jd.com^"
     - "||alipay.com^"
+    - "||alipayobjects.com^"
     - "||douyin.com^"
     - "||weibo.com^"
     - "||baidu.com^"
     - "||zhihu.com^"
     - "||163.com^"
     - "||csdn.net^"
-    # 国际大站
-    - "||microsoft.com^"
-    - "||apple.com^"
-    - "||google.com^"
-    - "||github.com^"
-    - "||cloudflare.com^"
-    # 系统服务
-    - "||windowsupdate.com^"
-    - "||.apple.com^"
-    - "||icloud.com^"
-    - "||mzstatic.com^"
-    # 流媒体
-    - "||netflix.com^"
-    - "||bilibili.com^"
-    - "||hdslb.com^"
+    - "||meituan.com^"
+    - "||dianping.com^"
     # 支付
-    - "||alipayobjects.com^"
     - "||tenpay.com^"
     - "||wxpay.com^"
+    - "||unionpay.com^"
+    - "||95516.com^"
+    # 流媒体
+    - "||iqiyi.com^"
+    - "||youku.com^"
+    - "||mgtv.com^"
+    - "||kuaishou.com^"
+    # 微信/QQ生态
+    - "||weixin.qq.com^"
+    - "||wechat.com^"
+    - "||qlogo.cn^"
+    - "||qpic.cn^"
+    - "||myqcloud.com^"
+    - "||servicewechat.com^"
+    # 系统级
+    - "||microsoft.com^"
+    - "||windowsupdate.com^"
+    - "||apple.com^"
+    - "||icloud.com^"
+    - "||mzstatic.com^"
+    - "||github.com^"
