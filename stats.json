@@ -1,20 +1,20 @@
 {
-  "updated": "2026-06-28 22:08:30 (UTC+8)",
+  "updated": "2026-06-29 00:45:43 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 161106,
+    "total": 161104,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 116505,
-        "dns_ok": 116505,
-        "new": 116352,
+        "dns_ok": 116503,
+        "new": 116350,
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
         "raw": 43372,
-        "dns_ok": 43372,
-        "new": 43372,
+        "dns_ok": 43371,
+        "new": 43371,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
@@ -37,8 +37,8 @@
       },
       "EasyPrivacy": {
         "raw": 55466,
-        "dns_ok": 54363,
-        "new": 46689,
+        "dns_ok": 54362,
+        "new": 46688,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -61,8 +61,8 @@
     "sources": {
       "Hagezi-Pro": {
         "raw": 230539,
-        "dns_ok": 230539,
-        "new": 230539,
+        "dns_ok": 230538,
+        "new": 230538,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
@@ -73,8 +73,8 @@
       },
       "OISD-Small": {
         "raw": 61267,
-        "dns_ok": 61267,
-        "new": 61267,
+        "dns_ok": 61266,
+        "new": 61266,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {

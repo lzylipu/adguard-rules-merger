@@ -43,6 +43,7 @@ CORE_DOMAINS = {
     "baidu.com", "www.baidu.com",
     "bilibili.com", "www.bilibili.com",
     "qq.com", "www.qq.com",
+    "trace.qq.com", "h.trace.qq.com",  # QQ 追踪域名保护
     "taobao.com", "www.taobao.com",
     "jd.com", "www.jd.com",
     "alipay.com", "www.alipay.com",
@@ -131,6 +132,16 @@ def extract_domain(rule):
 def merge_sources(domain_map, new_map):
     added = 0
     for k, rule in new_map.items():
+        # 带 $denyallow 的通配符规则（如 ||*.top^$denyallow=...）不能按域名去重
+        # 不同来源的白名单列表必须全部保留，否则会丢失白名单保护
+        if "$denyallow" in rule:
+            # 使用完整规则作为 key，避免覆盖其他来源的白名单
+            unique_key = rule  # 完整规则作为唯一标识
+            if unique_key not in domain_map:
+                domain_map[unique_key] = rule
+                added += 1
+            continue
+        
         if k not in domain_map:
             domain_map[k] = rule
             added += 1
@@ -147,9 +158,18 @@ def apply_whitelist(domain_map, wl_domains):
     result = {}
     for k, rule in domain_map.items():
         domain = extract_domain(rule)
-        if domain and any(domain == w or domain.endswith("." + w) for w in wl_domains):
-            removed += 1
-            continue
+        if domain:
+            d_lower = domain.lower()
+            # 精确匹配或后缀匹配
+            matched = False
+            for w in wl_domains:
+                w_lower = w.lower()
+                if d_lower == w_lower or d_lower.endswith("." + w_lower):
+                    matched = True
+                    break
+            if matched:
+                removed += 1
+                continue
         result[k] = rule
     return result, removed
 
