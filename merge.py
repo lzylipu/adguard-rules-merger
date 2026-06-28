@@ -43,7 +43,6 @@ CORE_DOMAINS = {
     "baidu.com", "www.baidu.com",
     "bilibili.com", "www.bilibili.com",
     "qq.com", "www.qq.com",
-    "trace.qq.com", "h.trace.qq.com",  # QQ 追踪域名保护
     "taobao.com", "www.taobao.com",
     "jd.com", "www.jd.com",
     "alipay.com", "www.alipay.com",

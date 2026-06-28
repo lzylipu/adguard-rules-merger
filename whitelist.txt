@@ -1,8 +1,8 @@
 ! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-06-29 00:45:43 (UTC+8)
-! Sources: 2 upstream + 40 custom
-! Rules: 2,519 (DNS-only, deduped)
+! Updated: 2026-06-29 00:54:12 (UTC+8)
+! Sources: 2 upstream + 44 custom
+! Rules: 2,523 (DNS-only, deduped)
 ! ============================================================
 @@||*-go.kelkoogroup.net^
 @@||*cdn.exponea.com^
@@ -2500,6 +2500,7 @@
 ||cdn.staticfile.net^
 ||cdnjs.cloudflare.com^
 ||gitee.com^
+||h.trace.qq.com^
 ||jsdelivr.net^
 ||lf26-cdn-tos.bytecdntp.com^
 ||lf3-cdn-tos.bytecdntp.com^
@@ -2507,12 +2508,15 @@
 ||lf9-cdn-tos.bytecdntp.com^
 ||lib.baomitu.com^
 ||myqcloud.com^
+||pingma.qq.com^
 ||qhimg.com^
 ||qhres.com^
 ||qiniudn.com^
+||report.qq.com^
 ||so.com^
 ||sogou.com^
 ||sogoucdn.com^
+||trace.qq.com^
 ||unionpay.com^
 ||unionpayintl.com^
 ||unpkg.com^

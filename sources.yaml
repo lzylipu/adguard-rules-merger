@@ -89,6 +89,11 @@ whitelist:
     - "||weixin.qq.com^"
     - "||weixinbridge.com^"
     - "||wx.qq.com^"
+    # QQ 追踪域名保护（防止 h.trace.qq.com 等误杀）
+    - "||h.trace.qq.com^"
+    - "||trace.qq.com^"
+    - "||report.qq.com^"
+    - "||pingma.qq.com^"
     - "||unionpay.com^"
     - "||unionpayintl.com^"
     - "||upcdn.net^"

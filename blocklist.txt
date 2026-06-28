@@ -1,8 +1,8 @@
 ! 🛡️ AdGuard Home Merged DNS Blocklist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-06-29 00:45:43 (UTC+8)
-! Sources: 7 blocklist + whitelist(40 custom)
-! Rules: 161,104 (DNS-only, domain-deduped)
+! Updated: 2026-06-29 00:54:12 (UTC+8)
+! Sources: 7 blocklist + whitelist(44 custom)
+! Rules: 161,100 (DNS-only, domain-deduped)
 ! Edition: Standard (recommended, whitelisted)
 ! License: https://github.com/lzylipu/adguard-rules-merger
 ! ============================================================
@@ -101317,7 +101317,6 @@
 ||pagesense-collect.zoho.com^
 ||pagesense.io^
 ||pagesocket.glam.com^
-||pagespeed.report.qq.com^
 ||pageview-analytics-worker.support-67d.workers.dev^
 ||pageview.activengage.com.cdn.cloudflare.net^
 ||pageview.activengage.com^
@@ -103445,7 +103444,6 @@
 ||pingfore.qq.com^
 ||pinghot.qq.com^
 ||pingil.com^$third-party
-||pingma.qq.com^
 ||pingmeter.com^
 ||pingmid.qq.com^
 ||pingo.staticmoly.me^
@@ -108658,7 +108656,6 @@
 ||qoqyvixrvteym.site^
 ||qortex.ai^
 ||qorzcljgqldwr.website^
-||qos.report.qq.com^
 ||qottubusyheqj.store^
 ||qotuprmsjnjbn.site^
 ||qoupbblbkrk.com^
@@ -111540,7 +111537,6 @@
 ||report.meituan.com^
 ||report.nfa.qq.com^
 ||report.pixverse.ai^
-||report.qq.com^
 ||report.qqweb.qq.com^
 ||report.reachit.network^
 ||report.seznamzpravy.cz^
