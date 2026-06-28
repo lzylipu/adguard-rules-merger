@@ -33,15 +33,17 @@ jobs:
 
       - name: Stats
         run: |
-          BLOCK=$(python3 -c "import json; print(json.load(open('stats.json'))['blocklist']['total'])")
+          STD=$(python3 -c "import json; d=json.load(open('stats.json')); print(d['standard']['total'])")
+          FULL=$(python3 -c "import json; d=json.load(open('stats.json')); print(d['full']['total'])")
           WHITE=$(python3 -c "import json; print(json.load(open('stats.json'))['whitelist']['total'])")
-          echo "BLOCK_COUNT=$BLOCK" >> "$GITHUB_ENV"
+          echo "STD_COUNT=$STD" >> "$GITHUB_ENV"
+          echo "FULL_COUNT=$FULL" >> "$GITHUB_ENV"
           echo "WHITE_COUNT=$WHITE" >> "$GITHUB_ENV"
 
       - name: Commit stats
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "stats: ${BLOCK_COUNT} block / ${WHITE_COUNT} whitelist"
+          commit_message: "stats: std ${STD_COUNT} / full ${FULL_COUNT} / whitelist ${WHITE_COUNT}"
           file_pattern: stats.json
 
       - name: Deploy to GitHub Pages
