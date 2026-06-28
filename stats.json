@@ -1,0 +1,66 @@
+{
+  "updated": "2026-06-28 11:41:09 (UTC+8)",
+  "blocklist": {
+    "total": 531749,
+    "before_dedup": 546767,
+    "duplicates_removed": 12,
+    "whitelist_removed": 15006,
+    "sources": {
+      "217heidai-DNS": {
+        "raw_rules": 141017,
+        "dns_rules": 141017,
+        "desc": "DNS层拦截规则 ⚡"
+      },
+      "217heidai-Filters": {
+        "raw_rules": 41852,
+        "dns_rules": 41574,
+        "desc": "浏览器/插件级拦截 🧩"
+      },
+      "217heidai-Domain": {
+        "raw_rules": 140867,
+        "dns_rules": 140867,
+        "desc": "域名级拦截 🌐"
+      },
+      "GOODBYEADS-DNS": {
+        "raw_rules": 116316,
+        "dns_rules": 116316,
+        "desc": "GOODBYEADS DNS规则 🚫"
+      },
+      "Anti-Ad": {
+        "raw_rules": 97679,
+        "dns_rules": 97679,
+        "desc": "国内最流行中文DNS去广告 🇨🇳"
+      },
+      "EasyListChina": {
+        "raw_rules": 12758,
+        "dns_rules": 12758,
+        "desc": "中文广告专项补充 🎯"
+      },
+      "AdGuard-CN-Adservers": {
+        "raw_rules": 219,
+        "dns_rules": 219,
+        "desc": "AdGuard官方中文广告服务器 🏢"
+      },
+      "EasyPrivacy": {
+        "raw_rules": 53257,
+        "dns_rules": 53257,
+        "desc": "全球隐私追踪拦截 🔒"
+      },
+      "Yoyo": {
+        "raw_rules": 7014,
+        "dns_rules": 7014,
+        "desc": "经典广告服务器列表 📋"
+      },
+      "Hagezi-ProPlus": {
+        "raw_rules": 252174,
+        "dns_rules": 252174,
+        "desc": "广告+追踪+挖矿+诈骗+仿冒全覆盖 🌍"
+      }
+    }
+  },
+  "whitelist": {
+    "total": 15026,
+    "upstream_sources": 2,
+    "custom_rules": 35
+  }
+}
