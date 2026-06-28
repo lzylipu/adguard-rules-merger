@@ -1,58 +1,117 @@
 {
-  "updated": "2026-06-28 18:07:30 (UTC+8)",
-  "version": "2.0",
+  "updated": "2026-06-28 19:01:53 (UTC+8)",
+  "version": "4.0",
+  "mode": "local",
   "standard": {
-    "total": 158936,
+    "total": 161520,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 116505,
         "dns_ok": 116505,
-        "new": 116500,
-        "desc": "DNS专用去广告(中文优先) 🚫"
+        "new": 116352,
+        "converted": 0,
+        "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
         "raw": 43372,
         "dns_ok": 43372,
         "new": 43372,
-        "desc": "广告+追踪 DNS级精简 🌍"
+        "converted": 0,
+        "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
         "raw": 3437,
         "dns_ok": 3437,
         "new": 3437,
-        "desc": "DNS-over-HTTP绕过拦截 🔒"
+        "converted": 0,
+        "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
         "raw": 16851,
         "dns_ok": 16851,
         "new": 16851,
-        "desc": "仿冒/钓鱼域名 🎭"
+        "converted": 0,
+        "desc": "HaGeZi 仿冒钓鱼域名"
+      },
+      "Anti-Ad": {
+        "raw": 111410,
+        "dns_ok": 111410,
+        "new": 0,
+        "converted": 0,
+        "desc": "Anti-Ad 中文DNS首选，97k规则 🇨🇳"
+      },
+      "EasyPrivacy": {
+        "raw": 55466,
+        "dns_ok": 54367,
+        "new": 46970,
+        "converted": 279,
+        "desc": "EasyList 隐私追踪"
+      },
+      "Yoyo": {
+        "raw": 3507,
+        "dns_ok": 3507,
+        "new": 3507,
+        "converted": 0,
+        "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 984
+    "whitelist_removed": 3423,
+    "browser_converted": 279
   },
   "whitelist": {
-    "total": 1562,
-    "unique_domains": 1562,
-    "upstream_sources": 1,
+    "total": 1694,
+    "unique_domains": 1588,
+    "upstream_sources": 2,
     "custom_rules": 40
   },
   "full": {
-    "total": 358482,
+    "total": 346981,
     "sources": {
-      "Hagezi-ProPlus": {
-        "raw": 265393,
-        "dns_ok": 265393,
-        "new": 265393,
-        "desc": "广告+追踪+挖矿+诈骗+仿冒 全覆盖 🌍"
+      "EasyListChina": {
+        "raw": 87853,
+        "dns_ok": 66210,
+        "new": 67836,
+        "converted": 10013,
+        "desc": "EasyList China 中文广告（含浏览器→DNS转换）"
+      },
+      "Hagezi-Pro": {
+        "raw": 230539,
+        "dns_ok": 230539,
+        "new": 230539,
+        "converted": 0,
+        "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
         "raw": 71854,
         "dns_ok": 71854,
         "new": 71850,
-        "desc": "中文DNS合并规则(内含Anti-Ad精华) ⚡"
+        "converted": 0,
+        "desc": "217heidai DNS规则合并（纯域名）"
+      },
+      "OISD-Small": {
+        "raw": 61267,
+        "dns_ok": 61267,
+        "new": 61267,
+        "converted": 0,
+        "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
+      },
+      "1Hosts-Lite": {
+        "raw": 3475,
+        "dns_ok": 3475,
+        "new": 3475,
+        "converted": 0,
+        "desc": "1Hosts Lite - badmojr 维护，专注广告追踪"
+      },
+      "DandelionSprout": {
+        "raw": 12482,
+        "dns_ok": 12478,
+        "new": 11444,
+        "converted": 0,
+        "desc": "DandelionSprout 反恶意软件+诈骗"
       }
     },
-    "whitelist_removed": 1607
+    "whitelist_removed": 0,
+    "whitelist_note": "Full edition does NOT apply whitelist",
+    "browser_converted": 10292
   }
 }
