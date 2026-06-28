@@ -1,9 +1,9 @@
 {
-  "updated": "2026-06-28 20:58:34 (UTC+8)",
+  "updated": "2026-06-28 21:00:49 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 161010,
+    "total": 161106,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 116505,
@@ -48,23 +48,17 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 3652
+    "whitelist_removed": 3556
   },
   "whitelist": {
-    "total": 2522,
-    "unique_domains": 2387,
+    "total": 2519,
+    "unique_domains": 2383,
     "upstream_sources": 2,
     "custom_rules": 40
   },
   "full": {
-    "total": 336867,
+    "total": 336387,
     "sources": {
-      "EasyListChina": {
-        "raw": 87853,
-        "dns_ok": 66201,
-        "new": 57818,
-        "desc": "EasyList China 中文广告（含浏览器→DNS转换）"
-      },
       "Hagezi-Pro": {
         "raw": 230539,
         "dns_ok": 230539,
