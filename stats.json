@@ -1,8 +1,8 @@
 {
-  "updated": "2026-06-28 14:33:34 (UTC+8)",
+  "updated": "2026-06-28 18:07:30 (UTC+8)",
   "version": "2.0",
   "standard": {
-    "total": 159196,
+    "total": 158936,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 116505,
@@ -11,9 +11,9 @@
         "desc": "DNS专用去广告(中文优先) 🚫"
       },
       "Hagezi-Light": {
-        "raw": 43808,
-        "dns_ok": 43808,
-        "new": 43808,
+        "raw": 43372,
+        "dns_ok": 43372,
+        "new": 43372,
         "desc": "广告+追踪 DNS级精简 🌍"
       },
       "Hagezi-DOH": {
@@ -29,7 +29,7 @@
         "desc": "仿冒/钓鱼域名 🎭"
       }
     },
-    "whitelist_removed": 978
+    "whitelist_removed": 984
   },
   "whitelist": {
     "total": 1562,
@@ -38,21 +38,21 @@
     "custom_rules": 40
   },
   "full": {
-    "total": 363961,
+    "total": 358482,
     "sources": {
       "Hagezi-ProPlus": {
-        "raw": 252174,
-        "dns_ok": 252174,
-        "new": 252174,
+        "raw": 265393,
+        "dns_ok": 265393,
+        "new": 265393,
         "desc": "广告+追踪+挖矿+诈骗+仿冒 全覆盖 🌍"
       },
       "217heidai-DNS": {
-        "raw": 141017,
-        "dns_ok": 141017,
-        "new": 140996,
+        "raw": 71854,
+        "dns_ok": 71854,
+        "new": 71850,
         "desc": "中文DNS合并规则(内含Anti-Ad精华) ⚡"
       }
     },
-    "whitelist_removed": 1716
+    "whitelist_removed": 1607
   }
 }
