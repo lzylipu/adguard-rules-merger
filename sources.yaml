@@ -1,100 +1,82 @@
 # ============================================================
 # 🛡️ AdGuard Home Rules Merger - Sources Configuration
 # ============================================================
-# 黑名单(拦截) + 白名单(反误杀) 自动合并去重
+# 所有源均为 DNS 级有效（||domain^ 格式），浏览器级规则已排除
+# merge.py 输出两个版本：标准版 + 完整版
 # ============================================================
 
+# ─── 标准版源 (约16万域名，适合大多数 AG Home) ───
 blocklist:
-  - name: 217heidai-DNS
-    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-    desc: DNS层拦截规则 ⚡
-
-  - name: 217heidai-Filters
-    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-    desc: 浏览器/插件级拦截 🧩
-
-  - name: 217heidai-Domain
-    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomain.txt
-    desc: 域名级拦截 🌐
-
   - name: GOODBYEADS-DNS
     url: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
-    desc: GOODBYEADS DNS规则 🚫
+    desc: DNS专用去广告(中文优先) 🚫
 
-  - name: Anti-Ad
-    url: https://anti-ad.net/easylist.txt
-    desc: 国内最流行中文DNS去广告 🇨🇳
+  - name: Hagezi-Light
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
+    desc: 广告+追踪 DNS级精简 🌍
 
-  - name: EasyListChina
-    url: https://easylist-downloads.adblockplus.org/easylistchina.txt
-    desc: 中文广告专项补充 🎯
+  - name: Hagezi-DOH
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh.txt
+    desc: DNS-over-HTTP绕过拦截 🔒
 
-  - name: AdGuard-CN-Adservers
-    url: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
-    desc: AdGuard官方中文广告服务器 🏢
+  - name: Hagezi-Fake
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt
+    desc: 仿冒/钓鱼域名 🎭
 
-  - name: EasyPrivacy
-    url: https://easylist-downloads.adblockplus.org/easyprivacy.txt
-    desc: 全球隐私追踪拦截 🔒
-
-  - name: Yoyo
-    url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblock&showintro=0&mimetype=plaintext
-    desc: 经典广告服务器列表 📋
-
+# ─── 完整版额外源 (再加约20万域名) ───
+blocklist_extra:
   - name: Hagezi-ProPlus
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
-    desc: 广告+追踪+挖矿+诈骗+仿冒全覆盖 🌍
+    desc: 广告+追踪+挖矿+诈骗+仿冒 全覆盖 🌍
+
+  - name: 217heidai-DNS
+    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+    desc: 中文DNS合并规则(内含Anti-Ad精华) ⚡
 
 whitelist:
-  # ─── 上游白名单源 (中文网络推荐) ───
   sources:
-    - name: GOODBYEADS-Allow
-      url: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt
-      desc: GOODBYEADS官方反误杀白名单(1.4万条) ✅
+    - name: Hagezi-Whitelist-Referral
+      url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral-native.txt
+      desc: 联盟链接/推荐追踪放行 ✅
 
-    - name: Hagezi-Native-TikTok
-      url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt
-      desc: 抖音/TikTok反误杀 🎵
-
-  # ─── 自定义白名单 (国内核心服务) ───
   custom:
-    # 国内大站
     - "||bilibili.com^"
     - "||hdslb.com^"
+    - "||biligame.com^"
     - "||qq.com^"
+    - "||qlogo.cn^"
+    - "||qpic.cn^"
+    - "||myqcloud.com^"
+    - "||servicewechat.com^"
+    - "||weixin.qq.com^"
+    - "||wechat.com^"
+    - "||tenpay.com^"
+    - "||wxpay.com^"
     - "||taobao.com^"
-    - "||jd.com^"
     - "||alipay.com^"
     - "||alipayobjects.com^"
-    - "||douyin.com^"
-    - "||weibo.com^"
+    - "||jd.com^"
     - "||baidu.com^"
+    - "||baidubcr.com^"
+    - "||bcebos.com^"
+    - "||douyin.com^"
+    - "||iqiyi.com^"
+    - "||youku.com^"
+    - "||mgtv.com^"
+    - "||kuaishou.com^"
+    - "||pinduoduo.com^"
+    - "||weibo.com^"
     - "||zhihu.com^"
     - "||163.com^"
     - "||csdn.net^"
     - "||meituan.com^"
     - "||dianping.com^"
-    # 支付
-    - "||tenpay.com^"
-    - "||wxpay.com^"
     - "||unionpay.com^"
     - "||95516.com^"
-    # 流媒体
-    - "||iqiyi.com^"
-    - "||youku.com^"
-    - "||mgtv.com^"
-    - "||kuaishou.com^"
-    # 微信/QQ生态
-    - "||weixin.qq.com^"
-    - "||wechat.com^"
-    - "||qlogo.cn^"
-    - "||qpic.cn^"
-    - "||myqcloud.com^"
-    - "||servicewechat.com^"
-    # 系统级
     - "||microsoft.com^"
     - "||windowsupdate.com^"
     - "||apple.com^"
     - "||icloud.com^"
     - "||mzstatic.com^"
     - "||github.com^"
+    - "||githubusercontent.com^"
