@@ -1,8 +1,8 @@
 ! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-06-28 20:58:34 (UTC+8)
+! Updated: 2026-06-29 00:45:43 (UTC+8)
 ! Sources: 2 upstream + 40 custom
-! Rules: 2,522 (DNS-only, deduped)
+! Rules: 2,519 (DNS-only, deduped)
 ! ============================================================
 @@||*-go.kelkoogroup.net^
 @@||*cdn.exponea.com^
@@ -2487,42 +2487,39 @@
 @@||zoigvids.zoigg.com^$stealth=referrer,domain=zoig.com
 @@||zol-img.com.cn^$stealth=referrer,domain=zol.com.cn
 @@||zombicide.com^$stealth
+||360.cn^
+||360.com^
+||360safe.com^
 ||alicdn.com^
 ||aliyuncs.com^
-||amemv.com^
+||baidustatic.com^
 ||bcebos.com^
 ||bdstatic.com^
-||bilibili.com^
-||byteimg.com^
 ||cdn.bootcdn.net^
 ||cdn.bootcss.com^
 ||cdn.staticfile.net^
 ||cdnjs.cloudflare.com^
-||douyincdn.com^
-||elemecdn.com^
 ||gitee.com^
-||iqiyi.com^
-||ixigua.com^
 ||jsdelivr.net^
 ||lf26-cdn-tos.bytecdntp.com^
 ||lf3-cdn-tos.bytecdntp.com^
 ||lf6-cdn-tos.bytecdntp.com^
 ||lf9-cdn-tos.bytecdntp.com^
 ||lib.baomitu.com^
-||meituan.net^
 ||myqcloud.com^
-||pddpic.com^
-||pstatp.com^
-||qbox.me^
+||qhimg.com^
+||qhres.com^
 ||qiniudn.com^
-||sankuai.com^
-||sinaimg.cn^
-||snssdk.com^
-||toutiaoimg.com^
-||ucweb.com^
+||so.com^
+||sogou.com^
+||sogoucdn.com^
 ||unionpay.com^
+||unionpayintl.com^
 ||unpkg.com^
+||upcdn.net^
 ||upyun.com^
-||weibo.com^
-||youku.com^
-||zhihu.com^
+||upyun.net^
+||upyuncloud.com^
+||weixin.qq.com^
+||weixinbridge.com^
+||wx.qq.com^
