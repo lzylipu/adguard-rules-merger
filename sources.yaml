@@ -1,5 +1,5 @@
 blocklist:
-  # 标准版核心源（7个）
+  # 标准版核心源（7个）- 全部 DNS 原生
   - name: GOODBYEADS-DNS
     url: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
     desc: GOODBYEADS DNS去广告中文优先 🇨🇳
@@ -23,30 +23,26 @@ blocklist:
     desc: Yoyo 经典广告服务器
 
 blocklist_extra:
-  # 完整版 - 浏览器规则需转换
-  - name: EasyListChina
-    url: https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-    desc: EasyList China 中文广告（含浏览器→DNS转换）
-  # 完整版 - 全覆盖
+  # 完整版 - 全覆盖 DNS 原生
   - name: Hagezi-Pro
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
     desc: HaGeZi 全覆盖专业版
-  # 完整版 - 中文DNS合并（纯域名格式，149万行）
+  # 完整版 - 中文DNS合并（纯域名格式）
   - name: 217heidai-DNS
     url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomain.txt
     desc: 217heidai DNS规则合并（纯域名）
 
-  # 新增：社区轻量推荐（DNS原生）
+  # 社区轻量推荐（DNS原生）
   - name: OISD-Small
     url: https://small.oisd.nl/
     desc: OISD Small - Block.Don't break. 社区轻量推荐
 
-  # 新增：活跃维护广告追踪（DNS原生）
+  # 活跃维护广告追踪（DNS原生）
   - name: 1Hosts-Lite
     url: https://o0.pages.dev/Lite/adblock.txt
     desc: 1Hosts Lite - badmojr 维护，专注广告追踪
 
-  # 新增：AG Home原生反恶意（DNS原生）
+  # AG Home原生反恶意（DNS原生）
   - name: DandelionSprout
     url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
     desc: DandelionSprout 反恶意软件+诈骗
@@ -78,27 +74,27 @@ whitelist:
     - "||myqcloud.com^"
     - "||qiniudn.com^"
     - "||upyun.com^"
-    - "||qbox.me^"
-    - "||elemecdn.com^"
-    - "||meituan.net^"
-    - "||sankuai.com^"
+    - "||alicdn.com^"
     - "||bdstatic.com^"
     - "||bcebos.com^"
-    - "||alicdn.com^"
-    - "||ucweb.com^"
+    - "||baidustatic.com^"
+    - "||360.cn^"
+    - "||360.com^"
+    - "||qhimg.com^"
+    - "||qhres.com^"
+    - "||360safe.com^"
+    - "||so.com^"
+    - "||sogou.com^"
+    - "||sogoucdn.com^"
+    - "||weixin.qq.com^"
+    - "||weixinbridge.com^"
+    - "||wx.qq.com^"
     - "||unionpay.com^"
-    - "||sinaimg.cn^"
-    - "||weibo.com^"
-    - "||zhihu.com^"
-    - "||bilibili.com^"
-    - "||iqiyi.com^"
-    - "||youku.com^"
-    - "||douyincdn.com^"
-    - "||byteimg.com^"
-    - "||pstatp.com^"
-    - "||ixigua.com^"
-    - "||snssdk.com^"
-    - "||amemv.com^"
-    - "||toutiaoimg.com^"
-    - "||snssdk.com^"
-    - "||pddpic.com^"
+    - "||unionpayintl.com^"
+    - "||upcdn.net^"
+    - "||upyun.com^"
+    - "||upyun.net^"
+    - "||upyuncloud.com^"
+    - "||upyun.com^"
+    - "||upyun.net^"
+    - "||upyuncloud.com^"

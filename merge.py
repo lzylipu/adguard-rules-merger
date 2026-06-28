@@ -5,7 +5,6 @@
 - 离线合并: 避免上游源波动导致规则数不稳定
 - DNS-only: 只保留 AG Home DNS 层能生效的规则
 - AG兼容: 支持 $third-party、$important、$badfilter 等DNS修饰符
-- Browser→DNS 转换: 从浏览器级元素隐藏规则(##)提取域名
 - Domain-dedup: 跨源去重
 - 双版本: blocklist.txt(标准版，去白名单) + blocklist-full.txt(完整版，不去白名单)
 """
@@ -24,19 +23,32 @@ CST = timezone(timedelta(hours=8))
 
 # AG Home DNS 层不支持的浏览器级修饰符（这些要过滤）
 BROWSER_ONLY_MODS = {
-    "csp", "cookie", "replace", "redirect", "popup",
-    "generichide", "stealth", "subdocument", "object",
-    "object-subrequest", "xbl", "dtd", "ping",
-    "xmlhttprequest", "websocket", "webrtc", "media",
-    "font", "image", "stylesheet", "script", "other",
-    "all", "elemhide", "content", "specifichide",
-    "inline-script", "popunder", "redirect-rule",
+    "csp", "cookie", "replace", "redirect", "redirect-rule",
+    "popup", "image", "stylesheet", "script", "subdocument",
+    "xmlhttprequest", "websocket", "font", "media", "object",
+    "ping", "beacon", "other", "inline-font", "inline-script",
+    "elemhide", "generichide", "jsinject", "extension",
 }
 
 # AG Home DNS 层支持的修饰符（这些保留）
 DNS_SUPPORTED_MODS = {
     "third-party", "important", "badfilter", "domain",
     "denyallow", "method", "header", "removeparam",
+}
+
+# 核心服务域名保护列表 - 这些域名即使出现在规则源中也不拦截
+CORE_DOMAINS = {
+    "youtube.com", "www.youtube.com", "m.youtube.com",
+    "google.com", "www.google.com", "googleapis.com",
+    "baidu.com", "www.baidu.com",
+    "bilibili.com", "www.bilibili.com",
+    "qq.com", "www.qq.com",
+    "taobao.com", "www.taobao.com",
+    "jd.com", "www.jd.com",
+    "alipay.com", "www.alipay.com",
+    "weibo.com", "www.weibo.com",
+    "douyin.com", "www.douyin.com",
+    "github.com", "www.github.com", "raw.githubusercontent.com",
 }
 
 def sanitize_filename(name):
@@ -53,38 +65,25 @@ def load_local_source(name):
 def fetch_url(url):
     from urllib.request import urlopen, Request
     from urllib.error import URLError, HTTPError
-    import time
-    USER_AGENT = "AdGuardRulesMerger/4.0"
-    TIMEOUT = 90
-    for attempt in range(3):
-        try:
-            req = Request(url, headers={"User-Agent": USER_AGENT})
-            with urlopen(req, timeout=TIMEOUT) as resp:
-                return resp.read().decode("utf-8", errors="replace")
-        except (URLError, HTTPError, Exception) as e:
-            if attempt < 2:
-                time.sleep(5)
-                continue
-            print("  ⚠️ Failed: %s -> %s" % (url, e), file=sys.stderr)
-            return None
+    try:
+        req = Request(url, headers={"User-Agent": "AdGuard-Rules-Merger/4.0"})
+        with urlopen(req, timeout=30) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except (URLError, HTTPError) as e:
+        print(f"      → ❌ fetch failed: {e}")
+        return None
 
 def get_source_content(src):
-    name = src["name"]
-    url = src["url"]
+    name, url = src["name"], src["url"]
     if USE_LOCAL:
         content = load_local_source(name)
         if content:
-            print("  📁 %s: loaded from local cache (%d bytes)" % (name, len(content)))
+            print(f"  📁 {name}: loaded from local cache ({len(content)} bytes)")
             return content
-        print("  ⚠️ %s: local cache not found, trying online..." % name)
+        print(f"  📁 {name}: local cache miss, fetching...")
     content = fetch_url(url)
     if content:
-        print("  ⬇️ %s: downloaded (%d bytes)" % (name, len(content)))
-        if USE_LOCAL:
-            os.makedirs(SOURCES_DIR, exist_ok=True)
-            filepath = os.path.join(SOURCES_DIR, sanitize_filename(name))
-            with open(filepath, "w", encoding="utf-8") as f:
-                f.write(content)
+        print(f"  📁 {name}: fetched ({len(content)} bytes)")
     return content
 
 def is_dns_compatible(rule):
@@ -93,31 +92,32 @@ def is_dns_compatible(rule):
         return False
     if rule.startswith("!#"):
         return False
-    # CSS/HTML 选择器（这些走 convert_elemhide_domains 另行处理）
     if "##" in rule and not rule.startswith("@@"):
         return False
     if "#@#" in rule or "#?#" in rule or "$$" in rule:
         return False
-    # 纯修饰符行
     if rule.startswith("$"):
+        return False
+    
+    # 核心域名保护 - 跳过 youtube.com 等核心服务（仅精确匹配主域）
+    domain = extract_domain(rule)
+    if domain and domain.lower() in CORE_DOMAINS:
         return False
     
     # 检查修饰符
     if "$" in rule:
         idx = rule.index("$")
         mods_str = rule[idx + 1:]
+        if not mods_str or mods_str.strip() == "":
+            return False
         for part in mods_str.split(","):
             mod = part.split("=")[0].split("~")[-1].strip().lower()
-            # 如果是浏览器专用修饰符，过滤掉
             if mod in BROWSER_ONLY_MODS:
                 return False
-            # 未知修饰符也过滤（保守策略）
-            # 但允许空修饰符和已知DNS修饰符
     return True
 
 def extract_domain(rule):
     """从规则提取主域名（去重key）。支持带$修饰符的规则。"""
-    # 匹配 ||domain^ 或 ||domain^$xxx
     m = re.match(r'(?:@@)?\|\|([a-z0-9.*_-]+)\^', rule, re.IGNORECASE)
     if m:
         d = m.group(1).lower()
@@ -127,32 +127,6 @@ def extract_domain(rule):
             d = d[:-2]
         return d
     return None
-
-def convert_elemhide_domains(content, name):
-    """从浏览器级元素隐藏规则(##)提取域名限定符，转为 ||domain^ DNS规则。"""
-    converted = {}
-    for line in content.splitlines():
-        line = line.strip()
-        if not line or line.startswith("!") or line.startswith("[") or line.startswith("@@"):
-            continue
-        if "##" not in line:
-            continue
-        sep_idx = line.index("##")
-        if sep_idx == 0:
-            continue
-        domain_part = line[:sep_idx]
-        for d in domain_part.split(","):
-            d = d.strip()
-            if d.startswith("~"):
-                continue
-            if d.startswith("/") and d.endswith("/"):
-                continue
-            d = d.lstrip("*.").rstrip(".*")
-            if "." in d and len(d) > 3 and not d.startswith("-"):
-                d_lower = d.lower()
-                if d_lower not in converted:
-                    converted[d_lower] = "||%s^" % d_lower
-    return converted
 
 def merge_sources(domain_map, new_map):
     added = 0
@@ -179,16 +153,15 @@ def apply_whitelist(domain_map, wl_domains):
         result[k] = rule
     return result, removed
 
-def write_blocklist(filepath, rules, header_extra, timestamp, sources_count, custom_count, converted_total):
+def write_blocklist(filepath, rules, header_extra, timestamp, sources_count, custom_count):
     header = """! 🛡️ AdGuard Home Merged DNS Blocklist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
 ! Updated: %s
 ! Sources: %s blocklist + whitelist(%s custom)
 ! Rules: %s (DNS-only, domain-deduped)
-! Browser→DNS converted: %s domains from elemhide rules
 %s! License: https://github.com/lzylipu/adguard-rules-merger
 ! ============================================================
-""" % (timestamp, sources_count, custom_count, "{:,}".format(len(rules)), "{:,}".format(converted_total), header_extra)
+""" % (timestamp, sources_count, custom_count, "{:,}".format(len(rules)), header_extra)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(header)
         for rule in sorted(rules.values()):
@@ -208,13 +181,12 @@ def main():
     bl_sources = config.get("blocklist", [])
     std_map = {}
     std_stats = {}
-    std_converted = 0
 
     for src in bl_sources:
         name, url, desc = src["name"], src["url"], src.get("desc", "")
         content = get_source_content(src)
         if not content:
-            std_stats[name] = {"raw": 0, "dns_ok": 0, "new": 0, "converted": 0, "desc": desc, "error": True}
+            std_stats[name] = {"raw": 0, "dns_ok": 0, "new": 0, "desc": desc, "error": True}
             continue
         raw = dns_ok = 0
         domain_map = {}
@@ -229,17 +201,10 @@ def main():
             domain = extract_domain(line)
             if domain and domain not in domain_map:
                 domain_map[domain] = line
-        converted_map = convert_elemhide_domains(content, name)
-        converted_count = 0
-        for domain, rule in converted_map.items():
-            if domain not in domain_map:
-                domain_map[domain] = rule
-                converted_count += 1
-        std_stats[name] = {"raw": raw, "dns_ok": dns_ok, "new": len(domain_map), "converted": converted_count, "desc": desc}
+        std_stats[name] = {"raw": raw, "dns_ok": dns_ok, "new": len(domain_map), "desc": desc}
         added = merge_sources(std_map, domain_map)
-        std_converted += converted_count
-        print("      → raw:%s  dns_ok:%s  增量:%s  (转换:%s)" % (
-            "{:,}".format(raw), "{:,}".format(dns_ok), "{:,}".format(added), "{:,}".format(converted_count)))
+        print("      → raw:%s  dns_ok:%s  增量:%s" % (
+            "{:,}".format(raw), "{:,}".format(dns_ok), "{:,}".format(added)))
 
     print("\n  📊 标准版: %s unique DNS rules" % "{:,}".format(len(std_map)))
 
@@ -247,7 +212,6 @@ def main():
     bl_extra = config.get("blocklist_extra", [])
     full_map = dict(std_map)
     full_stats = {}
-    full_converted = std_converted
 
     if bl_extra:
         print("\n📥 [完整版] Loading extra sources...")
@@ -255,7 +219,7 @@ def main():
             name, url, desc = src["name"], src["url"], src.get("desc", "")
             content = get_source_content(src)
             if not content:
-                full_stats[name] = {"raw": 0, "dns_ok": 0, "new": 0, "converted": 0, "desc": desc, "error": True}
+                full_stats[name] = {"raw": 0, "dns_ok": 0, "new": 0, "desc": desc, "error": True}
                 continue
             raw = dns_ok = 0
             domain_map = {}
@@ -270,17 +234,10 @@ def main():
                 domain = extract_domain(line)
                 if domain and domain not in domain_map:
                     domain_map[domain] = line
-            converted_map = convert_elemhide_domains(content, name)
-            converted_count = 0
-            for domain, rule in converted_map.items():
-                if domain not in domain_map:
-                    domain_map[domain] = rule
-                    converted_count += 1
-            full_stats[name] = {"raw": raw, "dns_ok": dns_ok, "new": len(domain_map), "converted": converted_count, "desc": desc}
+            full_stats[name] = {"raw": raw, "dns_ok": dns_ok, "new": len(domain_map), "desc": desc}
             added = merge_sources(full_map, domain_map)
-            full_converted += converted_count
-            print("      → raw:%s  dns_ok:%s  增量:%s  (转换:%s)" % (
-                "{:,}".format(raw), "{:,}".format(dns_ok), "{:,}".format(added), "{:,}".format(converted_count)))
+            print("      → raw:%s  dns_ok:%s  增量:%s" % (
+                "{:,}".format(raw), "{:,}".format(dns_ok), "{:,}".format(added)))
         print("\n  📊 完整版(去重后): %s unique DNS rules" % "{:,}".format(len(full_map)))
 
     # 3. 白名单
@@ -337,11 +294,11 @@ def main():
     total_src = len(bl_sources) + len(bl_extra)
 
     write_blocklist(os.path.join(OUTPUT_DIR, "blocklist.txt"), std_final,
-                    "! Edition: Standard (recommended, whitelisted)\n", ts, len(bl_sources), custom_count, std_converted)
+                    "! Edition: Standard (recommended, whitelisted)\n", ts, len(bl_sources), custom_count)
 
     if bl_extra:
         write_blocklist(os.path.join(OUTPUT_DIR, "blocklist-full.txt"), full_final,
-                        "! Edition: Full (comprehensive, NO whitelist filtering)\n", ts, total_src, custom_count, full_converted)
+                        "! Edition: Full (comprehensive, NO whitelist filtering)\n", ts, total_src, custom_count)
 
     wl_header = """! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
@@ -357,11 +314,11 @@ def main():
 
     stats = {
         "updated": ts, "version": "4.0", "mode": "local" if USE_LOCAL else "online",
-        "standard": {"total": len(std_final), "sources": std_stats, "whitelist_removed": std_wl_rm, "browser_converted": std_converted},
+        "standard": {"total": len(std_final), "sources": std_stats, "whitelist_removed": std_wl_rm},
         "whitelist": {"total": len(final_wl), "unique_domains": len(wl_domains), "upstream_sources": len(wl_sources), "custom_rules": custom_count},
     }
     if bl_extra:
-        stats["full"] = {"total": len(full_final), "sources": full_stats, "whitelist_removed": 0, "whitelist_note": "Full edition does NOT apply whitelist", "browser_converted": full_converted}
+        stats["full"] = {"total": len(full_final), "sources": full_stats, "whitelist_removed": 0, "whitelist_note": "Full edition does NOT apply whitelist"}
 
     with open(os.path.join(OUTPUT_DIR, "stats.json"), "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2, ensure_ascii=False)
