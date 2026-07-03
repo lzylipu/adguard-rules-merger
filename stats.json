@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03 14:02:49 (UTC+8)",
+  "updated": "2026-07-03 14:05:06 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
@@ -51,10 +51,10 @@
     "whitelist_removed": 3562
   },
   "whitelist": {
-    "total": 2526,
-    "unique_domains": 2390,
+    "total": 2527,
+    "unique_domains": 2391,
     "upstream_sources": 2,
-    "custom_rules": 44
+    "custom_rules": 45
   },
   "full": {
     "total": 336389,
