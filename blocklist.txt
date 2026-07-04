@@ -1,7 +1,7 @@
 ! 🛡️ AdGuard Home Merged DNS Blocklist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-06-29 00:54:12 (UTC+8)
-! Sources: 7 blocklist + whitelist(44 custom)
+! Updated: 2026-07-04 16:17:42 (UTC+8)
+! Sources: 7 blocklist + whitelist(47 custom)
 ! Rules: 161,100 (DNS-only, domain-deduped)
 ! Edition: Standard (recommended, whitelisted)
 ! License: https://github.com/lzylipu/adguard-rules-merger

@@ -1,8 +1,8 @@
 ! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-06-29 00:54:12 (UTC+8)
-! Sources: 2 upstream + 44 custom
-! Rules: 2,523 (DNS-only, deduped)
+! Updated: 2026-07-04 16:17:42 (UTC+8)
+! Sources: 2 upstream + 47 custom
+! Rules: 2,529 (DNS-only, deduped)
 ! ============================================================
 @@||*-go.kelkoogroup.net^
 @@||*cdn.exponea.com^
@@ -2499,9 +2499,11 @@
 ||cdn.bootcss.com^
 ||cdn.staticfile.net^
 ||cdnjs.cloudflare.com^
+||epic.z74d.top^
 ||gitee.com^
 ||h.trace.qq.com^
 ||jsdelivr.net^
+||jubt.top^
 ||lf26-cdn-tos.bytecdntp.com^
 ||lf3-cdn-tos.bytecdntp.com^
 ||lf6-cdn-tos.bytecdntp.com^
@@ -2513,9 +2515,11 @@
 ||qhres.com^
 ||qiniudn.com^
 ||report.qq.com^
+||s3.juimg.top^
 ||so.com^
 ||sogou.com^
 ||sogoucdn.com^
+||tianqi.2345.com^
 ||trace.qq.com^
 ||unionpay.com^
 ||unionpayintl.com^
@@ -2524,8 +2528,8 @@
 ||upyun.com^
 ||upyun.net^
 ||upyuncloud.com^
+||waptianqi.2345.com^
 ||weixin.qq.com^
 ||weixinbridge.com^
+||wuqianox.top^
 ||wx.qq.com^
-@@||waptianqi.2345.com^
-@@||epic.z74d.top^
