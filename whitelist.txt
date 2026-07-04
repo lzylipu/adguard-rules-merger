@@ -2527,3 +2527,4 @@
 ||weixin.qq.com^
 ||weixinbridge.com^
 ||wx.qq.com^
+@@||waptianqi.2345.com^
