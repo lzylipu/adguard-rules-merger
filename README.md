@@ -168,3 +168,10 @@ A: 每 5 小时自动运行一次。手动修改 `sources.yaml` 也可立即触�
 ---
 
 *Last updated: 2026-06-28 | Version v4 (local mode)*
+
+
+---
+
+## 📄 许可证 / License
+
+MIT License. See [LICENSE](./LICENSE).
