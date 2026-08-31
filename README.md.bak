@@ -2,9 +2,16 @@
 
 > 🌐 简体中文 | [**English**](./README_EN.md)
 
-  **自动合并、去重、白名单过滤 AdGuard Home DNS 拦截规则**
+<p align="center">
+  <strong>自动合并、去重、白名单过滤 AdGuard Home DNS 拦截规则</strong><br>
+  <code>12 DNS拦截源 + 2 白名单源 → blocklist.txt(标准版) + blocklist-full.txt(完整版) + whitelist.txt → GitHub Pages</code>
+</p>
 
-  `12 DNS拦截源 + 2 白名单源 → blocklist.txt(标准版) + blocklist-full.txt(完整版) + whitelist.txt → GitHub Pages`
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/lzylipu/adguard-rules-merger/merge.yml?style=flat-square&label=merge" alt="Workflow">
+  <img src="https://img.shields.io/github/last-commit/lzylipu/adguard-rules-merger/gh-pages?style=flat-square&label=rules%20updated" alt="Last updated">
+  <img src="https://img.shields.io/github/repo-size/lzylipu/adguard-rules-merger?style=flat-square" alt="Size">
+</p>
 
 ---
 
@@ -163,6 +170,7 @@ A: 每 5 小时自动运行一次。手动修改 `sources.yaml` 也可立即触�
 ---
 
 *Last updated: 2026-06-28 | Version v4 (local mode)*
+
 
 ---
 

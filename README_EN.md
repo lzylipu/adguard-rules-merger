@@ -1,16 +1,8 @@
-<div align="center">
-
 # 🛡️ AdGuard Rules Merger
 
 **Auto-merge, deduplicate and whitelist-filter AdGuard Home DNS blocklists → GitHub Pages**
 
-[![Merge Workflow](https://img.shields.io/github/actions/workflow/status/lzylipu/adguard-rules-merger/merge.yml?style=flat-square&label=merge)](../../actions)
-[![Rules Updated](https://img.shields.io/github/last-commit/lzylipu/adguard-rules-merger/gh-pages?style=flat-square&label=rules%20updated)](https://github.com/lzylipu/adguard-rules-merger/tree/gh-pages)
-[![License](https://img.shields.io/github/license/lzylipu/adguard-rules-merger?style=flat-square)](./LICENSE)
-
 **English | [简体中文](./README.md)**
-
-</div>
 
 ---
 
