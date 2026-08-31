@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>自动合并、去重、白名单过滤 AdGuard Home DNS 拦截规则</strong><br>
-  <code>12 DNS原生规则源 → blocklist.txt(标准版) + blocklist-full.txt(完整版) + whitelist.txt → GitHub Pages</code>
+  <code>12 DNS拦截源 + 2 白名单源 → blocklist.txt(标准版) + blocklist-full.txt(完整版) + whitelist.txt → GitHub Pages</code>
 </p>
 
 <p align="center">
