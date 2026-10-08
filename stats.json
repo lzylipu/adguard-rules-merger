@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-08 16:49:28 (UTC+8)",
+  "updated": "2026-10-08 16:58:54 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 252727,
+    "total": 251943,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 116037,
@@ -31,20 +31,20 @@
       },
       "AdGuard-DNS-filter": {
         "raw": 179406,
-        "dns_ok": 179066,
-        "new": 178896,
+        "dns_ok": 179274,
+        "new": 179078,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
         "raw": 139747,
-        "dns_ok": 109499,
-        "new": 98337,
+        "dns_ok": 110755,
+        "new": 98495,
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
         "raw": 56275,
-        "dns_ok": 51598,
-        "new": 47235,
+        "dns_ok": 52028,
+        "new": 47281,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -54,16 +54,16 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 4325
+    "whitelist_removed": 5418
   },
   "whitelist": {
-    "total": 2594,
-    "unique_domains": 2456,
-    "upstream_sources": 2,
+    "total": 8376,
+    "unique_domains": 8163,
+    "upstream_sources": 4,
     "custom_rules": 47
   },
   "full": {
-    "total": 620585,
+    "total": 620863,
     "sources": {
       "Hagezi-Pro": {
         "raw": 198879,
@@ -91,8 +91,8 @@
       },
       "DandelionSprout": {
         "raw": 12653,
-        "dns_ok": 12394,
-        "new": 12186,
+        "dns_ok": 12396,
+        "new": 12188,
         "desc": "DandelionSprout 反恶意软件+诈骗"
       },
       "Notracking": {
