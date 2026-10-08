@@ -1,6 +1,6 @@
 ! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-10-08 09:30:30 (UTC+8)
+! Updated: 2026-10-08 10:07:44 (UTC+8)
 ! Sources: 2 upstream + 47 custom
 ! Rules: 2,594 (DNS-only, deduped)
 ! ============================================================

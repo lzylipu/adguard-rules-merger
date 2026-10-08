@@ -6,14 +6,14 @@
 
 ---
 
-> 🛡️ Pulls 12 DNS-native filter sources every 5 hours (plus 2 whitelist sources), auto-merges and deduplicates them, filters out browser-only rules for DNS-layer compatibility, and publishes three files via GitHub Pages: `blocklist.txt` (standard), `blocklist-full.txt` (full) and `whitelist.txt`.
+> 🛡️ Pulls 16 DNS-native filter sources every 5 hours (plus 2 whitelist sources), auto-merges and deduplicates them, filters out browser-only rules for DNS-layer compatibility, and publishes three files via GitHub Pages: `blocklist.txt` (standard), `blocklist-full.txt` (full) and `whitelist.txt`.
 
 ---
 
 ## ✨ Core Features
 
-- 🔄 **Auto Update** — Pulls 12 DNS-native rule sources every 5 hours, merges and deduplicates automatically
-- 🔒 **DNS-Pure Compatibility** — Automatically filters out browser-only rules, keeping only DNS-layer applicable ones
+- 🔄 **Auto Update** — Pulls 16 DNS-native rule sources every 5 hours, merges and deduplicates automatically
+- 🔒 **DNS-Pure Compatibility** — Automatically filters out browser-only rules, keeping only DNS-layer applicable ones; converts hosts and bare-domain lists to `||domain^` format
 - 🎯 **Cross-source Dedup** — Global domain deduplication to reduce redundancy
 - 🛡️ **Whitelist Protection** — The standard build applies the whitelist automatically; the full build requires a separate whitelist subscription (against false positives)
 - 💾 **Local Caching** — All sources are synced to `sources/` for stable offline merging
@@ -25,7 +25,7 @@
 | Purpose | URL | Notes |
 |---------|-----|-------|
 | 🚫 **Standard** | `https://lzylipu.github.io/adguard-rules-merger/blocklist.txt` | **Recommended for daily use**, whitelist applied |
-| 🚫 **Full** | `https://lzylipu.github.io/adguard-rules-merger/blocklist-full.txt` | Full 12-source coverage, **no whitelist** (subscribe separately) |
+| 🚫 **Full** | `https://lzylipu.github.io/adguard-rules-merger/blocklist-full.txt` | Full 16-source coverage, **no whitelist** (subscribe separately) |
 | ✅ **Whitelist** | `https://lzylipu.github.io/adguard-rules-merger/whitelist.txt` | Anti-false-positive rules, **required with the full build** |
 | 📊 **Stats** | `https://lzylipu.github.io/adguard-rules-merger/stats.json` | JSON rule statistics |
 
@@ -33,9 +33,9 @@
 
 > ⚠️ **GOODBYEADS note**: migrated from the deleted `868864/DNS_RULE` to `8680/GOODBYEADS`.
 
-- **Standard build (7 sources)**: GOODBYEADS-DNS, Hagezi-Light, Hagezi-DOH, Hagezi-Fake, Anti-Ad, EasyPrivacy, Yoyo
-- **Full build (+5 sources)**: Hagezi-Pro, 217heidai-DNS, OISD-Small, 1Hosts-Lite, DandelionSprout
-- **Whitelist (2 sources + 40 custom entries)**: GOODBYEADS-Allow, Hagezi-Referral + custom CDN/payment/social/video/shopping rules
+- **Standard build (8 sources)**: GOODBYEADS-DNS, Hagezi-Light, Hagezi-DOH, Hagezi-Fake, AdGuard-DNS-filter, halflife-ad-pc, EasyPrivacy, Yoyo
+- **Full build (+8 sources)**: Hagezi-Pro, 217heidai-DNS, OISD-Small, 1Hosts-Lite, DandelionSprout, Notracking, StevenBlack, hostsVN
+- **Whitelist (2 sources + 47 custom entries)**: GOODBYEADS-Allow, Hagezi-Referral + custom CDN/payment/social/video/shopping rules
 
 For per-source rule counts, see the [Chinese README](./README.md#-规则来源统计) — numbers refresh automatically on every merge.
 

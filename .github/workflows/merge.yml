@@ -28,6 +28,9 @@ jobs:
       - name: Install deps
         run: pip install pyyaml
 
+      - name: Download sources (refresh upstream)
+        run: python download_sources.py
+
       - name: Run merger
         run: python merge.py
 
@@ -44,7 +47,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "stats: std ${STD_COUNT} / full ${FULL_COUNT} / whitelist ${WHITE_COUNT}"
-          file_pattern: stats.json
+          file_pattern: stats.json sources/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
