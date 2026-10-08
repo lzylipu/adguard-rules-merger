@@ -104,3 +104,9 @@ whitelist:
   - desc: HaGeZi 白名单-推荐来源
     name: Hagezi-Whitelist-Referral
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt
+  - desc: hl2guide 社区防误杀白名单(微软/Steam/CDN等) 🛡️
+    name: hl2guide-Whitelist
+    url: https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
+  - desc: BlueSkyXN 国内误杀释放白名单 🇨🇳
+    name: BlueSkyXN-OK
+    url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt

@@ -132,10 +132,17 @@ def extract_domain(rule):
 _HOSTS_RE = re.compile(r'^\s*(?:0\.0\.0\.0|127\.0\.0\.1|::|::ffff:127\.0\.0\.1)\s+([a-z0-9._*-]+)\s*$', re.IGNORECASE)
 
 def normalize_rule(line):
-    """将 hosts/裸域名格式规则转为 AG Home 兼容的 ||domain^ 格式；已是 || 格式的原样返回。
+    """将 hosts/裸域名/浏览器白名单(@@|)格式规则转为 AG Home 兼容的 ||/@@|| 格式。
     返回 None 表示该行无法转换为 DNS 规则（丢弃）。"""
-    if line.startswith("||"):
+    if line.startswith("||") or line.startswith("@@||"):
         return line
+    # 浏览器白名单 @@|domain^ -> @@||domain^ （hl2guide 等源）
+    m_abp = re.match(r'^@@\|\*?\.?([a-z0-9.*_-]+)\^', line)
+    if m_abp:
+        d = m_abp.group(1).lower().rstrip('^').rstrip('.')
+        if not d or d.startswith('*') or '*' in d:  # 含通配的跳过,避免过度释放
+            return None
+        return "@@||" + d + "^"
     m = _HOSTS_RE.match(line)
     if m:
         d = m.group(1).strip().lower()
@@ -182,15 +189,17 @@ def merge_sources(domain_map, new_map):
 def apply_whitelist(domain_map, wl_domains):
     removed = 0
     result = {}
+    wl_set = {w.lower().rstrip('.') for w in wl_domains}
     for k, rule in domain_map.items():
         domain = extract_domain(rule)
         if domain:
-            d_lower = domain.lower()
-            # 精确匹配或后缀匹配
+            d_lower = domain.lower().rstrip('.')
+            # 精确匹配或后缀匹配：沿域名逐级剥离最左标签,判断父域是否在白名单
             matched = False
-            for w in wl_domains:
-                w_lower = w.lower()
-                if d_lower == w_lower or d_lower.endswith("." + w_lower):
+            parts = d_lower.split('.')
+            for i in range(len(parts)):
+                sub = '.'.join(parts[i:])
+                if sub in wl_set:
                     matched = True
                     break
             if matched:
@@ -312,12 +321,13 @@ def main():
             line = line.strip()
             if not line or line.startswith("!") or line.startswith("#") or line.startswith("["):
                 continue
-            if not is_dns_compatible(line):
+            norm = normalize_rule(line) or line  # 兼容 hosts/裸域名白名单源
+            if not is_dns_compatible(norm):
                 continue
-            domain = extract_domain(line)
+            domain = extract_domain(norm)
             if domain:
                 wl_domains.add(domain)
-                wl_rules.append(line)
+                wl_rules.append(norm)
                 count += 1
         print("      → %s DNS白名单" % "{:,}".format(count))
 
