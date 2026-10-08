@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610080853
+! Version: 202610081840
 ! Title: EasyPrivacy
-! Last modified: 08 Oct 2026 08:53 UTC
+! Last modified: 08 Oct 2026 18:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e332fb1bfca9c42d059083fe13f89731376df8bf
+! Commit: 28e82021ae5e263180e66f09672a307879eb1320
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6976,6 +6976,7 @@ omni.soundestlink.com$image
 ||boomboomcloud.com^
 ||boostbehavior.com^
 ||boredcrown.com^
+||borefee.com^
 ||boringberry.com^
 ||boringpirate.com^
 ||bouncyproperty.com^
@@ -7142,6 +7143,7 @@ omni.soundestlink.com$image
 ||cloudninefresh.com^
 ||cloverkeys.com^
 ||clumsycar.com^
+||clutchcourses.com^
 ||coalkitchen.com^
 ||coastersim.com^
 ||coatfood.com^
@@ -15670,6 +15672,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collider.com/strpixel.png
 ||colvk.viki.io^
 ||comms.bps.org.uk^
+||community.netweather.tv/4p9v/
 ||compare-static.flightconnections.com/tag.js
 ||confiant.msn.com^
 ||configurator.ecom-mobile-samsung.com/api/logger
@@ -16970,6 +16973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.sg^
 ||stats.justpaste.it^
+||stats.lrb.co.uk^
 ||stats.mempool.space^
 ||stats.newsweek.com^
 ||stats.qwant.com^
@@ -55432,8 +55436,8 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||doda.jp/resources/dcfront/js/usrclkTracking.js
 ||dxlive.com/js/dtrace.js
 ||ek-tracker.ekitan.com^
-||ekitan.com/*-tracker.js
-||ekitan.com/cmn/js/ekitan.log.js
+||ekitan.com/*-analytics.js
+||ekitan.com/common/ek-tracker/
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||eropuru.com/plugin/tracking/
