@@ -1,8 +1,8 @@
 ! 🛡️ AdGuard Home Merged DNS Blocklist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-10-08 16:52:47 (UTC+8)
+! Updated: 2026-10-08 17:35:36 (UTC+8)
 ! Sources: 16 blocklist + whitelist(47 custom)
-! Rules: 620,843 (DNS-only, domain-deduped)
+! Rules: 620,863 (DNS-only, domain-deduped)
 ! Edition: Full (comprehensive, NO whitelist filtering)
 ! License: https://github.com/lzylipu/adguard-rules-merger
 ! ============================================================
@@ -89478,6 +89478,7 @@
 ||blahwhoever.com^
 ||blaick.com^$third-party
 ||blaindgatum.com^
+||blaineearlsmanjeet.cfd^
 ||blaineus.no-ip.biz^
 ||blainhokiest.com^
 ||blaise1212.no-ip.biz^
@@ -108539,6 +108540,7 @@
 ||cgsr.platfohrm.top^
 ||cgswnsvy.0pe.kr^
 ||cgt66s.com^
+||cgtlrvzqjmbjc.online^
 ||cgtrial-ns1.keele-nnw-letrial-ns1s-mc-letrial-ns1s.net.daraz.com^
 ||cguardai.com^
 ||cguke-9h64o.ads.tremorhub.com^
@@ -109019,6 +109021,7 @@
 ||charaminicarbase.staging-cointoon.net.daraz.com^
 ||charaminicarbasestaging.sattadon0001.net.daraz.com^
 ||charaminicarbasestagingabgsex.net.daraz.com^
+||charaupspout.cfd^
 ||charbonforerun.com^
 ||chareasilydrone.com^
 ||charecttorr.jp^
@@ -110789,6 +110792,7 @@
 ||chord-fstvlst.go-static.info^
 ||chordapple.com^
 ||chordbelievingpossible.com^
+||chordcoolies.com^
 ||chordiom.com^
 ||chordschico.cyou^
 ||chordsdowment.qpon^
@@ -120021,6 +120025,7 @@
 ||comp.ssilpik.site^
 ||comp.woltar.live^
 ||comp3.zapto.org^
+||compaaopaline.com^
 ||compactbanner.com^
 ||compactjetvillain.com^
 ||compado.com^
@@ -179316,6 +179321,7 @@
 ||fashionselectionstage.net.daraz.com^
 ||fashionselectionstage.staging-srv.net.daraz.com^
 ||fashionselectionstagestage-nhentai.net.daraz.com^
+||fashionslake.cyou^
 ||fashionstagingwww.ysr.net.daraz.com^
 ||fashionvila.com^
 ||fashionwarrior.com^
@@ -179577,7 +179583,6 @@
 ||fat-pirate-fr.fr^
 ||fat.brlwin.online^
 ||fat.can-info.site^
-||fat.hypehuddle.com^
 ||fat.lwesll.top^
 ||fat.milproj.site^
 ||fat1domain1.com^
@@ -193445,6 +193450,7 @@
 ||fyhzrdxl885dfttt.com^
 ||fyi.peaktech.com^
 ||fyi9qb.webwave.dev^
+||fyiagfbaqknmi.space^
 ||fyiqplqdkhdgl.site^
 ||fyjftn.duckdns.org^
 ||fyjsvz.webwave.dev^
@@ -194019,6 +194025,7 @@
 ||g8.adspeed.net^
 ||g821.zapto.org^
 ||g8286491.ddns.net^
+||g86a0qbf1h.com^
 ||g8715710740.co^
 ||g8787.ddns.net^
 ||g8913795075.co^
@@ -200328,6 +200335,7 @@
 ||glbs003-dev.tt.omtrdc.net^
 ||glbtracker.com^
 ||glbtrk.com^
+||glbxoucyygluq.online^
 ||glbzdlccguidh.site^
 ||glcdzojthfbaw.site^
 ||glcloudservice.com^
@@ -235721,6 +235729,7 @@
 ||ijoljjk.adygeya.su^
 ||ijomsdavis1.ddns.net^
 ||ijptdajxzkxsa.space^
+||ijrjdilztqnos.site^
 ||ijrjvfnswmjuz.online^
 ||ijs.allnestinfinite.com^
 ||ijs.selecttopoff.com^
@@ -244392,6 +244401,7 @@
 ||integration.richrelevance.com^
 ||integrationbeta-stagingvision.net.daraz.com^
 ||integrationimplore.com^
+||integrations-itbl.co^
 ||integrations-staging1.fitanalytics.com^
 ||integrations.fitanalytics.com^
 ||integrations.syncmedia.io^
@@ -306200,6 +306210,7 @@
 ||mlwsprayvmrltd.com^
 ||mlxgqcyqgjqa.com^
 ||mlxniwjfsxefz.site^
+||mlxogllalrjbo.site^
 ||mlxpxsonwhzn.com^
 ||mly.worldfxlife.top^
 ||mly5hvbae.com^
@@ -325543,6 +325554,7 @@
 ||nqh-dns.duckdns.org^
 ||nqhaxn.haruyama.jp^
 ||nqhfxnoxs.com^
+||nqhtwgphsgujn.space^
 ||nqifvntxhqpxx.store^
 ||nqjyv.wsjwine.com^
 ||nqlgmhwsde.test.att.hb.tt.omtrdc.net^
@@ -352765,6 +352777,7 @@
 ||pkc5.hardrockhoteltenerife.com^
 ||pkcetjql.net^
 ||pkcnrmnkwknx.com^
+||pkcqlfxxbbobu.online^
 ||pkdanfftxztum.space^
 ||pkdcfefqqf.com^
 ||pkdimy.shoptime.com.br^
@@ -366541,6 +366554,7 @@
 ||pzfov.salomon.com^
 ||pzgbqa.glamira.at^
 ||pzgignprvvgvn.space^
+||pzgvinjka.com^
 ||pzhpmp.webwave.dev^
 ||pzhrcssjaridu.website^
 ||pziaix.xyz^
@@ -381187,6 +381201,7 @@
 ||ros3d4dbs3px.salud-masculina.info^
 ||rosa.floresya.co^
 ||rosa.rosaselvagemoficial.com.br^
+||rosabelhobssort.cyou^
 ||rosaca-nina.net^
 ||rosaf112.ddns.net^
 ||rosaflodhest.no-ip.biz^
@@ -524596,6 +524611,7 @@
 ||track.escoladefotografos.com^
 ||track.escoladoinconsciente.com.br^
 ||track.espaciodemarketingdigitalparausted.com^
+||track.esteban.fr^
 ||track.estoneworks.com^
 ||track.eurasc.org^
 ||track.euroelite.online^
@@ -556064,6 +556080,7 @@
 ||viz.lomt.xyz^
 ||viz.posst.xyz^
 ||vizaguti.cdnfree.org^
+||vizardwelder.com^
 ||vizcremvti.loot04frp.club^
 ||vizemyostage-esattamatka.net.daraz.com^
 ||vizemyostage-stagekatmoviehd.net.daraz.com^
@@ -609573,6 +609590,7 @@
 ||xvjosa.istitutocappellari.it^
 ||xvkhez.swiatkwiatow.pl^
 ||xvkseveojmvjk.space^
+||xvlbjcauwrpoa.space^
 ||xvlgs.nyra.com^
 ||xvllq2.ru^
 ||xvlnewayd.net^
@@ -609685,6 +609703,7 @@
 ||xwudfolmeqik.com^
 ||xwudjqpvigrfz.space^
 ||xwulpoov.in^
+||xwvjjjyxtusalw.com^
 ||xwvsmeuegpbfne.com^
 ||xwvtqtsrlgedu.space^
 ||xwwnlmicmcmly.website^
@@ -620747,6 +620766,7 @@
 ||zzisod.no-ip.biz^
 ||zzivkui2th7li7iw7i8n9m93.rest^
 ||zzjcz.downeaststyle.com^
+||zzjelayprxxca.site^
 ||zzjexumrzn.com^
 ||zzjod.greenbayremodeling.com^
 ||zzjq.zorbklqyoabvj.top^

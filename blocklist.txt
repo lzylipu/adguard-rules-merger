@@ -1,8 +1,8 @@
 ! 🛡️ AdGuard Home Merged DNS Blocklist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-10-08 16:52:47 (UTC+8)
+! Updated: 2026-10-08 17:35:36 (UTC+8)
 ! Sources: 8 blocklist + whitelist(47 custom)
-! Rules: 251,921 (DNS-only, domain-deduped)
+! Rules: 251,943 (DNS-only, domain-deduped)
 ! Edition: Standard (recommended, whitelisted)
 ! License: https://github.com/lzylipu/adguard-rules-merger
 ! ============================================================
@@ -36878,6 +36878,7 @@
 ||blahwhoever.com^
 ||blaick.com^$third-party
 ||blaindgatum.com^
+||blaineearlsmanjeet.cfd^
 ||blakeunwanted.com^
 ||blakwc.sabon.fr^
 ||blaltn.physicianschoice.com^
@@ -44557,6 +44558,7 @@
 ||cgsaxsvjvswcu.space^
 ||cgsisl.owllabs.com^
 ||cgsou.westgateresorts.com^
+||cgtlrvzqjmbjc.online^
 ||cguv93.xhuytw3pl9cn6vvizk.cyou^
 ||cgvxzkfcfkkhk.site^
 ||cgvzp.gethommey.com^
@@ -44723,6 +44725,7 @@
 ||characterh.com^
 ||characteristicattractcheeky.com^
 ||characterlinguinisnarl.com^
+||charaupspout.cfd^
 ||charbonforerun.com^
 ||charentesalliance.com^
 ||chargecracker.com^
@@ -45163,6 +45166,7 @@
 ||chopsticks22.com^
 ||chord-fstvlst.go-static.info^
 ||chordbelievingpossible.com^
+||chordcoolies.com^
 ||chordiom.com^
 ||chordschico.cyou^
 ||chordsdowment.qpon^
@@ -48524,6 +48528,7 @@
 ||communitymetaverse.space^
 ||como-encontrar.com^
 ||comoutlook.com^
+||compaaopaline.com^
 ||compactbanner.com^
 ||compado.com^
 ||companion.kkkkkkkrrrrrrrr.link^
@@ -75109,6 +75114,7 @@
 ||fashionlink.store^
 ||fashionphilliplim.com^
 ||fashionrevel.com^
+||fashionslake.cyou^
 ||fashionvila.com^
 ||fashionwork.shop^
 ||fashnique-shop.de^
@@ -75242,7 +75248,6 @@
 ||fastwebtrends.com^
 ||faszinationholz-salzmann.de^
 ||fat-pirate-fr.fr^
-||fat.hypehuddle.com^
 ||fat.lwesll.top^
 ||fat1domain1.com^
 ||fatal-police.pro^
@@ -75998,6 +76003,7 @@
 ||ferriercranny.qpon^
 ||ferrierpaleamartha.cfd^
 ||ferrisoisin.com^
+||ferthhagboat.com^
 ||ferthu.seyffer.shop^
 ||fertilehybridsstep.com^
 ||fertilisedconductiveplank.com^
@@ -80584,6 +80590,7 @@
 ||fygwkbal.naturesmenu.co.uk^
 ||fyhnozamfqvvd.site^
 ||fyhsat.fmiligrama.com.br^
+||fyiagfbaqknmi.space^
 ||fyiqplqdkhdgl.site^
 ||fykdxn.lespagnedunordausud.fr^
 ||fykook.go-static.info^
@@ -80914,6 +80921,7 @@
 ||g7iyz933ov5vtq666qut3yjhrn4hjhej7yy.rest^
 ||g7shop.lol^
 ||g7yrkmeqnt832l6jyzwtuuu.cfd^
+||g86a0qbf1h.com^
 ||g8715710740.co^
 ||g8913795075.co^
 ||g89eyc8a1.com^
@@ -84030,6 +84038,7 @@
 ||glbgox.djoser.de^
 ||glbtracker.com^
 ||glbtrk.com^
+||glbxoucyygluq.online^
 ||glbzdlccguidh.site^
 ||glcdzojthfbaw.site^
 ||glcloudservice.com^
@@ -98714,6 +98723,7 @@
 ||hype-hoodies.com^
 ||hypedrip.top^
 ||hypedshacked.cyou^
+||hypehuddle.com^
 ||hypelab.com^
 ||hypemakers.net^
 ||hyper-boundary-gate.net.mydays.de^
@@ -100111,6 +100121,7 @@
 ||ijoear.com^
 ||ijogkae.churchserviceplanner.co.uk^
 ||ijptdajxzkxsa.space^
+||ijrjdilztqnos.site^
 ||ijrjvfnswmjuz.online^
 ||ijs.allnestinfinite.com^
 ||ijs.selecttopoff.com^
@@ -103719,6 +103730,7 @@
 ||integratef.com^
 ||integration-insight.bloblohub.com^
 ||integration.richrelevance.com^
+||integrations-itbl.co^
 ||integrations.fitanalytics.com^
 ||integrations.syncmedia.io^
 ||inteiograly.com^
@@ -136551,6 +136563,7 @@
 ||mlvcb.oasismhcenters.com^
 ||mlweb.dmlab.hu^
 ||mlxniwjfsxefz.site^
+||mlxogllalrjbo.site^
 ||mly5hvbae.com^
 ||mlycqb.centrumkrzesel.pl^
 ||mlytics.com^$third-party
@@ -143996,6 +144009,7 @@
 ||nqgmcp.chairish.com^
 ||nqh-dns.duckdns.org^
 ||nqhaxn.haruyama.jp^
+||nqhtwgphsgujn.space^
 ||nqifvntxhqpxx.store^
 ||nqjyv.wsjwine.com^
 ||nqn7la7.de^
@@ -154101,6 +154115,7 @@
 ||pkbjr.wildthreadsco.com^
 ||pkc5.hardrockhoteltenerife.com^
 ||pkcnrmnkwknx.com^
+||pkcqlfxxbbobu.online^
 ||pkdanfftxztum.space^
 ||pkdcfefqqf.com^
 ||pkdimy.shoptime.com.br^
@@ -159146,6 +159161,7 @@
 ||pzfov.salomon.com^
 ||pzgbqa.glamira.at^
 ||pzgignprvvgvn.space^
+||pzgvinjka.com^
 ||pzhrcssjaridu.website^
 ||pzifsf.th-agent.jp^
 ||pzimff.com^
@@ -165936,6 +165952,7 @@
 ||ros3d4dbs3px.salud-masculina.info^
 ||rosa.floresya.co^
 ||rosa.rosaselvagemoficial.com.br^
+||rosabelhobssort.cyou^
 ||rosalieeve.pl^
 ||rosannabazaronline.com^
 ||rosche-bedachungen.de^
@@ -221975,6 +221992,7 @@
 ||track.es.sitebro.net^
 ||track.escoladefotografos.com^
 ||track.escoladoinconsciente.com.br^
+||track.esteban.fr^
 ||track.estoneworks.com^
 ||track.eurasc.org^
 ||track.eurogirlsescort.com^
@@ -235443,6 +235461,7 @@
 ||viwjmqbtib.com^
 ||vixtfpxoqqibk.space^
 ||viyo.life^
+||vizardwelder.com^
 ||vizgrt.icu^
 ||vizierswaesome.cyou^
 ||vizisense.net^
@@ -246666,6 +246685,7 @@
 ||xvjosa.istitutocappellari.it^
 ||xvkhez.swiatkwiatow.pl^
 ||xvkseveojmvjk.space^
+||xvlbjcauwrpoa.space^
 ||xvlgs.nyra.com^
 ||xvllq2.ru^
 ||xvlnewayd.net^
@@ -246745,6 +246765,7 @@
 ||xwtpdmsgkfbrz.online^
 ||xwudjqpvigrfz.space^
 ||xwulpoov.in^
+||xwvjjjyxtusalw.com^
 ||xwvsmeuegpbfne.com^
 ||xwvtqtsrlgedu.space^
 ||xwwnlmicmcmly.website^
@@ -251875,6 +251896,7 @@
 ||zzhlssowvzfds.online^
 ||zzivkui2th7li7iw7i8n9m93.rest^
 ||zzjcz.downeaststyle.com^
+||zzjelayprxxca.site^
 ||zzjod.greenbayremodeling.com^
 ||zzjrcd.mrv.com.br^
 ||zzkzklrbaolme.top^
