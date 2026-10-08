@@ -46,7 +46,7 @@ jobs:
       - name: Commit stats
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "stats: std ${STD_COUNT} / full ${FULL_COUNT} / whitelist ${WHITE_COUNT}"
+          commit_message: "stats: std ${{ env.STD_COUNT }} / full ${{ env.FULL_COUNT }} / whitelist ${{ env.WHITE_COUNT }}"
           file_pattern: stats.json sources/
 
       - name: Deploy to GitHub Pages
