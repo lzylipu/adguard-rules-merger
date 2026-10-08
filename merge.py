@@ -128,6 +128,33 @@ def extract_domain(rule):
         return d
     return None
 
+# hosts 文件格式行：0.0.0.0 domain / 127.0.0.1 domain / :: domain / ::ffff:127.0.0.1 domain
+_HOSTS_RE = re.compile(r'^\s*(?:0\.0\.0\.0|127\.0\.0\.1|::|::ffff:127\.0\.0\.1)\s+([a-z0-9._*-]+)\s*$', re.IGNORECASE)
+
+def normalize_rule(line):
+    """将 hosts/裸域名格式规则转为 AG Home 兼容的 ||domain^ 格式；已是 || 格式的原样返回。
+    返回 None 表示该行无法转换为 DNS 规则（丢弃）。"""
+    if line.startswith("||"):
+        return line
+    m = _HOSTS_RE.match(line)
+    if m:
+        d = m.group(1).strip().lower()
+        if d.endswith("."):  # 去掉尾部点
+            d = d[:-1]
+        if not d:
+            return None
+        # 跳过纯 IP 行
+        if re.match(r'^\d+\.\d+\.\d+\.\d+$', d) or ":" in d:
+            return None
+        return "||" + d + "^"
+    # 裸域名格式（217heidai 等，每行一个域名，无前缀无修饰）
+    if re.match(r'^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$', line, re.IGNORECASE):
+        d = line.lower()
+        if d.endswith("."):
+            d = d[:-1]
+        return "||" + d + "^"
+    return None
+
 def merge_sources(domain_map, new_map):
     added = 0
     for k, rule in new_map.items():
@@ -214,12 +241,15 @@ def main():
             if not line or line.startswith("!") or line.startswith("#") or line.startswith("["):
                 continue
             raw += 1
-            if not is_dns_compatible(line):
+            norm = normalize_rule(line)
+            if not norm:
+                continue
+            if not is_dns_compatible(norm):
                 continue
             dns_ok += 1
-            domain = extract_domain(line)
+            domain = extract_domain(norm)
             if domain and domain not in domain_map:
-                domain_map[domain] = line
+                domain_map[domain] = norm
         std_stats[name] = {"raw": raw, "dns_ok": dns_ok, "new": len(domain_map), "desc": desc}
         added = merge_sources(std_map, domain_map)
         print("      → raw:%s  dns_ok:%s  增量:%s" % (
@@ -247,12 +277,15 @@ def main():
                 if not line or line.startswith("!") or line.startswith("#") or line.startswith("["):
                     continue
                 raw += 1
-                if not is_dns_compatible(line):
+                norm = normalize_rule(line)
+                if not norm:
+                    continue
+                if not is_dns_compatible(norm):
                     continue
                 dns_ok += 1
-                domain = extract_domain(line)
+                domain = extract_domain(norm)
                 if domain and domain not in domain_map:
-                    domain_map[domain] = line
+                    domain_map[domain] = norm
             full_stats[name] = {"raw": raw, "dns_ok": dns_ok, "new": len(domain_map), "desc": desc}
             added = merge_sources(full_map, domain_map)
             print("      → raw:%s  dns_ok:%s  增量:%s" % (

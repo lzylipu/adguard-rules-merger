@@ -1,8 +1,8 @@
 ! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-07-04 16:17:42 (UTC+8)
+! Updated: 2026-10-08 09:30:30 (UTC+8)
 ! Sources: 2 upstream + 47 custom
-! Rules: 2,529 (DNS-only, deduped)
+! Rules: 2,594 (DNS-only, deduped)
 ! ============================================================
 @@||*-go.kelkoogroup.net^
 @@||*cdn.exponea.com^
@@ -23,6 +23,7 @@
 @@||1l.my.games^
 @@||1plus1.ua^$stealth=referrer,domain=1plus1.ua
 @@||2-aclk.net^
+@@||2ipcore.com^$domain=2ip.ru
 @@||2o7.net^$domain=audiusa.com
 @@||2performant.com^
 @@||3-aclk.net^
@@ -40,10 +41,7 @@
 @@||6-aclk.net^
 @@||6play-users.6play.fr^$stealth=3p-auth,domain=m6.fr
 @@||7-aclk.net^
-@@||777be.livepartners.com^
-@@||777ch.livepartners.com^
-@@||777es.livepartners.com^
-@@||777nl.livepartners.com^
+@@||777*.livepartners.com^
 @@||7eer.net^
 @@||8-aclk.net^
 @@||8591.com.tw^$stealth=dpi
@@ -54,6 +52,7 @@
 @@||9cache.com^$stealth=referrer,domain=9gag.com
 @@||a.allegroimg.com^$domain=allegro.pl
 @@||a.magsrv.com^$domain=in91vip.win
+@@||a.partner-versicherung.de^
 @@||a.pub.network^$domain=automobile-catalog.com
 @@||a.slashdotmedia.com^
 @@||a1.adform.net^
@@ -81,6 +80,7 @@
 @@||aax-eu.amazon.pl^
 @@||aax-eu.amazon.sa^
 @@||aax-eu.amazon.se^
+@@||aax-events-*.axp.amazon-adsystem.com^
 @@||aax-fe-retail-direct.amazon-adsystem.com^
 @@||aax-fe.amazon.co.jp^
 @@||aax-fe.amazon.com.au^
@@ -148,6 +148,7 @@
 @@||adblockanalytics.com^|$domain=pearos.xyz
 @@||adcdn.pingan.com^
 @@||addons.opera.com^$stealth=useragent
+@@||addressvalidation.googleapis.com^$stealth=referrer
 @@||adengine.rt.ru^$domain=rt.ru
 @@||adfoc.us^
 @@||adform.com^
@@ -201,7 +202,6 @@
 @@||ads.yandex.com^$~third-party
 @@||ads.youtube.com^|$domain=technorj.com
 @@||adscendmedia.com^
-@@||adsco.re^$domain=shinden.pl
 @@||adsense.woso.cn^$~third-party
 @@||adservice.google.*^
 @@||adserving.unibet.com^$domain=sportlemon.me
@@ -300,6 +300,7 @@
 @@||api.ads.tvb.com^
 @@||api.apple-mapkit.com^$stealth=3p-auth
 @@||api.athom.com^$domain=my.homey.app,stealth=3p-auth
+@@||api.authsignal.com^$stealth=3p-auth
 @@||api.babbel.io^$stealth=referrer
 @@||api.bam-x.com^
 @@||api.bileto.com^$stealth=3p-auth,domain=arriva.cz
@@ -362,6 +363,7 @@
 @@||apmebf.com^
 @@||apms5.com^
 @@||aporasal.net^
+@@||app*.outreach.io^
 @@||app*.salesmanago.pl^
 @@||app-advertise.zhihuishu.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -384,6 +386,8 @@
 @@||app.metricsverse.com^
 @@||app.roll20.net^$stealth=webrtc
 @@||app.sephora.com^
+@@||app.slickstream.com^$domain=bakerita.com|letthemeatgfcake.com
+@@||app.zoom.us^$stealth=useragent
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||appgw.ess.tencent.cn^$stealth=referrer
 @@||apple.com^$domain=apple.com,stealth=referrer
@@ -391,6 +395,7 @@
 @@||appleid.apple.com^$stealth=referrer
 @@||appmetrica.yandex.com^$domain=appmetrica.yandex.com
 @@||apps.geodan.nl^$stealth=referrer
+@@||appspot.com^$stealth=referrer,domain=stitch.withgoogle.com
 @@||aquarium.co.jp^$stealth=dpi
 @@||aranzulla.it^*ads$domain=aranzulla.it
 @@||arcgis.com^$stealth=referrer,domain=plan.praha.eu
@@ -398,6 +403,7 @@
 @@||art-reklama.razitko.cz^$domain=art-reklama.razitko.cz
 @@||arte.tv^*/xtcore.js
 @@||arttrk.com^
+@@||ashrafidoria.com^$domain=links.olamovies.mov
 @@||asia-*.inside-graph.com^$domain=lenovo.com
 @@||ask.qcloudimg.com^$stealth=referrer,domain=cloud.tencent.com
 @@||asset*.coupangcdn.com^$stealth=referrer
@@ -461,6 +467,7 @@
 @@||banner.dna.fi^
 @@||banners.livepartners.com^
 @@||banners.netbet.gr^
+@@||bapi*.moengage.com^
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
 @@||basemapstyles-api.arcgis.com^$stealth=referrer,domain=radar.weather.gov
 @@||battlecats-db.imgs-server.com^$stealth=referrer
@@ -490,10 +497,12 @@
 @@||bestbuy.7tiv.net^
 @@||betfirst.livepartners.com^
 @@||bfast.com^
+@@||bharat-connect.com^$stealth=location
 @@||bhc.co.kr^$stealth=dpi
 @@||bidminer.com^
 @@||bigad.me^$domain=bigad.me
 @@||bigcattracks.com^
+@@||bigcommerce.com^$domain=plazajapan.com
 @@||bild.de^$stealth=3p-cookie
 @@||bilivideo.com^$stealth=referrer,domain=bilibili.com
 @@||bin.bnbstatic.com^$stealth=referrer,domain=binance.com
@@ -538,6 +547,7 @@
 @@||c.adsco.re^$domain=shorterall.com
 @@||c.apple.com^
 @@||c.hubz.pl^
+@@||c.kakaku.com^
 @@||c.mipcdn.com^$domain=prpcoin.com
 @@||c.msn.com^
 @@||c.neqty.net^
@@ -548,6 +558,8 @@
 @@||c.y.qq.com^
 @@||cache.nymag.com^*/clickability.js
 @@||cafe24.com^$stealth=dpi
+@@||callback.api.qgraph.io^
+@@||callistanise.com^$stealth=referrer
 @@||campaign.adobe.com^
 @@||campaign.aliexpress.com^
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
@@ -588,6 +600,7 @@
 @@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.dotstream.buzz^$stealth=referrer,domain=megaplay.*
 @@||cdn.dynamicyield.com^$domain=dafiti.com.co
+@@||cdn.engagement.coremedia.cloud^$domain=flytap.com
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
 @@||cdn.ex.co^$domain=standard.co.uk
 @@||cdn.fios.tv^$stealth=3p-auth
@@ -600,6 +613,7 @@
 @@||cdn.segmentify.com^$domain=gratis.com
 @@||cdn.segmentify.com^$domain=mediamarkt.com.tr
 @@||cdn.segmentify.com^$domain=pttavm.com
+@@||cdn.staticfile.org^$domain=aoi.hugemaker.com.cn
 @@||cdn.staticfile.org^$domain=lakyworld.com|biquge77.net|yzbg.net|alexij.net|hshfm.com|biqiuge5.org|49gtk.cc|20me.net|fbqg.cc|xianguke.net|tellgillian.com|m-ia.net|cleavagecoverup.com|memduh.net|56xiaoshuo.net|yourbiquge.com|00ksw.com|147xiaoshuo.com|bxwx.live|lzbao.net
 @@||cdn.taboola.com^$domain=asianetnews.com
 @@||cdn.taboola.com^$domain=msnbc.com
@@ -644,16 +658,18 @@
 @@||cj.mplxtms.com^
 @@||cjads.com^
 @@||ck.hdm3.in^
+@@||cl*.exct.net^
 @@||cl.adosiz.net^
-@@||cl.exct.net^
 @@||classistatic.de^*/hitcounter.js$domain=mobile.de
 @@||clb.yahoo.co.jp^$app=jp.co.yahoo.android.weather.type1
 @@||clc.wargaming.net^
-@@||clck-001.clickpatrol.com^
+@@||clck-*.clickpatrol.com^
 @@||clck.ru^
 @@||clck.wargaming.net^
 @@||clck.yandex.ru^
 @@||clckptrl.com^
+@@||clcktrck.com^
+@@||click*.redbrain.com^
 @@||click*.taobao.com^
 @@||click-tracking.klarna.net^
 @@||click-trk.com^
@@ -681,6 +697,7 @@
 @@||click.email.newegg.com^
 @@||click.email.sonos.com^
 @@||click.emcom.bankofamerica.com^
+@@||click.esky.com^
 @@||click.fidelityinvestments.com^
 @@||click.figma.com^
 @@||click.holidayinnclubemail.com^
@@ -711,7 +728,6 @@
 @@||click.trackingadz.com^
 @@||click.uol.com.br^$domain=uol.com.br
 @@||click.zoom.us^
-@@||click2.redbrain.com^
 @@||clickcease.com^
 @@||clickdefense.cc^
 @@||clickdimensions.com^
@@ -775,6 +791,7 @@
 @@||community.fandom.com^$stealth=flash
 @@||compriso.speedtestcustom.com^$third-party,stealth=ip
 @@||comsclub.com^$stealth=dpi
+@@||confidecross.com^$domain=openlua.cloud
 @@||connatix.com^$domain=euronews.com
 @@||connatix.com^$domain=nypost.com
 @@||connatix.com^$domain=sport-fm.gr|sport24.gr|variety.com
@@ -854,6 +871,8 @@
 @@||data.alicloudccp.com^$stealth,domain=aliyundrive.com
 @@||data.digital.costco.ca^
 @@||data.digital.costco.com^
+@@||data.email.philips-hue.com^
+@@||data.email.tangerine.ca^
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
 @@||data.sec.miui.com^
 @@||data.service.paypal.com^
@@ -863,6 +882,8 @@
 @@||dcinside.com^$stealth
 @@||dct.klaviyodns.com^
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
+@@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||deadshot.io^$stealth
 @@||dealabs.digidip.net^
@@ -888,6 +909,7 @@
 @@||digital.gov.ru^$stealth=dpi
 @@||directline.botframework.com^$stealth=referrer
 @@||disco-api.com^$stealth=3p-auth
+@@||disneynow.com^$stealth=referrer
 @@||disneyplus.bn5x.net^
 @@||diyanet.gov.tr^$stealth=dpi
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
@@ -923,8 +945,8 @@
 @@||dthumb.phinf.naver.net^$stealth=referrer
 @@||dxp.optimizely.com^$domain=suse.com
 @@||dynamic-images-picturehappy.*.amazonaws.com^$stealth=referrer,domain=picturehappy.lv
+@@||e*.customeriomail.com^
 @@||e-gen.or.kr^$stealth=dpi
-@@||e.customeriomail.com^
 @@||e.issuu.com^$stealth=referrer
 @@||e.mail.ru^$stealth=webrtc
 @@||e.mp4.center^$domain=niceporn.tv|beeg.porn
@@ -941,6 +963,7 @@
 @@||econcal.forexprostools.com^$domain=bloomberg.com
 @@||edaily.co.kr^$stealth=dpi
 @@||eden.org.tw^*/ad_banner/
+@@||edge*.customer.io^
 @@||edgeservices.bing.com^$stealth
 @@||edgesuite.net^*/ad.css?
 @@||edgesuite.net^*/frontend_webtrekk.js$domain=goertz.de
@@ -994,6 +1017,7 @@
 @@||etalonline.by^$stealth=dpi
 @@||eticaret.adawall.com.tr^$stealth=dpi
 @@||etracker.de^
+@@||etsy.com^$stealth=useragent
 @@||eu*.thunderhead.com^
 @@||eu.sp-trk.com^
 @@||eulerian.brandalley.fr^
@@ -1014,6 +1038,7 @@
 @@||experienceleague.adobe.com^$~third-party
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||eyejokerdb.com^$stealth=dpi
+@@||fak.xxx^$stealth=ip
 @@||faq.subaru.jp^$stealth=dpi
 @@||faq.viewcard.co.jp^$stealth=dpi
 @@||fastag.kotak.com^$stealth=dpi
@@ -1025,10 +1050,15 @@
 @@||feed.4strokemedia.com^$domain=video.gazzetta.it
 @@||feedback-pa.clients6.google.com^$stealth=referrer
 @@||feldherr.com^$stealth=3p-cookie
+@@||feliz-web.data.tm-awx.com^$domain=cheshire-live.co.uk
+@@||feliz-web.data.tm-awx.com^$domain=football.london
+@@||feliz.data.tm-awx.com^$domain=cheshire-live.co.uk
+@@||feliz.data.tm-awx.com^$domain=football.london
 @@||fff.com.vn^
 @@||fifa.com^*/webanalytics.js?
 @@||file-static.com^$stealth=referrer,domain=eyny.com
 @@||filecity.co.kr^$stealth=dpi
+@@||files.an1.net^$stealth=referrer,domain=an1.com
 @@||filmweb.pl^$stealth=referrer
 @@||findernet.com^$content
 @@||findlawimg.com^$stealth=referrer,domain=findlaw.cn
@@ -1049,6 +1079,7 @@
 @@||forms.anthology.com^$domain=anthology.com
 @@||forum.javcdn.cc^$stealth=referrer,domain=javbus.com
 @@||fp-it.fengkongcloud.com^
+@@||fpt.microsoft.com^$domain=account.microsoft.com|fpt.microsoft.com
 @@||fr135.net^
 @@||friendbuy.com^$domain=butcherbox.com
 @@||fst.ink^
@@ -1086,13 +1117,13 @@
 @@||ggopjn.com^
 @@||ghxi.com^$stealth=dpi
 @@||giraff.io^$domain=vs.lv
+@@||githubusercontent.com^$stealth=referrer,domain=github.com
 @@||gizchina.com^$stealth=useragent
 @@||glavred.info^$stealth=referrer
 @@||glnk.io^
 @@||global.apis.naver.com^$stealth=referrer,domain=webtoons.com
 @@||globalclicklab.com^
 @@||gma.alicdn.com^
-@@||gng.gumroad.com^$stealth=flash|java
 @@||go*.flx1.com^
 @@||go-mpulse.net^$domain=costcobusinessdelivery.com
 @@||go.admost.com^
@@ -1156,7 +1187,9 @@
 @@||gtrcking.com^
 @@||guce.advertising.com^
 @@||guenstiger.de^
+@@||gumroad.com^$stealth=flash|java
 @@||gumtree.com^$stealth=ip
+@@||gw.cds.amcn.com^$stealth=3p-auth
 @@||hach.de^*/emstrack.js
 @@||haddozws.atlantaserver.me^$domain=haddoz.net,stealth=ip|donottrack
 @@||hangouts.google.com^$stealth=webrtc
@@ -1258,6 +1291,7 @@
 @@||imrworldwide.com^*/flashdetect.js
 @@||imrworldwide.com^*/ggce354.swf$domain=espn.go.com
 @@||imrworldwide.com^*/swfobject.js
+@@||indazn.com^$stealth=3p-auth|referrer,domain=binge.com.au
 @@||indiegogo.com^$stealth=3p-cookie
 @@||inews.gtimg.com^
 @@||infolink.pavv.co.kr^
@@ -1306,7 +1340,6 @@
 @@||js.stripe.com^$stealth=referrer
 @@||jsapi.amap.com^$domain=amap.com
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
-@@||jsdelivr.net^*/videojs.ads.css$domain=irctc.co.in
 @@||jsv3.recruitics.com^
 @@||jswenhui.com^*/ad/
 @@||jsxx.gds.edu.cn^$genericblock
@@ -1368,7 +1401,7 @@
 @@||lgthinq.com^$stealth=dpi
 @@||lgtwins.com^$stealth=dpi
 @@||libs.baidu.com^$domain=m.supfree.net
-@@||libs.baidu.com^$domain=zyywenxue.com|11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|aidu123.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
+@@||libs.baidu.com^$domain=zyywenxue.com|11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|aidu123.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|xwenxuem.com|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||lightning.bleacherreport.com^*/launch-$~third-party
 @@||linetv.tw^*/ad
 @@||link.*.paramountplus.com^
@@ -1392,6 +1425,7 @@
 @@||links.email.crunchbase.com^
 @@||links.iterable.com^
 @@||links.mkt*.net^
+@@||linksflys.com^$document,stealth=referrer
 @@||linksmail.geosolinc.com^
 @@||linkspasson.com^
 @@||linksredirect.com^
@@ -1401,10 +1435,12 @@
 @@||linkvertise.net^
 @@||list-manage.com^
 @@||list-unsubscribe.eservice.emarsys.net^
+@@||listeamed.net^$stealth=referrer
 @@||listing-search-wonen.funda.io^$domain=funda.nl,stealth=referrer
 @@||live-video.net^$stealth=3p-auth
 @@||live.primis.tech^$domain=eurogamer.net|gbnews.com|independent.co.uk|klaq.com|loudwire.com|screencrush.com|the-independent.com|vg247.com|xxlmag.com
 @@||live.statscore.com^$stealth=referrer,domain=polsatsport.pl
+@@||liveapi.yext.com^$domain=answers.business.lloydsbank.com
 @@||liverail.com^$domain=spox.com|static.eplayer.performgroup.com
 @@||lk.gpnbonus.ru^$stealth=dpi
 @@||lluban.by^$stealth=dpi
@@ -1433,6 +1469,7 @@
 @@||login.nvgs.nvidia.com^$stealth
 @@||login.nvidia.com^$stealth=3p-auth
 @@||login.swissid.ch^$stealth=dpi
+@@||login.sydneywater.com.au^$stealth=referrer,domain=sydneywater.com.au
 @@||login.tomorrowland.com^$stealth=referrer,domain=my.tomorrowland.com
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@||login.wmtransfer.com^$stealth=3p-cookie
@@ -1443,7 +1480,6 @@
 @@||logowanie.play.pl^$stealth
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||loucasporcabelos.com.br^$stealth=referrer
-@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||lsi.com^*/google-analytics.js
 @@||lso.ca^$stealth=dpi
 @@||lswcdn.net^$stealth=referrer
@@ -1529,6 +1565,7 @@
 @@||mmtro.com^
 @@||mmy.la^*300*250
 @@||mobdisc.com^$stealth
+@@||mobile.de^$stealth=ip
 @@||mobiothd.com^
 @@||mobiotsd.com^
 @@||mobiotud.com^
@@ -1542,7 +1579,7 @@
 @@||montbell.jp^$stealth=dpi
 @@||mooc-image.nosdn.127.net^$stealth=referrer
 @@||motherboard.vice.com^*/vmp_analytics.js
-@@||motherlessmedia.com^$domain=motherless.com
+@@||motherlessmedia.com^$domain=motherless.xxx
 @@||movetv.com^$stealth=3p-auth
 @@||mparticle.com^*/login$domain=discoveryplus.*
 @@||mpt.gov.by^$stealth=dpi
@@ -1555,9 +1592,11 @@
 @@||musicstore.de^*/emos2.js
 @@||muypil.com^
 @@||mvz.hufeland.de^$stealth=dpi
+@@||mwa.co.th^$stealth=dpi
 @@||mxpnl.com^$domain=dailysteals.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||my.foxnews.com^$stealth=referrer
+@@||my.microsoftpersonalcontent.com^$stealth=3p-auth
 @@||my.nextdns.io^$stealth=dpi
 @@||my.onvista.de^$stealth=dpi
 @@||my.westfieldinsurance.com^$document
@@ -1571,6 +1610,7 @@
 @@||myspacecat.pictures^$stealth=referrer
 @@||mytotalconnectcomfort.com^$stealth=dpi
 @@||n.rich^
+@@||nabu.casa^$stealth=dpi
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp|nexon.com
 @@||nakanohito.jp^*/bi.js$domain=myna.go.jp
@@ -1592,6 +1632,7 @@
 @@||newad.abiechina.com^$domain=abiechina.com
 @@||newsletter2go.com^
 @@||newslink.reuters.com^
+@@||next-box.su^$stealth=useragent
 @@||next.vuetifyjs.com^$content
 @@||nextag.de^
 @@||nextstream.org^$stealth=referrer,domain=animepahe.com|kwik.cx
@@ -1637,6 +1678,7 @@
 @@||on.orf.at^$stealth=dpi
 @@||onboard.triptease.io^
 @@||one.impact-ad.jp^
+@@||onelink.appsflyersdk.com^
 @@||onelink.me^
 @@||onelnk.com^
 @@||onenetworkdirect.net^
@@ -1705,6 +1747,7 @@
 @@||picjs.xyz^$stealth=referrer,domain=vikacg.com
 @@||pics.porn300.com^
 @@||pictogo.net^$stealth=referrer,third-party
+@@||pictures.izmirgezisi.site^$stealth=referrer
 @@||pictures.spordunyasi.site^$stealth=referrer
 @@||ping.clicksambo.com^
 @@||pingan.com.cn^*/logger.js?
@@ -1722,11 +1765,11 @@
 @@||pl-play.adtonos.com^$domain=radio-internetowe.com
 @@||pl-play.adtonos.com^$domain=tokfm.pl
 @@||pla.daisycon.io^
+@@||places.googleapis.com^$stealth=referrer
 @@||platform-eu.cloud.coveo.com^$stealth=3p-auth,domain=fiskars.com
 @@||platform.cloud.coveo.com^$stealth=3p-auth,domain=intel.*
 @@||play.openhub.tv^$stealth=referrer
 @@||play.vidyard.com^$stealth=referrer|webrtc
-@@||playcloud1.asia^$stealth=referrer
 @@||player*.cinestream.bid^$stealth=referrer
 @@||player-smotri.mail.ru^$stealth=referrer
 @@||player.adcdn.tv^$stealth=webrtc
@@ -1769,6 +1812,7 @@
 @@||ppcshield.io^
 @@||pravo.by^$stealth=dpi
 @@||prebid.revbid.net^$domain=ourcoincash.xyz
+@@||prebid.smilewanted.com^$domain=tradingref.com
 @@||preview.editmysite.com^$stealth=referrer
 @@||prf.hn^
 @@||priceza.com^
@@ -1805,6 +1849,7 @@
 @@||pxf.io^
 @@||pxl.leads.su^
 @@||q-net.or.kr^$stealth=dpi
+@@||qa.nicovideo.jp^$stealth=dpi
 @@||qa.smbc.co.jp^$stealth=dpi
 @@||qccommunity.qcloudimg.com^$stealth=referrer,domain=cloud.tencent.com
 @@||qflm.net^
@@ -1817,6 +1862,7 @@
 @@||qooqlevideo.com^$stealth=referrer
 @@||qq.baggerspaces.com^$domain=321movies.xyz
 @@||quick-edit-cny.pages.dev^$domain=dash.cloudflare.com,stealth=useragent
+@@||qwen-webui-prod.oss-accelerate.aliyuncs.com^$stealth=3p-auth,domain=chat.qwen.ai
 @@||r*.rs6.net^
 @@||r.akipam.com^
 @@||r.audible.de^
@@ -1887,6 +1933,7 @@
 @@||rover.ebay.com.au^*&cguid=$domain=ebay.com.au
 @@||rsc.cdn77.org^$stealth=referrer
 @@||rscaptcha.com^$domain=claimtrx.com,stealth=referrer
+@@||rt.ru^$stealth=dpi
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
 @@||rtrk.ca^
@@ -1965,6 +2012,7 @@
 @@||shareasale.com^
 @@||sharethis.com^$third-party,domain=gamesradar.com
 @@||shein.com^$stealth=push
+@@||shield-drm.onvesper.com^$stealth=3p-auth
 @@||shminorshort.weixin.qq.com^
 @@||shop-links.co^
 @@||shop.getthefuturist.com^$stealth=flash
@@ -1974,6 +2022,7 @@
 @@||short2money.com^$stealth=referrer
 @@||shrinke.me^$stealth=referrer
 @@||shutterstock.com^$stealth=useragent
+@@||signin.costco.com^$stealth=java|useragent
 @@||signin.rockstargames.com^$stealth=dpi
 @@||simg.doubanio.com^$stealth=referrer,domain=douban.com
 @@||sina.com.hk^*_ads.cgi
@@ -2001,6 +2050,7 @@
 @@||solution.weborama.fr^
 @@||sonar.viously.com^$domain=clubic.com
 @@||sonar.viously.com^$domain=supertoinette.com
+@@||southernwater.co.uk^$stealth=ip
 @@||southpark.*^$stealth=ip
 @@||southparkstudios.*^$stealth=ip
 @@||sovrn.com^$domain=3dpchip.com
@@ -2065,6 +2115,7 @@
 @@||streambucket.xyz^$stealth=useragent
 @@||streampass.org^$stealth=referrer
 @@||streanplay.cc^$stealth
+@@||streetviewpixels-pa.clients6.google.com^$stealth=referrer
 @@||strikeout.im^$stealth=webrtc
 @@||stripe.com^$domain=app.axenthost.com
 @@||stvkr.com^
@@ -2168,6 +2219,7 @@
 @@||thuedientu.gdt.gov.vn^$stealth=dpi
 @@||thumbor.thedailymeal.com^
 @@||ticket.yes24.com^$stealth=dpi
+@@||ticketlink.co.kr^$stealth=location|useragent|push|webrtc|1p-cookie|donottrack
 @@||tiktok.com^$stealth=java|flash
 @@||tiktokcdn.com^$stealth=referrer
 @@||tiles.mapbox.com^$document
@@ -2179,9 +2231,11 @@
 @@||tm.attrxs.de^
 @@||tm.simptrack.com^
 @@||tn.voyeurhit.com^$domain=voyeurhit.tube
+@@||to.klatsa.nl^
 @@||top-shop.ru^$domain=top-shop.ru
 @@||topaz.viacomcbs.digital^$stealth=ip
 @@||topembed.pw^$stealth=referrer
+@@||topics.smt.docomo.ne.jp^$stealth=useragent
 @@||tortuga.wtf^$stealth=referrer
 @@||tp-emea.exactag.com^
 @@||tp-link.com^$stealth=referrer
@@ -2198,7 +2252,10 @@
 @@||trace.marketingviadigital.com^
 @@||track*.customer.io^
 @@||track*.effiliation.com^
+@@||track*.engagelab.email^
+@@||track*.sendcloud.net^
 @@||track*.webgains.team^
+@@||track-eu.adform.net^
 @@||track.*.sendlayer.net^
 @@||track.addtocart.today^
 @@||track.adform.net^
@@ -2227,15 +2284,14 @@
 @@||track.sendlanedelivery.com^
 @@||track.shoparize.com^
 @@||track.smtp2go.net^
+@@||track.stoqapp.com^
 @@||track.superdry.com^
 @@||track.tenjin.io^
 @@||track.tnm.de^
 @@||track.trafficguard.ai^
 @@||track.ukrposhta.ua^$stealth=ip
 @@||track.webgains.com^
-@@||track01.engagelab.email^
 @@||track2.royalmail.com^
-@@||track2.sendcloud.net^
 @@||trackcmp.net^
 @@||trackcmp.net^|
 @@||trackeame.com^
@@ -2262,6 +2318,7 @@
 @@||tracking.bol.com^
 @@||tracking.cashkaro.com^
 @@||tracking.delupe.net^
+@@||tracking.emaillabs.net.pl^
 @@||tracking.ftmo.com^
 @@||tracking.inflection.io^
 @@||tracking.mailerswift.app^
@@ -2337,7 +2394,6 @@
 @@||turbo.az^$stealth=referrer
 @@||turktelekom.com.tr^$stealth=dpi
 @@||tv.ads.spotx.tv^$domain=rakuten.tv
-@@||tv.kakao.com^$stealth
 @@||tvb.com^*/videojs.ads.
 @@||tving.com^$stealth=ip
 @@||tvn.adocean.pl^*/ad.xml$domain=miniminiplus.pl
@@ -2345,6 +2401,7 @@
 @@||tvplayer.com^$stealth
 @@||tvpworld.com^$stealth=dpi
 @@||tvr.by^$stealth=dpi
+@@||twitchcdn.net^$stealth=useragent
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||typhoon.zjwater.gov.cn^$stealth=donottrack
 @@||uab.gov.tr^$stealth=dpi
@@ -2367,26 +2424,32 @@
 @@||upload.forumfree.net^$stealth=referrer
 @@||uploads.forumcommunity.it^$stealth=referrer
 @@||upos-sz-mirrorhw.bilivideo.com^$stealth=referrer
+@@||upshrink.com^$stealth=referrer
 @@||uptodate.com^$stealth=dpi
 @@||us-serve.nrich.ai^
 @@||useast-*.ordercloud.io^$stealth=3p-auth
+@@||user-gw.cds.amcn.com^$stealth=3p-auth
 @@||user-portal.*.edenred.io^$stealth=3p-auth
 @@||user-profile.pr.sbsod.com^$stealth=3p-auth
 @@||usercdn.com^$domain=userscloud.com
 @@||userlinx.com^
 @@||userservice-api.channel5.com^$stealth=3p-auth
 @@||usrlnx.com^
+@@||v.poki-cdn.com^$domain=vectaria.io
 @@||v.short.gy^
 @@||vandenborre.be^$stealth=dpi
 @@||vast.btrll.com^$domain=hinet.net
+@@||vast.livejasmin.com^$domain=jptt.tv
 @@||vaudit.com^
 @@||vectorstock.com^$domain=vectorstock.com
 @@||vegetariantimes.com^$stealth=dpi
 @@||vfo.voyage-prive.co.uk^
 @@||vid.speedtodayz.site^$stealth=referrer
+@@||vide.karavid.top^$stealth=referrer
 @@||video.javhdporn.net^$stealth=referrer
 @@||video.matchtv.ru^$stealth=donottrack|ip
 @@||video.repubblica.it^*/nielsen.js
+@@||video.sacdnssedge.com^$domain=jptt.tv
 @@||video.weibocdn.com^$stealth=referrer
 @@||videos-f.jwpsrv.com^$domain=destructoid.com
 @@||vider.info^$stealth
@@ -2452,6 +2515,7 @@
 @@||womensrunning.com^$stealth=dpi
 @@||worldometers.info^|$stealth=referrer
 @@||wpnrtnmrewunrtok.xyz^$domain=camwhores.ru.com|camvideos.org
+@@||wpscdn.cn^$stealth=referrer,domain=wps.cn
 @@||www.awin1.com^
 @@||www.door2windows.com^$stealth=referrer
 @@||www.googleadservices.com^
@@ -2466,6 +2530,7 @@
 @@||wyniki.diag.pl^$stealth=ip
 @@||x.bestcheck.de^
 @@||x.bndspn.com^
+@@||x.com^$stealth=flash|java
 @@||xboxlive.com^$stealth=3p-auth
 @@||xboxservices.com^$stealth=3p-auth
 @@||xfinity.com^$stealth

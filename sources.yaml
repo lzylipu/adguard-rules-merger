@@ -11,9 +11,12 @@ blocklist:
 - desc: HaGeZi 仿冒钓鱼域名
   name: Hagezi-Fake
   url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt
-- desc: Anti-Ad 中文DNS首选，97k规则 🇨🇳
-  name: Anti-Ad
-  url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+- desc: AdGuard 官方DNS过滤器，17.9万规则 🛡️
+  name: AdGuard-DNS-filter
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+- desc: halflife 国内桌面端(含乘风视频广告) 🇨🇳
+  name: halflife-ad-pc
+  url: https://raw.githubusercontent.com/sbwml/halflife-list/master/ad-pc.txt
 - desc: EasyList 隐私追踪
   name: EasyPrivacy
   url: https://easylist.to/easylist/easyprivacy.txt
@@ -36,6 +39,15 @@ blocklist_extra:
 - desc: DandelionSprout 反恶意软件+诈骗
   name: DandelionSprout
   url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
+- desc: Notracking 反追踪反广告 hosts（50万规则）
+  name: Notracking
+  url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
+- desc: StevenBlack hosts 全球广告+追踪+恶意统一 hosts
+  name: StevenBlack
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+- desc: hostsVN 越南/东亚广告+恶意软件 hosts
+  name: hostsVN
+  url: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
 whitelist:
   custom:
   - '||cdn.bootcss.com^'
