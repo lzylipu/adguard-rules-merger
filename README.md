@@ -4,7 +4,7 @@
 
   **自动合并、去重、白名单过滤 AdGuard Home DNS 拦截规则**
 
-  `16 DNS拦截源 + 2 白名单源 → blocklist.txt(标准版) + blocklist-full.txt(完整版) + whitelist.txt → GitHub Pages`
+  `16 DNS拦截源 + 4 白名单源 → blocklist.txt(标准版) + blocklist-full.txt(完整版) + whitelist.txt → GitHub Pages`
 
 ---
 
@@ -27,7 +27,7 @@
 | 用途 | 订阅链接 | 说明 |
 |------|----------|------|
 | 🚫 **标准版** | `https://lzylipu.github.io/adguard-rules-merger/blocklist.txt` | **推荐日常使用**，已应用白名单 |
-| 🚫 **完整版** | `https://lzylipu.github.io/adguard-rules-merger/blocklist-full.txt` | 12 源全量，**不含白名单**（需单独订阅） |
+| 🚫 **完整版** | `https://lzylipu.github.io/adguard-rules-merger/blocklist-full.txt` | 16 源全量，**不含白名单**（需单独订阅） |
 | ✅ **白名单** | `https://lzylipu.github.io/adguard-rules-merger/whitelist.txt` | 防误杀规则，**完整版用户必订** |
 | 📊 **统计** | `https://lzylipu.github.io/adguard-rules-merger/stats.json` | JSON 格式规则详情 |
 
@@ -41,15 +41,15 @@
 
 | 规则源 | 说明 | 规则数 |
 |:--------|:-----|:------:|
-| **GOODBYEADS-DNS** | DNS 层去广告，中文优先 | 115,907 |
+| **GOODBYEADS-DNS** | DNS 层去广告，中文优先 | 116,037 |
 | **Hagezi-Light** | 广告 + 追踪精简版 | 57,232 |
 | **Hagezi-DOH** | 绕过加密 DNS (DoH) 的域名 | 3,295 |
 | **Hagezi-Fake** | 仿冒/钓鱼网站拦截 | 17,116 |
-| **AdGuard-DNS-filter** | AdGuard 官方 DNS 过滤器 | 178,970 |
-| **halflife-ad-pc** | 国内桌面端（含乘风视频广告） | 109,499 |
-| **EasyPrivacy** | 全球隐私追踪拦截 | 51,597 |
+| **AdGuard-DNS-filter** | AdGuard 官方 DNS 过滤器 | 179,274 |
+| **halflife-ad-pc** | 国内桌面端（含乘风视频广告） | 110,755 |
+| **EasyPrivacy** | 全球隐私追踪拦截 | 52,028 |
 | **Yoyo** | 经典广告服务器列表 | 3,552 |
-| **合计**（跨源去重 + 白名单过滤） |  | **252,632** |
+| **合计**（跨源去重 + 白名单过滤） |  | **251,943** |
 
 ### 🔵 完整版（+8 源，全量覆盖）
 
@@ -57,23 +57,25 @@
 |:--------|:-----|:------:|
 | *(包含上述 8 个标准源)* |  |  |
 | **Hagezi-Pro** | 广告/追踪/挖矿/诈骗/仿冒全覆盖 | 198,879 |
-| **217heidai-DNS** | 国产 DNS 规则大合集（纯域名） | 225,828 |
-| **OISD-Small** | 社区力荐，Block. Don't break. | 57,573 |
+| **217heidai-DNS** | 国产 DNS 规则大合集（纯域名） | 225,929 |
+| **OISD-Small** | 社区力荐，Block. Don't break. | 57,649 |
 | **1Hosts-Lite** | badmojr 维护，专注广告追踪 | 3,475 |
-| **DandelionSprout** | 反恶意软件 + 诈骗，AG 原生支持 | 12,394 |
+| **DandelionSprout** | 反恶意软件 + 诈骗，AG 原生支持 | 12,396 |
 | **Notracking** | 反追踪反广告 hosts（50 万规则） | 500,340 |
 | **StevenBlack** | 全球广告+追踪+恶意统一 hosts | 72,170 |
 | **hostsVN** | 东亚广告 + 恶意软件 hosts | 18,460 |
-| **合计**（跨源去重，未含白名单） |  | **620,495** |
+| **合计**（跨源去重，未含白名单） |  | **620,863** |
 
-### ⚪ 白名单（2 源 + 47 条自定义）
+### ⚪ 白名单（4 源 + 47 条自定义）
 
 | 来源 | 说明 | 域名数 |
 |:-----|:-----|:------:|
-| **GOODBYEADS-Allow** | GOODBYEADS 白名单 | 14,852 |
-| **Hagezi-Referral** | HaGeZi 推荐来源保护 | 937 |
+| **GOODBYEADS-Allow** | GOODBYEADS 白名单 | 1,612 |
+| **Hagezi-Referral** | HaGeZi 推荐来源保护 | 936 |
+| **hl2guide-Whitelist** | 社区防误杀（微软/Steam/CDN 等） | 5,647 |
+| **BlueSkyXN-OK** | 国内误杀释放 | 210 |
 | **自定义规则** | 国内 CDN、支付、社交、视频、电商等 | 47 |
-| **合计**（去重后） |  | **2,594** |
+| **合计**（去重后） |  | **8,376** |
 
 ---
 
@@ -112,7 +114,7 @@ merge.py ◀──────────────────────�
 ### 自动化流程
 
 1. **触发**: 每 5 小时 (Cron) 或 推送 `sources.yaml`/`merge.py`
-2. **拉取**: 下载 16 个拦截源 + 2 个白名单源到 `sources/` 目录
+2. **拉取**: 下载 16 个拦截源 + 4 个白名单源到 `sources/` 目录
 3. **转换**: 自动将 hosts（`0.0.0.0 域名`）和裸域名格式转成 AG 兼容 `||域名^` 规则
 4. **合并**: 解析规则，过滤非 DNS 格式 + 核心域名保护，全局去重
 5. **分流**: 生成标准版（含白名单）与完整版（不含白名单）
@@ -154,20 +156,20 @@ A: 每 5 小时自动运行一次。手动修改 `sources.yaml` 也可立即触�
 
 ## 🇬🇧 English Summary
 
-**Core Features**: Auto-merge 12 DNS-native filter sources every 5 hours, DNS-only compatible rules, cross-source deduplication, core domain protection (youtube.com, google.com, etc.), local caching for stability.
+**Core Features**: Auto-merge 16 DNS-native filter sources + 4 whitelist sources every 5 hours, DNS-only compatible rules, cross-source deduplication, core domain protection (youtube.com, google.com, etc.), local caching for stability.
 
 **Subscribe**:
 - **Standard** (Recommended): `blocklist.txt` (includes whitelist)
 - **Full** (Aggressive): `blocklist-full.txt` (requires separate `whitelist.txt`)
 - **Whitelist**: `whitelist.txt` (prevents false positives)
 
-**Sources**: Standard (7) + Full Extras (5) + Whitelist (2+40).
+**Sources**: Standard (8) + Full Extras (8) + Whitelist (4 + 47 custom).
 
 **Note on GOODBYEADS**: Migrated from deleted `868864/DNS_RULE` to `8680/GOODBYEADS`.
 
 ---
 
-*Last updated: 2026-06-28 | Version v4 (local mode)*
+*Last updated: 2026-10-08 | Version v4.1 (local mode)*
 
 ---
 

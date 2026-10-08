@@ -6,7 +6,7 @@
 
 ---
 
-> 🛡️ Pulls 16 DNS-native filter sources every 5 hours (plus 2 whitelist sources), auto-merges and deduplicates them, filters out browser-only rules for DNS-layer compatibility, and publishes three files via GitHub Pages: `blocklist.txt` (standard), `blocklist-full.txt` (full) and `whitelist.txt`.
+> 🛡️ Pulls 16 DNS-native filter sources every 5 hours (plus 4 whitelist sources), auto-merges and deduplicates them, filters out browser-only rules for DNS-layer compatibility, and publishes three files via GitHub Pages: `blocklist.txt` (standard), `blocklist-full.txt` (full) and `whitelist.txt`.
 
 ---
 
@@ -35,7 +35,7 @@
 
 - **Standard build (8 sources)**: GOODBYEADS-DNS, Hagezi-Light, Hagezi-DOH, Hagezi-Fake, AdGuard-DNS-filter, halflife-ad-pc, EasyPrivacy, Yoyo
 - **Full build (+8 sources)**: Hagezi-Pro, 217heidai-DNS, OISD-Small, 1Hosts-Lite, DandelionSprout, Notracking, StevenBlack, hostsVN
-- **Whitelist (2 sources + 47 custom entries)**: GOODBYEADS-Allow, Hagezi-Referral + custom CDN/payment/social/video/shopping rules
+- **Whitelist (4 sources + 47 custom entries)**: GOODBYEADS-Allow, Hagezi-Referral, hl2guide-Whitelist, BlueSkyXN-OK + custom CDN/payment/social/video/shopping rules
 
 For per-source rule counts, see the [Chinese README](./README.md#-规则来源统计) — numbers refresh automatically on every merge.
 
