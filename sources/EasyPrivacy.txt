@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610090057
+! Version: 202610090838
 ! Title: EasyPrivacy
-! Last modified: 09 Oct 2026 00:57 UTC
+! Last modified: 09 Oct 2026 08:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e812ed6d6ce626f0bac0094e65e3aac83efd2874
+! Commit: 2fb65b4db83fc71b7d0c2858062866136d5956dd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2894,6 +2894,7 @@
 /wxhawkeye.js
 /wysistat.js
 /x.gif?
+/x0k461/e6c1b/xc9
 /x_track.php?
 /xgemius.js
 /xinhua_webdig.js
@@ -3939,6 +3940,7 @@ omni.soundestlink.com$image
 ||tjk-njk.com^
 ||tkrconnector.com^
 ||tncid.app^
+||tp-em.cc^
 ||trackclicks.info^
 ||trackier.com^
 ||tracking24.net^
@@ -7132,6 +7134,7 @@ omni.soundestlink.com$image
 ||claycandle.com^
 ||cleanhaircut.com^
 ||clearclips.com^
+||clickersdigest.com^
 ||climbingright.com^
 ||cloisteredcurve.com^
 ||clotheswringer.com^
@@ -11467,6 +11470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||elpais.com/t.gif
 ||emarketeer.com/tracker/
 ||emrld.cc^$script
+||emrld.ltd/collect
 ||enc-90128738.b-cdn.net^
 ||endorsal.io/check/
 ||engagelab.com/ma-report/
@@ -11729,7 +11733,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gigya.com^*/cimp.gif?
 ||giosg.com^*/public/trace/
 ||gitbook.com/v1/integrations/googleanalytics/
-||gkx.gokwik.co^
+||gkx.gokwik.co/gke/
+||gkx.gokwik.co/kp/api/v1/fp/
 ||glam.com/cece/agof/
 ||glam.com/ctagsimgcmd.act?
 ||glam.com/jsadimp.gif?
@@ -12201,6 +12206,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mm-sdk-analytics.api.cx.metamask.io^
 ||mmcdn.com/events/
 ||mmi.bemobile.ua^
+||mn-tz.com/adv_out.js
 ||mochiads.com/clk/
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
@@ -16347,6 +16353,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
 ||m365.cloud.microsoft/events
+||ma.gamersnexus.net^
 ||ma.redhat.com^
 ||macys.com/tag_path/
 ||mail.proton.me/api/data/v1/stats
