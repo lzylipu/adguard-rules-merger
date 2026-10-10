@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610100037
+! Version: 202610100818
 ! Title: EasyPrivacy
-! Last modified: 10 Oct 2026 00:37 UTC
+! Last modified: 10 Oct 2026 08:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 83a96a945f2d12028aea90e579b3237234e8fdb1
+! Commit: 21392d80b397ec01d488fcd5be2b1d3b53069aab
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7160,6 +7160,7 @@ omni.soundestlink.com$image
 ||coldbalance.com^
 ||coldcallpro.com^
 ||coloradoserves.com^
+||colorandnoise.com^
 ||colorfulneon.com^
 ||colorfulpet.com^
 ||coloroptimizer.com^
