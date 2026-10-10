@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610100818
+! Version: 202610101708
 ! Title: EasyPrivacy
-! Last modified: 10 Oct 2026 08:18 UTC
+! Last modified: 10 Oct 2026 17:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 21392d80b397ec01d488fcd5be2b1d3b53069aab
+! Commit: 9116c0a8f9efafc925979942f142eac4b7dbbec7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7120,6 +7120,7 @@ omni.soundestlink.com$image
 ||chipcardice.com^
 ||chipperisle.com^
 ||chivalrouscord.com^
+||choicebump.com^
 ||chubbycreature.com^
 ||chunkycactus.com^
 ||cicdserver.com^
@@ -7279,6 +7280,7 @@ omni.soundestlink.com$image
 ||cutsmarter.net^
 ||cyclinghere.com^
 ||cyclopsdial.com^
+||dailydesigned.com^
 ||dailydivision.com^
 ||dailydomino.com^
 ||damagedadvice.com^
@@ -17326,6 +17328,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ubereats.com/_events
 ||ubereats.com/_track
 ||ubt.tracking.shopee.
+||ubta.tracking.shopee.
 ||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
@@ -18018,6 +18021,8 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefi
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
 ! alfalfalfa.com,matometanews.com
 ||ipcheck.blogsys.jp^$redirect=noop.js,script
+! search.rakuten.co.jp
+search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt
