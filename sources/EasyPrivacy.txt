@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610130906
+! Version: 202610131903
 ! Title: EasyPrivacy
-! Last modified: 13 Oct 2026 09:06 UTC
+! Last modified: 13 Oct 2026 19:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d2767619b7d2eccf35eec9bb4246974f35f5d5ee
+! Commit: 0c40a0896a639571960ddb67380be5599bd74076
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7177,6 +7177,7 @@ omni.soundestlink.com$image
 ||combcompetition.com^
 ||cometquote.com^
 ||comfortablecheese.com^
+||commitlogs.com^
 ||comparereaction.com^
 ||compilework.com^
 ||condemnedcomb.com^
@@ -7391,6 +7392,7 @@ omni.soundestlink.com$image
 ||drydrum.com^
 ||dryerwasher.com^
 ||dualping.com^
+||duetcode.com^
 ||dusthorses.com^
 ||dustydime.com^
 ||dustyhammer.com^
@@ -54215,6 +54217,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||werkenntdenbesten.de/js/tracking.
 ||werkenntdenbesten.de/pd.js
 ||wikipedia.de/tracking.js
+||windowspro.de/stats/
 ||witt-weiden.de^$ping
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||wnoz.de/nieyohh8.js
