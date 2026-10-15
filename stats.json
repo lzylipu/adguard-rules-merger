@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-15 07:50:39 (UTC+8)",
+  "updated": "2026-10-15 15:17:26 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 259195,
+    "total": 259305,
     "sources": {
       "GOODBYEADS-DNS": {
-        "raw": 117724,
-        "dns_ok": 117724,
-        "new": 117568,
+        "raw": 117885,
+        "dns_ok": 117885,
+        "new": 117729,
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 184584,
-        "dns_ok": 184452,
-        "new": 184260,
+        "raw": 184686,
+        "dns_ok": 184554,
+        "new": 184362,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56324,
-        "dns_ok": 52072,
-        "new": 47311,
+        "raw": 56326,
+        "dns_ok": 52074,
+        "new": 47312,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 628787,
+    "total": 628521,
     "sources": {
       "Hagezi-Pro": {
         "raw": 195713,
@@ -72,15 +72,15 @@
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
-        "raw": 233449,
-        "dns_ok": 233448,
-        "new": 233448,
+        "raw": 234008,
+        "dns_ok": 234007,
+        "new": 234007,
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 56738,
-        "dns_ok": 56738,
-        "new": 56738,
+        "raw": 55876,
+        "dns_ok": 55876,
+        "new": 55876,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -102,9 +102,9 @@
         "desc": "Notracking 反追踪反广告 hosts（50万规则）"
       },
       "StevenBlack": {
-        "raw": 72539,
-        "dns_ok": 72170,
-        "new": 72170,
+        "raw": 73647,
+        "dns_ok": 73278,
+        "new": 73278,
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
