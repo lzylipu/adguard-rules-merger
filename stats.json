@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-17 23:24:57 (UTC+8)",
+  "updated": "2026-10-18 02:22:34 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 263558,
+    "total": 263616,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 119031,
@@ -12,9 +12,9 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 62903,
-        "dns_ok": 62903,
-        "new": 62903,
+        "raw": 62919,
+        "dns_ok": 62919,
+        "new": 62919,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
@@ -24,15 +24,15 @@
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 17433,
-        "dns_ok": 17433,
-        "new": 17433,
+        "raw": 17431,
+        "dns_ok": 17431,
+        "new": 17431,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 185803,
-        "dns_ok": 185672,
-        "new": 185480,
+        "raw": 185868,
+        "dns_ok": 185737,
+        "new": 185545,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -44,7 +44,7 @@
       "EasyPrivacy": {
         "raw": 56343,
         "dns_ok": 52089,
-        "new": 47323,
+        "new": 47325,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -54,7 +54,7 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 5519
+    "whitelist_removed": 5521
   },
   "whitelist": {
     "total": 8380,
@@ -63,18 +63,18 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 634501,
+    "total": 634517,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 201519,
-        "dns_ok": 201519,
-        "new": 201519,
+        "raw": 201573,
+        "dns_ok": 201573,
+        "new": 201573,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
-        "raw": 237022,
-        "dns_ok": 237021,
-        "new": 237021,
+        "raw": 237065,
+        "dns_ok": 237064,
+        "new": 237064,
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
