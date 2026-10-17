@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-18 02:22:34 (UTC+8)",
+  "updated": "2026-10-18 06:59:52 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 263616,
+    "total": 263668,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 119031,
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 185868,
-        "dns_ok": 185737,
-        "new": 185545,
+        "raw": 185920,
+        "dns_ok": 185789,
+        "new": 185597,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 634517,
+    "total": 634568,
     "sources": {
       "Hagezi-Pro": {
         "raw": 201573,
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 56754,
-        "dns_ok": 56754,
-        "new": 56754,
+        "raw": 56902,
+        "dns_ok": 56902,
+        "new": 56902,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
