@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-19 02:34:02 (UTC+8)",
+  "updated": "2026-10-19 06:58:41 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 264724,
+    "total": 264776,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 119446,
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 186202,
-        "dns_ok": 186071,
-        "new": 185879,
+        "raw": 186254,
+        "dns_ok": 186123,
+        "new": 185931,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 635467,
+    "total": 635174,
     "sources": {
       "Hagezi-Pro": {
         "raw": 202297,
@@ -102,9 +102,9 @@
         "desc": "Notracking 反追踪反广告 hosts（50万规则）"
       },
       "StevenBlack": {
-        "raw": 73647,
-        "dns_ok": 73278,
-        "new": 73278,
+        "raw": 71506,
+        "dns_ok": 71137,
+        "new": 71137,
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
