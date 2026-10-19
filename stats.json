@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-19 06:58:41 (UTC+8)",
+  "updated": "2026-10-19 15:39:02 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 264776,
+    "total": 264494,
     "sources": {
       "GOODBYEADS-DNS": {
-        "raw": 119446,
-        "dns_ok": 119446,
-        "new": 119290,
+        "raw": 119608,
+        "dns_ok": 119608,
+        "new": 119452,
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
@@ -30,19 +30,19 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 186254,
-        "dns_ok": 186123,
-        "new": 185931,
+        "raw": 186382,
+        "dns_ok": 186251,
+        "new": 186059,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
-        "raw": 141269,
-        "dns_ok": 112588,
-        "new": 100493,
+        "raw": 142889,
+        "dns_ok": 114411,
+        "new": 102493,
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56348,
+        "raw": 56350,
         "dns_ok": 52094,
         "new": 47328,
         "desc": "EasyList 隐私追踪"
@@ -54,7 +54,7 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 5539
+    "whitelist_removed": 5538
   },
   "whitelist": {
     "total": 8383,
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 635174,
+    "total": 632595,
     "sources": {
       "Hagezi-Pro": {
         "raw": 202297,
@@ -72,15 +72,15 @@
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
-        "raw": 232431,
-        "dns_ok": 232430,
-        "new": 232430,
+        "raw": 231528,
+        "dns_ok": 231527,
+        "new": 231527,
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 57052,
-        "dns_ok": 57052,
-        "new": 57052,
+        "raw": 57161,
+        "dns_ok": 57161,
+        "new": 57161,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
