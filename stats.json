@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-24 23:47:49 (UTC+8)",
+  "updated": "2026-10-25 02:43:28 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 273340,
+    "total": 273399,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 191497,
-        "dns_ok": 191365,
-        "new": 191173,
+        "raw": 191557,
+        "dns_ok": 191425,
+        "new": 191233,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 642146,
+    "total": 642214,
     "sources": {
       "Hagezi-Pro": {
         "raw": 208296,
@@ -72,15 +72,15 @@
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
-        "raw": 241976,
-        "dns_ok": 241975,
-        "new": 241975,
+        "raw": 242070,
+        "dns_ok": 242069,
+        "new": 242069,
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 59072,
-        "dns_ok": 59072,
-        "new": 59072,
+        "raw": 59217,
+        "dns_ok": 59217,
+        "new": 59217,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -108,9 +108,9 @@
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
-        "raw": 18491,
-        "dns_ok": 18491,
-        "new": 18491,
+        "raw": 18537,
+        "dns_ok": 18537,
+        "new": 18537,
         "desc": "hostsVN 越南/东亚广告+恶意软件 hosts"
       }
     },
