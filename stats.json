@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-28 01:52:41 (UTC+8)",
+  "updated": "2026-10-28 08:24:05 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 279470,
+    "total": 279560,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 184560,
-        "dns_ok": 184428,
-        "new": 184235,
+        "raw": 184650,
+        "dns_ok": 184518,
+        "new": 184325,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,15 +42,15 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56415,
-        "dns_ok": 52158,
+        "raw": 56416,
+        "dns_ok": 52159,
         "new": 47379,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
-        "raw": 3563,
-        "dns_ok": 3563,
-        "new": 3563,
+        "raw": 3566,
+        "dns_ok": 3566,
+        "new": 3566,
         "desc": "Yoyo 经典广告服务器"
       }
     },
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 650184,
+    "total": 652225,
     "sources": {
       "Hagezi-Pro": {
         "raw": 209844,
@@ -72,15 +72,15 @@
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
-        "raw": 240824,
-        "dns_ok": 240823,
-        "new": 240823,
+        "raw": 240855,
+        "dns_ok": 240854,
+        "new": 240854,
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 59388,
-        "dns_ok": 59388,
-        "new": 59388,
+        "raw": 59448,
+        "dns_ok": 59448,
+        "new": 59448,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -102,9 +102,9 @@
         "desc": "Notracking 反追踪反广告 hosts（50万规则）"
       },
       "StevenBlack": {
-        "raw": 74494,
-        "dns_ok": 74125,
-        "new": 74125,
+        "raw": 75965,
+        "dns_ok": 75596,
+        "new": 75596,
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
