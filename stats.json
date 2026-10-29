@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-29 02:17:34 (UTC+8)",
+  "updated": "2026-10-29 08:44:58 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 280291,
+    "total": 280574,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,9 +12,9 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 73103,
-        "dns_ok": 73103,
-        "new": 73103,
+        "raw": 73287,
+        "dns_ok": 73287,
+        "new": 73287,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
@@ -24,15 +24,15 @@
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 17689,
-        "dns_ok": 17689,
-        "new": 17689,
+        "raw": 17687,
+        "dns_ok": 17687,
+        "new": 17687,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 184938,
-        "dns_ok": 184806,
-        "new": 184613,
+        "raw": 185021,
+        "dns_ok": 184889,
+        "new": 184696,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56421,
-        "dns_ok": 52164,
-        "new": 47385,
+        "raw": 56423,
+        "dns_ok": 52166,
+        "new": 47386,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -54,7 +54,7 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 5626
+    "whitelist_removed": 5628
   },
   "whitelist": {
     "total": 8389,
@@ -63,24 +63,24 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 652359,
+    "total": 653593,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 210731,
-        "dns_ok": 210731,
-        "new": 210731,
+        "raw": 211042,
+        "dns_ok": 211042,
+        "new": 211042,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
-        "raw": 241452,
-        "dns_ok": 241451,
-        "new": 241451,
+        "raw": 241710,
+        "dns_ok": 241709,
+        "new": 241709,
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 59680,
-        "dns_ok": 59680,
-        "new": 59680,
+        "raw": 59684,
+        "dns_ok": 59684,
+        "new": 59684,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -102,9 +102,9 @@
         "desc": "Notracking 反追踪反广告 hosts（50万规则）"
       },
       "StevenBlack": {
-        "raw": 75965,
-        "dns_ok": 75596,
-        "new": 75596,
+        "raw": 76161,
+        "dns_ok": 75792,
+        "new": 75792,
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
