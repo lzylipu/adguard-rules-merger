@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-29 08:44:58 (UTC+8)",
+  "updated": "2026-10-29 16:20:03 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 280574,
+    "total": 280679,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 185021,
-        "dns_ok": 184889,
-        "new": 184696,
+        "raw": 185126,
+        "dns_ok": 184994,
+        "new": 184801,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56423,
-        "dns_ok": 52166,
-        "new": 47386,
+        "raw": 56424,
+        "dns_ok": 52167,
+        "new": 47387,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 653593,
+    "total": 653696,
     "sources": {
       "Hagezi-Pro": {
         "raw": 211042,

@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610290041
+! Version: 202610290808
 ! Title: EasyPrivacy
-! Last modified: 29 Oct 2026 00:41 UTC
+! Last modified: 29 Oct 2026 08:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4e5cf7836a275c948371b9f66fa0c2e49b3d594c
+! Commit: 17a7c4884a5fc1cccf70af581bddba775fcfd9f3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54107,6 +54107,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||data.manga-passion.de^
 ||data.openerotik.com^
 ||data.sportdeutschland.tv^
+||dbik.literatur-couch.de^
 ||dd.betano.com^
 ||dein-plan.de/t.gif
 ||deine-tierwelt.de/ajax/responsive/stats.php?
