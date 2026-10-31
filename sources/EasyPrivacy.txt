@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610310802
+! Version: 202610311659
 ! Title: EasyPrivacy
-! Last modified: 31 Oct 2026 08:02 UTC
+! Last modified: 31 Oct 2026 16:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5440122ea26529d01eac73223edf473efa67acf0
+! Commit: a01e272ef1af4821307a145327009ce33d54f8a1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3970,6 +3970,7 @@ omni.soundestlink.com$image
 ||turbolion.io^
 ||tvpixel.com^
 ||tw.cx^
+||ubbrobccheck20.cc^
 ||ugdturner.com^
 ||uidapi.com^
 ||uimarketpro.com^
@@ -7147,6 +7148,7 @@ omni.soundestlink.com$image
 ||ciderfeast.com^
 ||cinemabonus.com^
 ||cinemafair.com^
+||circascope.com^
 ||circlelevel.com^
 ||citizensactive.com^
 ||citydeal.net^
@@ -7920,6 +7922,7 @@ omni.soundestlink.com$image
 ||j93557g.com^
 ||jailbulb.com^
 ||jamexport.com^
+||jazzpianofast.com^
 ||jellyfinstream.com^
 ||jetskiscovers.com^
 ||jewelryforest.com^
@@ -7928,6 +7931,7 @@ omni.soundestlink.com$image
 ||joblessdrum.com^
 ||jobmist.com^
 ||joshpaintings.com^
+||joybegins.com^
 ||joyfulharbor.com^
 ||joyouspool.com^
 ||joyoussurprise.com^
@@ -7956,6 +7960,7 @@ omni.soundestlink.com$image
 ||kartbarriersystem.com^
 ||keenquill.com^
 ||kernellife.com^
+||keymono.net^
 ||kidpowers.com^
 ||kidrobotgames.com^
 ||kindhush.com^
@@ -11636,6 +11641,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.mapbox.com^
 ||events.matterport.com^
 ||events.medio.com^
+||events.mics-notrack.com^
 ||events.missena.io^
 ||events.ocdn.eu^
 ||events.paramount.tech^
