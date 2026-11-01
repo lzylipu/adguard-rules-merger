@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610312355
+! Version: 202611010838
 ! Title: EasyPrivacy
-! Last modified: 31 Oct 2026 23:55 UTC
+! Last modified: 01 Nov 2026 08:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c7c8742a2f7c14f8f64a878bb022c9757aac8091
+! Commit: feebe1ab36530ae67f91214e37909e32463c0c53
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7922,6 +7922,7 @@ omni.soundestlink.com$image
 ||j93557g.com^
 ||jailbulb.com^
 ||jamexport.com^
+||jazzdocumentary.com^
 ||jazzpianofast.com^
 ||jellyfinstream.com^
 ||jetskiscovers.com^
@@ -15254,6 +15255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webpushstat.api.engagelab.cc^
 ! Turkish
 ||0.myikas.com^
+||affilialab.com/tracker.js
 ||analitik.bik.gov.tr^
 ||analytic.is^
 ||analytics.cdnstr.com^$third-party
