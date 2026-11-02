@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-02 01:52:16 (UTC+8)",
+  "updated": "2026-11-02 08:30:45 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 285019,
+    "total": 285132,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -30,15 +30,15 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 186393,
-        "dns_ok": 186261,
-        "new": 186068,
+        "raw": 186512,
+        "dns_ok": 186380,
+        "new": 186187,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
-        "raw": 145383,
-        "dns_ok": 116894,
-        "new": 104972,
+        "raw": 136279,
+        "dns_ok": 107752,
+        "new": 95836,
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 658112,
+    "total": 659539,
     "sources": {
       "Hagezi-Pro": {
         "raw": 211739,
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 59326,
-        "dns_ok": 59326,
-        "new": 59326,
+        "raw": 59417,
+        "dns_ok": 59417,
+        "new": 59417,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -102,9 +102,9 @@
         "desc": "Notracking 反追踪反广告 hosts（50万规则）"
       },
       "StevenBlack": {
-        "raw": 76750,
-        "dns_ok": 76381,
-        "new": 76381,
+        "raw": 77772,
+        "dns_ok": 77403,
+        "new": 77403,
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
