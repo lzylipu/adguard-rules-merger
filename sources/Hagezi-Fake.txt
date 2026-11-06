@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 05 Nov 2026 23:09 UTC
-! Version: 2026.1105.2309.55
+! Last modified: 06 Nov 2026 15:08 UTC
+! Version: 2026.1106.1508.02
 ! Syntax: AdBlock
-! Number of entries: 18910
+! Number of entries: 18969
 !
 ||eu.2bagsvalley.cn^
 ||de.activenutra.coupons^
@@ -76,6 +76,7 @@
 ||champion.co.at^
 ||coachtaschen.co.at^
 ||comme-des-garcons.co.at^
+||crocsoutlet.co.at^
 ||damsonmadder.co.at^
 ||danners.co.at^
 ||deuter.co.at^
@@ -128,10 +129,12 @@
 ||superdry.co.at^
 ||talvurieks-official.co.at^
 ||teddith.co.uk^
+||timberland.co.at^
 ||timbuk2.co.at^
 ||uggs.co.at^
 ||uklandregistryportal.co.uk^
 ||veja.co.at^
+||wacaco.co.at^
 ||waterfinder.co.za^
 ||webers.co.at^
 ||wilson.co.at^
@@ -161,6 +164,7 @@
 ||giesswein.com.de^
 ||goussve.com.br^
 ||green-shop.com.ua^
+||guterkauf.com.de^
 ||hollister.com.de^
 ||houselar.com.br^
 ||jomi.com.de^
@@ -376,7 +380,6 @@
 ||larevuebeaute.marquessa.fr^
 ||web.matignondeveloppement2-group.com^
 ||asfinang.maut-e-vignette.shop^
-||store.mavelimira.com^
 ||friwl.mega-preise.com^
 ||ogk.meineoegk-at.store^
 ||adilizzz2748.mfuvis.shop^
@@ -581,6 +584,7 @@
 ||adc0219647979.page.link^
 ||www.buy-bitcoin.pagedemo.co^
 ||login.parsev.com^
+||store.pavridora.com^
 ||cs.penoxal.com^
 ||cz.penoxal.com^
 ||at.pkajwb.shop^
@@ -1174,6 +1178,7 @@
 ||allthatjazz.at^
 ||alltimeshop.de^
 ||alltimesupermarket.com^
+||alltoolsstore.com^
 ||alltopinvest.com^
 ||alltopjewels.com^
 ||alltoys.store^
@@ -1838,6 +1843,7 @@
 ||autoteile-deutschland.com^
 ||autoteile-kt.de^
 ||autoteile-waschlowsky.de^
+||autoteile-wf.de^
 ||autoteileanton.de^
 ||autoteiledirektpro.com^
 ||autoteilefachmarkt.de^
@@ -2157,6 +2163,7 @@
 ||beaccustomed.com^
 ||beachitem.com^
 ||beachsissi.com^
+||beachwalkbali.com^
 ||beambead.com^
 ||beatricesavoy.de^
 ||beatusbikes.com^
@@ -2391,6 +2398,7 @@
 ||bestellen-ciao-ciao-pf.de^
 ||bestellundgut.de^
 ||bestelnuar.click^
+||bestemed.com^
 ||bestemedikamente.com^
 ||bestenwahl.de^
 ||besteonlineapotheke.com^
@@ -2412,7 +2420,6 @@
 ||bestgenericonline.com^
 ||besthealthsup.com^
 ||besthomeship.com^
-||besthunny.com^
 ||bestkigu.com^
 ||bestkitchenwarede.com^
 ||bestlook.store^
@@ -2430,6 +2437,7 @@
 ||bestpagjkl.com^
 ||bestpharm-eu.com^
 ||bestpillpharmacy.com^
+||bestpillsnetwork.com^
 ||bestpricetreatments.com^
 ||bestproductsonlinestore.com^
 ||bestprogift.com^
@@ -2620,6 +2628,7 @@
 ||binareo.com^
 ||binarinvest.com^
 ||binaritrading.com^
+||binarycent.com^
 ||binarylowcost.com^
 ||binarymarkets.com^
 ||binarymate.com^
@@ -2689,6 +2698,7 @@
 ||bitcoinmotion.io^
 ||bitcoinrevolution.org^
 ||bitcoins-central.com^
+||bitconnect.co^
 ||bitcostar.com^
 ||bitebuns.com^
 ||bitecbrennstoffe.de^
@@ -2699,6 +2709,7 @@
 ||biticodes.com^
 ||bitindex.ai^
 ||bitiq.app^
+||bitkelttrade.com^
 ||bitlast.com^
 ||bitonite.com^
 ||bitoraxe.com^
@@ -3022,6 +3033,7 @@
 ||brennholzbredemeier.com^
 ||brennholzdirekt.com^
 ||brennholzgarten.de^
+||brennholzgigante.de^
 ||brennholzhandelmartens.com^
 ||brennholzhaus.com^
 ||brennholzhaus.de^
@@ -3244,6 +3256,7 @@
 ||c-und-a-austria.com^
 ||c24.life^
 ||ca-agentur.de^
+||ca-pharm.net^
 ||caactioncoalition.org^
 ||caay-berlin.com^
 ||caballde.com^
@@ -3317,8 +3330,10 @@
 ||canadianhealthcaremalll.com^
 ||canadianhealthcarepharmacymall.com^
 ||canadianhealthncaremall.com^
+||canadianinsulin.com^
 ||canadianipharmacy.com^
 ||canadiannewstoday.com^
+||canadianokpharmacy.com^
 ||canadianpharmacysir.com^
 ||canadianpharmacyworld.com^
 ||canaryvacationhome.com^
@@ -3368,6 +3383,7 @@
 ||cardcusmos.com^
 ||cardetergent.com^
 ||cardvae.com^
+||caredogbest.com^
 ||carehealthlife.com^
 ||carenson.com^
 ||careshop.shop^
@@ -3477,6 +3493,7 @@
 ||celerypets.com^
 ||celeste-botanicals.com^
 ||celinemichaud.com^
+||cellpeptides.com^
 ||cellphonelocation.net^
 ||cellumove-de.com^
 ||celluweg.de^
@@ -3518,6 +3535,7 @@
 ||chacos.at^
 ||chacosdeutschland.de^
 ||chaitox.com^
+||champion-bulldoggen.com^
 ||champion-polska.pl^
 ||championclchile.com^
 ||championdanmark.com^
@@ -3545,6 +3563,8 @@
 ||chauffage-energie.com^
 ||chaussuressimple.com^
 ||chcierekci.cc^
+||che.com^
+||cheap-pharma.com^
 ||cheapcharly.de^
 ||cheapestcosmetic.com^
 ||cheapmondo.com^
@@ -3656,9 +3676,11 @@
 ||claracasperjuwelen.de^
 ||clarachristine-wien.at^
 ||claraluzern.ch^
+||clarks-de.de^
 ||clarks-germany.com^
 ||clarks-osterreich.com^
 ||clarks-schweiz.com^
+||clarksaustria.at^
 ||clarksdeutschlandsale.com^
 ||clarksgermany.com^
 ||clarksmontreal.net^
@@ -3708,6 +3730,7 @@
 ||clickcarvey.com^
 ||clickgadgets.club^
 ||clicklamp.com^
+||clickworker.de^
 ||clifbarosterreich.at^
 ||cliirdeluneparfum.com^
 ||climiqx.com^
@@ -4036,6 +4059,7 @@
 ||cryptoassetscontrol.com^
 ||cryptocase.online^
 ||cryptocash24.com^
+||cryptoeasily.com^
 ||cryptofast.net^
 ||cryptofundfx.com^
 ||cryptomoney888.com^
@@ -4535,6 +4559,7 @@
 ||deutere.com^
 ||deutmart.de^
 ||deutsch-brennholz.de^
+||deutschapotheke.com^
 ||deutschdeal.com^
 ||deutsche-energieoptimierungsgesellschaft.com^
 ||deutsche-rentenauskunft.de^
@@ -4927,8 +4952,10 @@
 ||druckerpratonen.de^
 ||druckerzubbehoer.de^
 ||drugeo.to^
+||drugs-1.com^
 ||drugs247.net^
 ||drugsline.org^
+||druhnn.de^
 ||drumcovere.com^
 ||drwundero.shop^
 ||drykorngeschaft.com^
@@ -5085,8 +5112,10 @@
 ||eccooutletdeutschland.de^
 ||eceq.org^
 ||echlat.com^
+||echtdokumente.com^
 ||echtdruck.de^
 ||echtleinwando.shop^
+||eck-grill.de^
 ||eckert-handel.de^
 ||eclipsa.de^
 ||eclipseecho.com^
@@ -5463,6 +5492,7 @@
 ||eradobox.com^
 ||eradsport.de^
 ||eradstore.de^
+||erate.com^
 ||erdbeerblase.de^
 ||erectionpills.store^
 ||erektile-apotheke24.de^
@@ -5611,10 +5641,12 @@
 ||europalettenmoebel.de^
 ||europe-pack.eu^
 ||europe-pharm.com^
+||europe-pharm.net^
 ||europe-pimco.com^
 ||european-pharmacy.online^
 ||europeangeneric.com^
 ||europeanpharm.net^
+||europharmacy.net^
 ||europharmacyonline.com^
 ||europharms.com^
 ||europharmsonline.com^
@@ -5692,6 +5724,7 @@
 ||exo-marketing.com^
 ||exodermin.com^
 ||exodermin.eu^
+||exopip.com^
 ||exotekracingparts.com^
 ||exoticappearance.com^
 ||expedangebote.com^
@@ -6019,6 +6052,7 @@
 ||festgeldsicher.at^
 ||festivaldefrente.com^
 ||festoolz.shop^
+||fetishmegastore.com^
 ||fettabsaugung-in-koeln.de^
 ||fettverbrenneronline.com^
 ||feuchtigkeits.de^
@@ -6287,6 +6321,7 @@
 ||foamr.ch^
 ||foamr.de^
 ||foamr.nl^
+||foamyclaus.store^
 ||fochcenter-wagnor.shop^
 ||focusetenergie.com^
 ||foerdertechniks.com^
@@ -6357,6 +6392,7 @@
 ||fortis-heizoel.de^
 ||fortis-prime.com^
 ||fortisgeschaft.com^
+||fortuna-invest.com^
 ||fortunaiteliastore.com^
 ||fortunatecy.com^
 ||fortunatelyt.com^
@@ -6550,6 +6586,7 @@
 ||futeko.shop^
 ||futofol.com^
 ||futterfurtauben.com^
+||futurbtc.com^
 ||future-sales.com^
 ||futurecartdeals.com^
 ||futuregolds.com^
@@ -6618,6 +6655,7 @@
 ||gaiaboutique.de^
 ||gain-deals.de^
 ||gainexo.com^
+||gainful-markets.com^
 ||gaingeneratorpro.de^
 ||gainsandrosez.shop^
 ||galactict.com^
@@ -6815,6 +6853,7 @@
 ||gbr-office.de^
 ||gbuynix.com^
 ||gcash-casino-ph.com^
+||gcitrading.com^
 ||gdbois.com^
 ||geappliances-shop.com^
 ||gear-outdoors.com^
@@ -7240,6 +7279,7 @@
 ||good-option.com^
 ||good-outdoor-shop.com^
 ||good-oz.shop^
+||good-pills.com^
 ||good-whiskey.com^
 ||goodbrushshop.com^
 ||goodensolarenergylimited.com^
@@ -7321,6 +7361,7 @@
 ||grazmodehaus.at^
 ||greatescapery.com^
 ||greatestpod.com^
+||greatpillsshops.com^
 ||greattioa.com^
 ||greecefarmakeio.com^
 ||green-coffo.shop^
@@ -7553,6 +7594,7 @@
 ||hamburgermenetekel.de^
 ||hamburgmode.com^
 ||hampel.shop^
+||hamsterkiste.de^
 ||hamtillo.shop^
 ||hamuelmaschinen.com^
 ||han3szd2ork.com^
@@ -7809,6 +7851,7 @@
 ||heiz-oel24.com^
 ||heiz-partner24.de^
 ||heizara.de^
+||heizbedarf24.com^
 ||heizco.de^
 ||heizdirekt.de^
 ||heizela.de^
@@ -8554,6 +8597,8 @@
 ||immediate-coraldex.com^
 ||immediate-dash.de^
 ||immediate-direct.com^
+||immediate-edge.co^
+||immediate-edge2.com^
 ||immediate-flik.com^
 ||immediate-growth.com^
 ||immediate-momentum.com^
@@ -8778,6 +8823,7 @@
 ||ioneebeauty.com^
 ||iount.com^
 ||iovyshop.com^
+||iowautotrading.com^
 ||ipgatetrade.pro^
 ||ipicosports.de^
 ||ipothekenwellness.com^
@@ -9206,6 +9252,7 @@
 ||kamagra-premium.net^
 ||kamagra-pro.com^
 ||kamagra-pro.net^
+||kamagra-pro.online^
 ||kamagra-prodej.cz^
 ||kamagra-prodej.online^
 ||kamagra-prodej-levne.cz^
@@ -9425,6 +9472,7 @@
 ||kettenschein.com^
 ||ketteverkauf.com^
 ||keucoverkauf.com^
+||kevindurantshoes.net^
 ||kevtt.com^
 ||key34.com^
 ||keyblissboutique.com^
@@ -9537,6 +9585,7 @@
 ||kittykaiser.de^
 ||kiuf1.com^
 ||kiwea.shop^
+||kiwidrug.com^
 ||kiwifunk.com^
 ||kizaro.de^
 ||kizorknives.shop^
@@ -9741,6 +9790,7 @@
 ||krause-winter.com^
 ||krausmode.de^
 ||kraviso.com^
+||krdsiq.info^
 ||kreative-zukunft.com^
 ||kreativebodenbelage.com^
 ||kredit-finanzen.com^
@@ -10011,6 +10061,7 @@
 ||lbzdzx.com^
 ||lccontainersupply.com^
 ||lcfservice.com^
+||lcg.com^
 ||lcm-markets.com^
 ||lcxholz.de^
 ||le-cartier.com^
@@ -10393,6 +10444,7 @@
 ||loggiawelt.com^
 ||logic-work.com^
 ||logitechoutlet-eu.shop^
+||lohmann-mode.de^
 ||lohr-treuhand.com^
 ||lojabrmetaversoline.com^
 ||lojaeconoshop.com^
@@ -10641,7 +10693,6 @@
 ||lydevmkt.shop^
 ||lydiarenoir.com^
 ||lynch-care.com^
-||lynorhome.net^
 ||lypgm.com^
 ||lyveroscentrix.com^
 ||lyxorassetmanagement.com^
@@ -10676,7 +10727,6 @@
 ||madinp.com^
 ||maeandrose.de^
 ||maehlholz.com^
-||maehrobot.shop^
 ||maerkischeskinderdorf.de^
 ||magag.de^
 ||magalistore.com^
@@ -10816,12 +10866,10 @@
 ||marcjacobsfactoryoutlet.us^
 ||marcjacobsosterreich.at^
 ||marcoferretti.de^
-||marconzept.com^
 ||marconzept.de^
 ||marcopolorabatt.com^
 ||marcosbrito.com^
 ||marctissior.shop^
-||marcuweklingboutique.shop^
 ||marcveriont.de^
 ||mardano.com^
 ||margarethes-garten.com^
@@ -10897,8 +10945,6 @@
 ||marvelous-shopping.com^
 ||marwoodworkshop.com^
 ||maryrosecuskelly.com^
-||marystyles.com^
-||maschine1shop.com^
 ||maschinenbau-marketingtranslations.com^
 ||maschinenfuergarten.de^
 ||maschinenpreiswert.com^
@@ -10910,10 +10956,8 @@
 ||masri-trans.de^
 ||massagestimulus.com^
 ||massen.shop^
-||massimo-dutti.at^
 ||massive-deals.com^
 ||masterbaushop.de^
-||masterofmalteu.shop^
 ||masters-dipl-kfm.de^
 ||masterufblades.com^
 ||masti.store^
@@ -10960,7 +11004,6 @@
 ||maxmotocenter.com^
 ||maxpeedingrods.de^
 ||maxpotenz.de^
-||maxwellwilliamshop.com^
 ||maxx-prijevoz.com^
 ||mayer-boutique.de^
 ||mayerhuber.at^
@@ -11005,9 +11048,6 @@
 ||mediaeffect-ug.de^
 ||mediafritz.com^
 ||mediamarkt-berlin.com^
-||mediamarkt-gg.com^
-||mediamarkt-gg.de^
-||mediamarkt-holland.com^
 ||mediaplus.shop^
 ||mediastore.tech^
 ||medicalgroupsk.sk^
@@ -11082,12 +11122,10 @@
 ||mein-ebike.de^
 ||mein-ebikepro.com^
 ||mein-euro-kredit.de^
-||mein-garten-deco.com^
 ||mein-gartenmarkt.de^
 ||mein-gartentor.de^
 ||mein-gewaechshaus-shop.de^
 ||mein-handel.at^
-||mein-kleinerhuhnerstall.com^
 ||mein-pluschtier.de^
 ||mein-technikmarkt.com^
 ||mein-thermenwartung.at^
@@ -11170,6 +11208,7 @@
 ||mellowivor.com^
 ||melodigear.com^
 ||melorcaguilla.com^
+||melovaxi.org^
 ||melroseangebote.de^
 ||melrosede.com^
 ||melvaria.shop^
@@ -11177,7 +11216,6 @@
 ||member-federation.com^
 ||membershipy.com^
 ||memberxxl.de^
-||memecoin.boo^
 ||memonei.com^
 ||memory-tee.com^
 ||menaci.com^
@@ -11207,7 +11245,6 @@
 ||mepalconstruction.com^
 ||mepalconstructionmodulaire.com^
 ||merapack.com^
-||merapetfood.shop^
 ||mercadobuyprice.com^
 ||mercadolibre.at^
 ||mercapool.de^
@@ -11255,7 +11292,6 @@
 ||mexdkjuf.com^
 ||mexdkjuo.com^
 ||mexicotabs.com^
-||meyerenergie.com^
 ||meyerpoolwelt.com^
 ||mezam.dk^
 ||mfboutiquestore.tools^
@@ -11276,7 +11312,6 @@
 ||mialea.de^
 ||miamarket.de^
 ||mica-forensic.com^
-||micaraapop.shop^
 ||michael-fischer-online.de^
 ||michael-mahr.de^
 ||michaelis-technik.com^
@@ -11286,7 +11321,6 @@
 ||michelinsuisse.com^
 ||micro-spiele.de^
 ||microduck.homes^
-||microduck.shop^
 ||microption.com^
 ||microsotfsstore.com^
 ||midalo.de^
@@ -11336,7 +11370,6 @@
 ||militurestore.com^
 ||millaura.com^
 ||milleis-bk.com^
-||milleniumchain.com^
 ||milleniumcp.com^
 ||million-recht.de^
 ||millioncrystal.com^
@@ -11411,7 +11444,6 @@
 ||mit-grovur.shop^
 ||mitarbeiiterangebote.de^
 ||mitchellandness-de.com^
-||miteckenundkantenboutique.shop^
 ||mitkindundrad.de^
 ||mitsubishiautopartsshop.com^
 ||miumiufactoryoutletuk.com^
@@ -11459,7 +11491,6 @@
 ||mobefind-de.com^
 ||mobel-lenk.shop^
 ||mobel-lenk.store^
-||mobel-wahls.shop^
 ||mobelbett.com^
 ||mobelimfreien.com^
 ||mobelmagie.com^
@@ -11484,7 +11515,6 @@
 ||mobitracker.org^
 ||mobixstore.com^
 ||mochathedogstore.de^
-||mocne-suple.com^
 ||mocucinastore.shop^
 ||moda-monica.de^
 ||modafinil.cz^
@@ -11502,7 +11532,6 @@
 ||mode-shop-1.de^
 ||mode-wunder.de^
 ||modeackermann.de^
-||modeatelier-nord.de^
 ||modeatelier-weber.de^
 ||modebasket.com^
 ||modebecker.de^
@@ -11518,7 +11547,6 @@
 ||modehaus-schroers.com^
 ||modehausbrandt.com^
 ||modehausedelweis.com^
-||modehausessen.de^
 ||modehausfischer.com^
 ||modehausgruber.com^
 ||modehausmunchen.com^
@@ -11530,7 +11558,6 @@
 ||modellbahn-store.com^
 ||modellbahn-versandhaus.de^
 ||modellbahnbase.com^
-||modellbahnshop-club.shop^
 ||modellbau-zentrum.com^
 ||modellbaubasis.com^
 ||modellbaubillig.com^
@@ -11600,9 +11627,7 @@
 ||mojekamagra.com^
 ||mojekamagra.cz^
 ||mojekamagra.eu^
-||mojekamagra.org^
 ||mojekamagra.pro^
-||mojekamagra.shop^
 ||mojekamagra.store^
 ||mojekamagra.top^
 ||mokashoptop.com^
@@ -11632,6 +11657,7 @@
 ||mondycar.de^
 ||monecoplus.com^
 ||monexis.co^
+||mongi.at^
 ||monicasneaker.cc^
 ||monido.de^
 ||monika-mueller-brennholzhandel.de^
@@ -11665,10 +11691,9 @@
 ||monthlyi.com^
 ||montivo.de^
 ||montmode.de^
+||montrereplique.to^
 ||monvada.de^
-||moodcheerful.com^
 ||moodlily.de^
-||moodors.shop^
 ||mooje.de^
 ||mooje.eu^
 ||moonbootargentina.com^
@@ -11691,7 +11716,6 @@
 ||moonbootukstore.com^
 ||moonetrix.com^
 ||moongadgets.com^
-||moongor.com^
 ||moonkie.de^
 ||moonpod.de^
 ||moontod.com^
@@ -11713,13 +11737,11 @@
 ||morstik.shop^
 ||mortalvessel.com^
 ||mortonoz.shop^
-||morvath-ltd.com^
 ||mosaicdevelopmentonline.com^
 ||mosaik-invest.com^
 ||mosano.de^
 ||mosbax.com^
 ||moschinosale.de^
-||moscotberlin.de^
 ||moserwiesn.de^
 ||mosessions.com^
 ||mosmankoch.de^
@@ -11763,7 +11785,6 @@
 ||mountainebikeprices.com^
 ||mountainmon.shop^
 ||mountaistorenmovers.com^
-||moveislar.com^
 ||movementkoeln.de^
 ||movilatino.com^
 ||mowaconcept.com^
@@ -11797,7 +11818,6 @@
 ||msihandelgmbh.de^
 ||msmmetallindustry.com^
 ||mstf.de^
-||mt4gestion.com^
 ||mt4invest.com^
 ||mtbandroad.com^
 ||mtbrennholz.com^
@@ -11805,11 +11825,9 @@
 ||mtlprivatelibel.com^
 ||mto-service.com^
 ||mtquality.com^
-||mu-muse.com^
 ||muallerglasat.com^
 ||muckbootdanmark.com^
 ||muckbootsosterreich.at^
-||muckbootsoutletstore.de^
 ||muckbootssverige.com^
 ||mudamodashop.com^
 ||mudanzasideal.com^
@@ -11827,7 +11845,6 @@
 ||mulebir.com^
 ||mulevas.com^
 ||mullandfraser.com^
-||muller-berlin.co^
 ||muller-graz.com^
 ||mullermode.de^
 ||mullers-modehaus.com^
@@ -11861,7 +11878,6 @@
 ||musicalvortex.com^
 ||musicgearfashion.com^
 ||musicianshop.de^
-||musicworldde.com^
 ||musik-laden.com^
 ||musik-planet.com^
 ||musik-zubehoerwerk.com^
@@ -11889,7 +11905,6 @@
 ||mvleingarten.de^
 ||mxdara.com^
 ||my-benovation.com^
-||my-garden-store.com^
 ||my-harrio.shop^
 ||my-jinsha-online.com^
 ||my-leyou-online.com^
@@ -11938,6 +11953,7 @@
 ||mylovecosmetic.de^
 ||mylumenx.com^
 ||myluxoutletop.com^
+||mymedicalshop365.top^
 ||mymedshoplive.com^
 ||mynacos.com^
 ||mynanosparkle.com^
@@ -11953,11 +11969,8 @@
 ||myproteinoutleteur.com^
 ||myquoteswiss.com^
 ||myrrhrituals.shop^
-||myschmidts.shop^
 ||mysecondeor.shop^
 ||myshania.de^
-||myskins.co^
-||mysolis.shop^
 ||mysolution24.de^
 ||mysomarkand.shop^
 ||mysoy.shop^
@@ -11982,7 +11995,6 @@
 ||myzenistitch.com^
 ||nabenprada.com^
 ||nabolu.de^
-||nachhaltigeherrenmode.com^
 ||nachhaltigewohndeko.com^
 ||nackel-handel.de^
 ||nada-nada.com^
@@ -12022,7 +12034,6 @@
 ||nativediscount.com^
 ||nattoubabyspielzeug.com^
 ||natuerlich-natuerlo.shop^
-||natuerlichfutter.com^
 ||natur-brennholz.de^
 ||natur-held.de^
 ||naturacare360.com^
@@ -12055,7 +12066,6 @@
 ||natuuroutlet.com^
 ||naughtynutoz.shop^
 ||nauticalpartsstore.com^
-||nauticaromania.com^
 ||nauticasdeutschland.de^
 ||nauticaukwebsite.com^
 ||nauticwerk.com^
@@ -12093,7 +12103,6 @@
 ||needsary.com^
 ||needtohike.com^
 ||nejlepsi-lekarna.to^
-||nejlevnejsigenerika.co^
 ||nejlevnejsigenerika.to^
 ||nellura.com^
 ||nemanex.at^
@@ -12113,7 +12122,6 @@
 ||neroo.de^
 ||nerooflow.com^
 ||nesgesfinancemempoolexchange.com^
-||neshno.de^
 ||nestauralabglow.com^
 ||nestglobalx.com^
 ||nestkraft.de^
@@ -12137,7 +12145,6 @@
 ||nettimarkt.de^
 ||nettjade.de^
 ||nettoautoteile.de^
-||nettradecap.com^
 ||netum.net^
 ||neturecan.com^
 ||netzpro.shop^
@@ -12204,7 +12211,6 @@
 ||newyorknewsnet.com^
 ||nexaoutlethub24.shop^
 ||nexavor.shop^
-||nexberg-ag.co^
 ||nexet.xyz^
 ||nexo-ki.com^
 ||nexoil.de^
@@ -12222,14 +12228,13 @@
 ||nexxco24.de^
 ||neymad88.top^
 ||nflfanaticsstore.com^
+||nftoe.shop^
 ||nger.de^
 ||nguebelipharma.com^
-||nhcol.com^
 ||nhltrikotde.com^
 ||nholz.com^
 ||niaboutique.de^
 ||niazm.com^
-||nibeguq.com^
 ||nibuleusebijoux.com^
 ||nicechmk.shop^
 ||nicedoc.co^
@@ -12251,6 +12256,7 @@
 ||nightskyshop.de^
 ||niholss.store^
 ||niithera.com^
+||nikeairvapormax.us^
 ||nikeinsuomi.com^
 ||nikesuomi-fi.com^
 ||nikicloth.de^
@@ -12268,7 +12274,6 @@
 ||ninoplay.de^
 ||nioekure.com^
 ||niomo.shop^
-||nirana.de^
 ||niruox.com^
 ||nittogeschaft.com^
 ||nituralelements.com^
@@ -12316,7 +12321,6 @@
 ||nordevantis.de^
 ||nordhaus-handel.de^
 ||nordic-pellets.de^
-||nordicasaunastore.shop^
 ||nordicdecor.de^
 ||nordicdrop.de^
 ||nordicglimmer.com^
@@ -12629,6 +12633,7 @@
 ||ohssl.org^
 ||oicoshop.shop^
 ||oil-direkt.de^
+||oil-profits.com^
 ||oilexa.de^
 ||oilprofit.io^
 ||oils-natural.cc^
@@ -12754,8 +12759,10 @@
 ||onlineanabolika.com^
 ||onlinebedroom.com^
 ||onlinebluberri.com^
+||onlinebonuscasino-de.de^
 ||onlinebusinessdorf.de^
 ||onlinecasinodeutschliste.de^
+||onlinecasinomitschnellerauszahlung.de^
 ||onlinecasinoparis.com^
 ||onlinecasinositeindia.com^
 ||onlinecasinoslasvegas.com^
@@ -13122,6 +13129,7 @@
 ||panbrennholz.de^
 ||panda-financial.com^
 ||pandabrokersvip.com^
+||pandaparkens.com^
 ||pandora-at.at^
 ||pandora-deutschland.de^
 ||pandora-outlet.de^
@@ -13129,6 +13137,7 @@
 ||pandorade.de^
 ||pandorakorut.com^
 ||pandoraringsuk.com^
+||pandoras-outlet.com^
 ||panelaeki.de^
 ||pankratiusgarten.de^
 ||panolu-shop.com^
@@ -13188,6 +13197,7 @@
 ||paxmining.com^
 ||payforweal.com^
 ||payice.xyz^
+||paypalcasino-online.de^
 ||paywayslite.com^
 ||pbici.com^
 ||pbm-energy.com^
@@ -13365,6 +13375,8 @@
 ||phamstoretcg.de^
 ||pharm-24h.com^
 ||pharm-discount.com^
+||pharm-discounter.com^
+||pharm-store.com^
 ||pharma-cards.de^
 ||pharma-euro.com^
 ||pharma-versandhandel.de^
@@ -13507,6 +13519,7 @@
 ||plasticsdaily.com^
 ||plasticshor.com^
 ||platform-ai-trade.com^
+||platincoin.com^
 ||platinwerk.de^
 ||platten24.com^
 ||platzimgarten.com^
@@ -13681,6 +13694,7 @@
 ||preistech.de^
 ||preiswertoutdoor.com^
 ||prelox-guenstiger.de^
+||premier-dream.co^
 ||premiercarry.com^
 ||premierdeals.online^
 ||premierkitos.shop^
@@ -13950,6 +13964,7 @@
 ||quantum-banc.world^
 ||quantumai.fr^
 ||quantumaiplatform.com^
+||quantumchemlab.com^
 ||quantumprimeprofit.io^
 ||quantumtrade.co^
 ||quantumtrade.io^
@@ -13991,6 +14006,7 @@
 ||qytre.com^
 ||qzzfg7zy0r.online^
 ||r-handels.de^
+||ra-ganske.de^
 ||ra-gsklegal.de^
 ||ra-rick.de^
 ||raasen.com^
@@ -14103,6 +14119,7 @@
 ||raumzauberde.com^
 ||ravenciax.shop^
 ||rawaqbeauty.com^
+||raybansales.us^
 ||rayfulcrystal.com^
 ||razys.de^
 ||razysshop.com^
@@ -14148,6 +14165,7 @@
 ||receptiond.com^
 ||recetasplus.com^
 ||rechtsanwalt-breithaupt.de^
+||rechtsanwalt-kuder.de^
 ||rechtsanwalt-sirrenberg.de^
 ||rechtsanwalt-wiegmann.de^
 ||rechtsanwaltkramer.de^
@@ -14191,9 +14209,11 @@
 ||registerzentrale.de^
 ||rehaubrandstore.com^
 ||rehearsalk.com^
+||rehman-remote.de^
 ||reifemode.com^
 ||reifen-dreyer.com^
 ||reifencheck.net^
+||reifenivo.de^
 ||reifenritter.com^
 ||reifensverkauf.com^
 ||reifkogel24.de^
@@ -14202,10 +14222,12 @@
 ||reindesigner-handel.de^
 ||reineblume.de^
 ||reings.store^
+||reinhard-kanzlei.de^
 ||reinholdrasenmaher.com^
 ||reinholzexpress.com^
 ||reinigungszubehor.com^
 ||reinpeptid.de^
+||reiseklarheit.de^
 ||reisen-weisen.de^
 ||reisenthell.shop^
 ||reisenthelthel.com^
@@ -14262,6 +14284,7 @@
 ||replicahause.is^
 ||replicakaufen.de^
 ||replicareview.io^
+||replicasrelojes.to^
 ||replicaswatches.vip^
 ||replicauhren.be^
 ||replicauhren.kaufen^
@@ -14270,6 +14293,7 @@
 ||replicauhrenx.de^
 ||replicawatchtr.com^
 ||replika-uhr.to^
+||replikuhrenshop.de^
 ||reproccial.com^
 ||repsberlin.com^
 ||repuhren.de^
@@ -14338,6 +14362,7 @@
 ||rhinoshopsystems.com^
 ||rhonetal-energieholz.com^
 ||ri-lieeoodu.com^
+||riballi.com^
 ||ricadihotelspage.com^
 ||ricardo-sofort-deals123.online^
 ||ricasrucksack.com^
@@ -14481,6 +14506,7 @@
 ||rollingslotsonline.de^
 ||rollinurt.com^
 ||rollladenjalousie.com^
+||rollladenplanet.de^
 ||rollopark.com^
 ||romalo.de^
 ||romanticg.com^
@@ -14608,10 +14634,13 @@
 ||ruxavild.at^
 ||ruyaltalens.com^
 ||rvcajapan.net^
+||rwcstore.com^
 ||rx-budapest.com^
+||rx-discount.com^
 ||rx-pharma.net^
 ||rx-pharmacies.com^
 ||rx-qualityshop.com^
+||rx-true.com^
 ||rx247rx.com^
 ||rxapothekefursie.com^
 ||rxappfree.com^
@@ -14809,6 +14838,7 @@
 ||sbk-hoffmeyer.de^
 ||sbnaf.shop^
 ||sboxcontainers.com^
+||scannero.io^
 ||scarpaosterreich.at^
 ||scentuelle.de^
 ||scfreiburgshirt.com^
@@ -14878,6 +14908,7 @@
 ||schmodts.shop^
 ||schmoelzer-appartements.com^
 ||schmuck-eva.com^
+||schmuckbandknopf.shop^
 ||schnappi-deal.de^
 ||schnefie.de^
 ||schneider-boutique.at^
@@ -15002,6 +15033,7 @@
 ||secure-canadian-pharmacy.net^
 ||secureinvest.org^
 ||securemed.shop^
+||securemedsshop.com^
 ||secureviewrollershutters.com^
 ||securitybekleidung.de^
 ||sedatasgo.com^
@@ -15130,6 +15162,7 @@
 ||shingirl.de^
 ||shinychiefstop.com^
 ||shinyflakes.de^
+||shipafreight.com^
 ||shippills.com^
 ||shirem.com^
 ||shirteu365.com^
@@ -15545,6 +15578,7 @@
 ||sohlenlos.com^
 ||sohoohair.de^
 ||soideverteilung.com^
+||sojakerzen.com^
 ||sol-staking.com^
 ||solacebeauty.shop^
 ||solagoshop.de^
@@ -15695,6 +15729,7 @@
 ||southornagriculture.shop^
 ||souveristo.shop^
 ||sovectoron-1-naatlasix-losolara.com^
+||sowaswillichauch.de^
 ||sozialefinanzen.de^
 ||sozialversicherungsausweisportal.de^
 ||spacebuds.de^
@@ -16105,6 +16140,7 @@
 ||strobllandmaschinen.de^
 ||stromerzeugerde.com^
 ||stromlieferantenwechseln.de^
+||stromraum-studio.de^
 ||stromspeichereinbauen.de^
 ||stromzone.com^
 ||strongoptions.com^
@@ -16256,6 +16292,7 @@
 ||supplierseu.com^
 ||supplyaquatics.com^
 ||supportfortross.org^
+||supr.com^
 ||suprabatt.de^
 ||suprafootweardeutschland.com^
 ||supragaming.net^
@@ -16788,6 +16825,7 @@
 ||titit.shop^
 ||titkraftshop.com^
 ||tiveone.com^
+||tk-energiemanagement.de^
 ||tk-kontor.de^
 ||tk-treuhand.de^
 ||tkeesdeutschland.com^
@@ -16828,6 +16866,7 @@
 ||todo-para-embarcaciones.com^
 ||todoenartez.shop^
 ||toffifeeaktion.de^
+||togelhongkongpools1.com^
 ||togelsydneypools.org^
 ||togetherrxacces.com^
 ||toipferkunst.shop^
@@ -16936,6 +16975,7 @@
 ||toponlinepharmacies.com^
 ||topowhey.top^
 ||toppdf.co^
+||toppillsstore.com^
 ||topproizvodi.eu^
 ||topreinigungsmittel.com^
 ||toprolexes.com^
@@ -16963,6 +17003,7 @@
 ||toschinkaofhaus.shop^
 ||totogifthouse.com^
 ||totohongkongpools4d.com^
+||totovape.de^
 ||totrendybags.com^
 ||totsoo.com^
 ||tourismshop.de^
@@ -17027,6 +17068,7 @@
 ||tradesverge.com^
 ||tradeswim.com^
 ||tradetoinvest.com^
+||tradeviewforex.com^
 ||tradezila.com^
 ||trading-floor.ai^
 ||trading-floor.io^
@@ -17112,6 +17154,7 @@
 ||trennschleiferde.com^
 ||trenzjar.com^
 ||tresorbit.com^
+||tress-immo.com^
 ||treuhand-consulta.de^
 ||treuhand-gmbh.com^
 ||treuquell.de^
@@ -17139,6 +17182,7 @@
 ||tritoncapitalmarkets.com^
 ||tritonmarkets.com^
 ||trivanode.com^
+||trivio-handel.de^
 ||trivona.de^
 ||trocador.at^
 ||trockenes-brennholz.com^
@@ -17151,7 +17195,9 @@
 ||trousersonsales.com^
 ||trovando.de^
 ||truckstopshop.de^
+||true-bb.com^
 ||true-drugstore.com^
+||true-ph.com^
 ||true-pp.com^
 ||true-tab.com^
 ||true-weightlose.com^
@@ -17183,6 +17229,7 @@
 ||trusteryai.com^
 ||trustgarganoelectric.com^
 ||trustinvestment-gmbh.com^
+||trustmeds24.com^
 ||trustmedz.com^
 ||trustmycart.com^
 ||trustonlinepharmacy.com^
@@ -17481,6 +17528,7 @@
 ||vamos--schuhe.com^
 ||vamos-schuhe.com^
 ||vamosschuhedamen.com^
+||vancelian.com^
 ||vancetaylor.com^
 ||vandoxo.com^
 ||vanea-barfussschuhe.com^
@@ -17681,6 +17729,7 @@
 ||vibevapeshop.com^
 ||vibramshoes-my.com^
 ||vicinityk.com^
+||victoriabeckham.at^
 ||victoriassecret-vip-online.shop^
 ||victoriousgamingentertainment.net^
 ||victoroutlet.de^
@@ -18018,6 +18067,7 @@
 ||walgfashion.com^
 ||walkingmats.com^
 ||walkingonacloudshoeshop.com^
+||walkloden.com^
 ||walklux.de^
 ||walllampchat.com^
 ||wallpilates.com^
@@ -18072,6 +18122,7 @@
 ||wasserflorade.com^
 ||wasserflorashop.com^
 ||wasserpflegede.com^
+||wasserpfote.shop^
 ||wasserruderangebote.com^
 ||wassershop24top.com^
 ||wasserspender-deutschland.de^
@@ -18085,6 +18136,7 @@
 ||watchcod-nz.shop^
 ||watchdealseu.shop^
 ||watchesoff5gc.vip^
+||watchesreplica.is^
 ||watchesstore.co^
 ||watchfaceshub.com^
 ||watchharbor.de^
@@ -18450,6 +18502,7 @@
 ||wohnlichtshop.com^
 ||wohnliebe-berlin.de^
 ||wohnosh.shop^
+||wohnpura.com^
 ||wohnstilform.com^
 ||wohnstilo24.shop^
 ||wohnungen-wohnen.de^
@@ -18487,6 +18540,7 @@
 ||wonderwattbox.com^
 ||wonoshop.shop^
 ||wood-line24.de^
+||woodbrezany.com^
 ||wooddender.com^
 ||woodelivo.com^
 ||woodeu.de^
@@ -18496,6 +18550,8 @@
 ||woodycoo.shop^
 ||woofgear.de^
 ||wooflyx.com^
+||woofz.com^
+||woolerysaleshop.com^
 ||woolonide.com^
 ||woom-eu.shop^
 ||wopilopro.shop^
@@ -18659,6 +18715,8 @@
 ||ycdscc.com^
 ||ydconsultant.com^
 ||yeezy.at^
+||yeezy-450.com^
+||yeezys.co^
 ||yenbeauty.de^
 ||yes-pharm.com^
 ||yes-pills.com^
@@ -18703,6 +18761,7 @@
 ||yoyocats.com^
 ||ysolara.at^
 ||ytcycling.com^
+||yuan-paygroup.com^
 ||yuanpaygroup.org^
 ||yuaonew.com^
 ||yuguz.com^
