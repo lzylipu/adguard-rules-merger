@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611051933
+! Version: 202611060120
 ! Title: EasyPrivacy
-! Last modified: 05 Nov 2026 19:33 UTC
+! Last modified: 06 Nov 2026 01:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5a24abf5006f47504cae97ecf8380155b6177204
+! Commit: 092c145587e0d759a0766aeaad91e56c678a7388
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7636,6 +7636,7 @@ omni.soundestlink.com$image
 ||fluffybirds.com^
 ||flushingbeast.com^
 ||flutteringfireman.com^
+||fluxdecor.com^
 ||flyflightstar.com^
 ||flystranger.com^
 ||flysupercars.com^
@@ -8382,6 +8383,7 @@ omni.soundestlink.com$image
 ||perfectfetch.com^
 ||permagroove.com^
 ||petitechili.com^
+||phatfiles.com^
 ||phonecup.com^
 ||phoneresult.com^
 ||photohints.com^
@@ -8417,6 +8419,7 @@ omni.soundestlink.com$image
 ||playerhappy.com^
 ||playerscache.com^
 ||playfulriver.com^
+||playwarren.com^
 ||pleasantpump.com^
 ||plotparent.com^
 ||plotrabbit.com^
