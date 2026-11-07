@@ -1,0 +1,120 @@
+{
+  "updated": "2026-11-07 16:38:54 (UTC+8)",
+  "version": "4.0",
+  "mode": "local",
+  "standard": {
+    "total": 298413,
+    "sources": {
+      "GOODBYEADS-DNS": {
+        "raw": 122005,
+        "dns_ok": 122005,
+        "new": 121849,
+        "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
+      },
+      "Hagezi-Light": {
+        "raw": 85110,
+        "dns_ok": 85110,
+        "new": 85110,
+        "desc": "HaGeZi 广告+追踪精简版"
+      },
+      "Hagezi-DOH": {
+        "raw": 3576,
+        "dns_ok": 3576,
+        "new": 3576,
+        "desc": "HaGeZi DoH绕过"
+      },
+      "Hagezi-Fake": {
+        "raw": 18843,
+        "dns_ok": 18843,
+        "new": 18843,
+        "desc": "HaGeZi 仿冒钓鱼域名"
+      },
+      "AdGuard-DNS-filter": {
+        "raw": 190344,
+        "dns_ok": 190212,
+        "new": 190017,
+        "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
+      },
+      "halflife-ad-pc": {
+        "raw": 136279,
+        "dns_ok": 107752,
+        "new": 95836,
+        "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
+      },
+      "EasyPrivacy": {
+        "raw": 56490,
+        "dns_ok": 52224,
+        "new": 47435,
+        "desc": "EasyList 隐私追踪"
+      },
+      "Yoyo": {
+        "raw": 3559,
+        "dns_ok": 3559,
+        "new": 3559,
+        "desc": "Yoyo 经典广告服务器"
+      }
+    },
+    "whitelist_removed": 7072
+  },
+  "whitelist": {
+    "total": 8391,
+    "unique_domains": 8177,
+    "upstream_sources": 4,
+    "custom_rules": 47
+  },
+  "full": {
+    "total": 678866,
+    "sources": {
+      "Hagezi-Pro": {
+        "raw": 225571,
+        "dns_ok": 225571,
+        "new": 225571,
+        "desc": "HaGeZi 全覆盖专业版"
+      },
+      "217heidai-DNS": {
+        "raw": 241710,
+        "dns_ok": 241709,
+        "new": 241709,
+        "desc": "217heidai DNS规则合并（纯域名）"
+      },
+      "OISD-Small": {
+        "raw": 60924,
+        "dns_ok": 60924,
+        "new": 60924,
+        "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
+      },
+      "1Hosts-Lite": {
+        "raw": 3475,
+        "dns_ok": 3475,
+        "new": 3475,
+        "desc": "1Hosts Lite - badmojr 维护，专注广告追踪"
+      },
+      "DandelionSprout": {
+        "raw": 12663,
+        "dns_ok": 12406,
+        "new": 12198,
+        "desc": "DandelionSprout 反恶意软件+诈骗"
+      },
+      "Notracking": {
+        "raw": 500340,
+        "dns_ok": 500340,
+        "new": 250170,
+        "desc": "Notracking 反追踪反广告 hosts（50万规则）"
+      },
+      "StevenBlack": {
+        "raw": 77772,
+        "dns_ok": 77403,
+        "new": 77403,
+        "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
+      },
+      "hostsVN": {
+        "raw": 18537,
+        "dns_ok": 18537,
+        "new": 18537,
+        "desc": "hostsVN 越南/东亚广告+恶意软件 hosts"
+      }
+    },
+    "whitelist_removed": 0,
+    "whitelist_note": "Full edition does NOT apply whitelist"
+  }
+}
