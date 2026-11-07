@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-07 08:49:11 (UTC+8)",
+  "updated": "2026-11-07 16:38:54 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 304758,
+    "total": 298413,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,27 +12,27 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 92161,
-        "dns_ok": 92161,
-        "new": 92161,
+        "raw": 85110,
+        "dns_ok": 85110,
+        "new": 85110,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
-        "raw": 3580,
-        "dns_ok": 3580,
-        "new": 3580,
+        "raw": 3576,
+        "dns_ok": 3576,
+        "new": 3576,
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 18969,
-        "dns_ok": 18969,
-        "new": 18969,
+        "raw": 18843,
+        "dns_ok": 18843,
+        "new": 18843,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 190246,
-        "dns_ok": 190114,
-        "new": 189920,
+        "raw": 190344,
+        "dns_ok": 190212,
+        "new": 190017,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -54,7 +54,7 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 6435
+    "whitelist_removed": 7072
   },
   "whitelist": {
     "total": 8391,
@@ -63,12 +63,12 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 678167,
+    "total": 678866,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 219320,
-        "dns_ok": 219320,
-        "new": 219320,
+        "raw": 225571,
+        "dns_ok": 225571,
+        "new": 225571,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 60938,
-        "dns_ok": 60938,
-        "new": 60938,
+        "raw": 60924,
+        "dns_ok": 60924,
+        "new": 60924,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
