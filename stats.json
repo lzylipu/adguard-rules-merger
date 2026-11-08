@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-08 01:42:32 (UTC+8)",
+  "updated": "2026-11-08 08:23:07 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 295245,
+    "total": 299742,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,9 +12,9 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 78478,
-        "dns_ok": 78478,
-        "new": 78478,
+        "raw": 87478,
+        "dns_ok": 87478,
+        "new": 87478,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 190465,
-        "dns_ok": 190333,
-        "new": 190138,
+        "raw": 190542,
+        "dns_ok": 190410,
+        "new": 190215,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,19 +42,19 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56490,
-        "dns_ok": 52224,
-        "new": 47435,
+        "raw": 56492,
+        "dns_ok": 52226,
+        "new": 47437,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
-        "raw": 3559,
-        "dns_ok": 3559,
-        "new": 3559,
+        "raw": 3560,
+        "dns_ok": 3560,
+        "new": 3560,
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 7064
+    "whitelist_removed": 6787
   },
   "whitelist": {
     "total": 8391,
@@ -63,12 +63,12 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 676946,
+    "total": 681090,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 211469,
-        "dns_ok": 211469,
-        "new": 211469,
+        "raw": 224735,
+        "dns_ok": 224735,
+        "new": 224735,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 60988,
-        "dns_ok": 60988,
-        "new": 60988,
+        "raw": 61171,
+        "dns_ok": 61171,
+        "new": 61171,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
