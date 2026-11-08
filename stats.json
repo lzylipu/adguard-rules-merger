@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-08 08:23:07 (UTC+8)",
+  "updated": "2026-11-08 16:52:04 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 299742,
+    "total": 300251,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,27 +12,27 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 87478,
-        "dns_ok": 87478,
-        "new": 87478,
+        "raw": 87808,
+        "dns_ok": 87808,
+        "new": 87808,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
-        "raw": 3573,
-        "dns_ok": 3573,
-        "new": 3573,
+        "raw": 3572,
+        "dns_ok": 3572,
+        "new": 3572,
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 18805,
-        "dns_ok": 18805,
-        "new": 18805,
+        "raw": 18786,
+        "dns_ok": 18786,
+        "new": 18786,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 190542,
-        "dns_ok": 190410,
-        "new": 190215,
+        "raw": 190703,
+        "dns_ok": 190571,
+        "new": 190376,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56492,
-        "dns_ok": 52226,
-        "new": 47437,
+        "raw": 56494,
+        "dns_ok": 52228,
+        "new": 47439,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -63,12 +63,12 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 681090,
+    "total": 683038,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 224735,
-        "dns_ok": 224735,
-        "new": 224735,
+        "raw": 225105,
+        "dns_ok": 225105,
+        "new": 225105,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 61171,
-        "dns_ok": 61171,
-        "new": 61171,
+        "raw": 61157,
+        "dns_ok": 61157,
+        "new": 61157,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -90,9 +90,9 @@
         "desc": "1Hosts Lite - badmojr 维护，专注广告追踪"
       },
       "DandelionSprout": {
-        "raw": 12663,
-        "dns_ok": 12406,
-        "new": 12198,
+        "raw": 12666,
+        "dns_ok": 12409,
+        "new": 12201,
         "desc": "DandelionSprout 反恶意软件+诈骗"
       },
       "Notracking": {
@@ -102,9 +102,9 @@
         "desc": "Notracking 反追踪反广告 hosts（50万规则）"
       },
       "StevenBlack": {
-        "raw": 77772,
-        "dns_ok": 77403,
-        "new": 77403,
+        "raw": 78229,
+        "dns_ok": 77860,
+        "new": 77860,
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {

@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202611080006
+! Version: 202611080805
 ! Title: oisd small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 61171
-! Last modified: 2026-11-08T00:06:34+0000
+! Entries: 61157
+! Last modified: 2026-11-08T08:05:35+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -730,6 +730,7 @@
 ||1d22c41079.com^
 ||1d473a90d9.com^
 ||1d7179cda7.9b82388aa0.com^
+||1d79e9c449.com^
 ||1d7e60f18a.33cd95e164.com^
 ||1d953591e8.com^
 ||1dada17793.2adf1b212d.com^
@@ -1966,7 +1967,6 @@
 ||666authentic.net^
 ||666f69c8bb.com^
 ||666innovations.net^
-||6696eaedfc.1d79e9c449.com^
 ||66f5dd9691.com^
 ||66l11y82dn.com^
 ||66pxwy2r6q5v5qe.rest^
@@ -2447,7 +2447,6 @@
 ||8ecc2aee4f.com^
 ||8enr.29ilxt25vjwn6p4h1.cyou^
 ||8eo93qj18r.com^
-||8ewwu7qug3guihu.rest^
 ||8f0fc8c940.com^
 ||8f17d89ec7.com^
 ||8f998710bd.com^
@@ -6074,7 +6073,6 @@
 ||airconditiontargetexclamation.com^
 ||aircraftairliner.com^
 ||airdateanimist.top^
-||airersalkyls.cfd^
 ||airlesscalmnesssuppose.com^
 ||airlessquotationtroubled.com^
 ||airlessstereoadvised.com^
@@ -9351,7 +9349,6 @@
 ||barrier2plugins.net^
 ||bars.funportal.info^
 ||bartererfaxtingling.com^
-||barycentre98.com^
 ||baselinetoisolated.net^
 ||baseporno.com^
 ||basetts.com^
@@ -11727,7 +11724,6 @@
 ||caqvwtvivqbae.website^
 ||caraganaarborescenspendula.com^
 ||carambo.la^
-||carapussq.cyou^
 ||caraunmete.com^
 ||caravanexhale.com^
 ||carawayhonest.com^
@@ -20222,7 +20218,6 @@
 ||evnrubshwdvyq.com^
 ||evnt.iol.it^
 ||evolutionadv.it^
-||evomitlettuce.cfd^
 ||evopmncakdrrg.site^
 ||evpbmtwhtjjmx.website^
 ||evpxl9a8h.com^
@@ -22720,7 +22715,6 @@
 ||ganjituiguang.ganji.com^
 ||gankana.com^
 ||ganldbtpleyni.space^
-||ganoinekubong.cfd^
 ||ganon.yahoo.com^
 ||gaohnonowmxay.website^
 ||gapasjodvjul.in^
@@ -27292,7 +27286,6 @@
 ||intricatewhilevertically.com^
 ||intrustedzone.site^
 ||intuitionlastly.com^
-||intusepretry.rest^
 ||inurneddoggish.com^
 ||invadedisheartentrail.com^
 ||invadermonks.com^
@@ -28905,7 +28898,6 @@
 ||junmediadclikrmdi.com^
 ||junmediadirect.com^
 ||junplatdirect.com^
-||juntol.xyz^
 ||juo4y146j.o8e2vntnneokn8.cyou^
 ||juokkbdsqxgak.site^
 ||jup9.com^
@@ -29041,7 +29033,6 @@
 ||jygxzxvyopqmn.space^
 ||jygyrxjwiccts.online^
 ||jyhghrqqtoaef.site^
-||jyhwlxpir7tevqxeuyh3vyfwptv2bjk.cfd^
 ||jyinwqmzyh.com^
 ||jyiwnb82b.com^
 ||jyjauzdktmosl.online^
@@ -32785,6 +32776,7 @@
 ||masculine-employment.com^
 ||masdkv6.3g.qq.com^
 ||mashlamvaginas.cfd^
+||masklink.org^
 ||maskmonopoly.com^
 ||masonerthoria.shop^
 ||masonplantsirresponsibility.com^
@@ -34080,7 +34072,6 @@
 ||mksybezxzkrty.online^
 ||mkszmtwseijwh.site^
 ||mkt.hoanghamobile.com^
-||mkt.supercell.com^
 ||mktbqkzdzadrg.site^
 ||mktp-base.mktplatforms.com^
 ||mkyafpcctqmyi.website^
@@ -34351,7 +34342,6 @@
 ||moleculeordered.com^
 ||mollusk.working.actor^
 ||moloco.com^
-||molttencoryzalanopia.cfd^
 ||molttenglobins.casa^
 ||molypsigry.pro^
 ||momentumperhapsvine.com^
@@ -38205,7 +38195,6 @@
 ||ozafzlbjhnmfx.website^
 ||ozagsrueobtvw.site^
 ||ozanalfas.com^
-||ozarkuprears.click^
 ||ozasiskoddhmk.online^
 ||ozbnagojbop.com^
 ||ozbtkhflawdnt.online^
@@ -42734,7 +42723,6 @@
 ||redistedi.com^
 ||redmine.tbepc.com^
 ||redraftmonest.com^
-||redrawnpennamegruffer.cyou^
 ||redressjaguarsubsided.com^
 ||redressmigrantfailing.com^
 ||redressparity.com^
@@ -49540,7 +49528,6 @@
 ||tankertoxymora.com^
 ||tankfangspain.com^
 ||tankroyaldivide.com^
-||tannictipcatholl.cfd^
 ||tanvvybruhuju.website^
 ||taobljybvgouh.online^
 ||taoyinbiacid.com^
@@ -54277,7 +54264,6 @@
 ||viadata.store^
 ||vialotadom.com^
 ||vianboaegiaed.website^
-||viandedisagio.cyou^
 ||vibeaconstr.onezapp.com^
 ||vibnpoar.com^
 ||vibrantmedia.com^

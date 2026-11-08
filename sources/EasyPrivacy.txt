@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611080011
+! Version: 202611080843
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 00:11 UTC
+! Last modified: 08 Nov 2026 08:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f5a8d012b91ba300162a16a8f9e63b96439d0241
+! Commit: 1c7a986c572f863d39d0be213f9c67ecaeeaf1a3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8455,6 +8455,7 @@ omni.soundestlink.com$image
 ||possiblepencil.com^
 ||potatoinvention.com^
 ||potentmagic.com^
+||pottylife.com^
 ||powerfulblends.com^
 ||powerfulcopper.com^
 ||powertoolwiki.com^
@@ -8489,6 +8490,7 @@ omni.soundestlink.com$image
 ||profanstee.com^
 ||profitrumour.com^
 ||profusesupport.com^
+||projectglove.com^
 ||promiseair.com^
 ||propertypotato.com^
 ||propsynergy.com^
