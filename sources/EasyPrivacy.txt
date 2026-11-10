@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611100920
+! Version: 202611101926
 ! Title: EasyPrivacy
-! Last modified: 10 Nov 2026 09:20 UTC
+! Last modified: 10 Nov 2026 19:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 456010cc6d924a736a9e3325c8d899ed10005088
+! Commit: afec30a87bf247f81573d86d5c1b74567340e890
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -408,6 +408,7 @@
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api/viewcontent.php?
 /api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php
@@ -7967,6 +7968,7 @@ omni.soundestlink.com$image
 ||intentlens.com^
 ||internalcondition.com^
 ||internalsink.com^
+||intobuddy.com^
 ||intricateberry.com^
 ||introjava.com^
 ||inventtango.com^
@@ -8077,6 +8079,7 @@ omni.soundestlink.com$image
 ||lilydreamer.com^
 ||limecodesign.com^
 ||limepeal.com^
+||limitowl.com^
 ||linksoutside.com^
 ||linkstable.com^
 ||littlegeese.com^
@@ -8789,6 +8792,7 @@ omni.soundestlink.com$image
 ||screenphotos.com^
 ||scribblestring.com^
 ||scrollservice.com^
+||scrubchi.com^
 ||scrubswim.com^
 ||sealtravels.com^
 ||seamlesssalon.com^
