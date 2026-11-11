@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202611110106
+! Version: 202611110705
 ! Title: oisd small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 60330
-! Last modified: 2026-11-11T01:06:46+0000
+! Entries: 60314
+! Last modified: 2026-11-11T07:05:21+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -618,7 +618,6 @@
 ||158e65a1db.com^
 ||15f3ecdff9.21c69b70bc.com^
 ||15mxfnk6sw.com^
-||15oil.net^
 ||16425bafe4.com^
 ||1643.5imr6oz792gi1jh9ml8m.cyou^
 ||165tchuang.com^
@@ -1608,7 +1607,6 @@
 ||510a62f1a2.com^
 ||5112rjcpq1nh4n.rest^
 ||512a353952.8fb13633f6.com^
-||512c23d5e6.com^
 ||51344d90e9.com^
 ||514d937233.com^
 ||514df5b14c.com^
@@ -2403,7 +2401,6 @@
 ||8po6fdwjsym3.com^
 ||8poz7uwoho.com^
 ||8proe3xx6.com^
-||8prvx1lf9br7rzo1opx7c.cfd^
 ||8qfqhat9d.com^
 ||8qi3.fowebsiqa.shop^
 ||8rht5welv5.com^
@@ -2504,7 +2501,6 @@
 ||97f14f526b.6ad4e650c2.com^
 ||97gglrj.5grcwkqytkrkyqzfj6p51jhrktgpt.cyou^
 ||97n8p1jxcobulhor4fy1ej.j8mhuw8noquh6n.cyou^
-||97nexoleo.net^
 ||97uvo47k3y.com^
 ||97vk351gi.com^
 ||98158.com^
@@ -11693,7 +11689,6 @@
 ||cautionpepraising.com^
 ||cautiouslyanalysecrystal.com^
 ||cavewrap.care^
-||cavuscecilydvornik.cfd^
 ||cavvfjxabrffj.website^
 ||cavzgoqiozmyc.space^
 ||cawfwcxxaacdg.site^
@@ -14685,7 +14680,6 @@
 ||czdclraxaacmq.online^
 ||czejbzaiwlgjq.online^
 ||czejcgnayfcpg.space^
-||czeqjvr.com^
 ||czernik.org^
 ||czfkfrlqbbqjb.website^
 ||czfqzozhchalv.online^
@@ -19329,7 +19323,6 @@
 ||enrkkpivzl9o8l.lfpigtqcektqyje9q7y.cyou^
 ||enrtx.com^
 ||enseq50a.xyz^
-||enshellcompd.com^
 ||ensmwonhtzpdh.space^
 ||ent1.12584.cn^
 ||entailreprintfurnished.com^
@@ -23201,7 +23194,6 @@
 ||glosserwhamble.com^
 ||glossyburn.pro^
 ||glossysilane.com^
-||gloumsee.net^
 ||gloupa.com^
 ||gloutanacard.com^
 ||glovedmenaced.shop^
@@ -23589,7 +23581,6 @@
 ||gpvcziftlqnyl.online^
 ||gpvfzisemclow.space^
 ||gpvnguetcenxt.online^
-||gpxnb4xgtjmtxol34nbzzl5oex.rest^
 ||gpxvhjxwncjte.website^
 ||gpzxduotqouau.store^
 ||gqalqi656.com^
@@ -34067,7 +34058,6 @@
 ||motivesbreastchopped.com^
 ||motleyimproviseink.com^
 ||motleyplaster.com^
-||motorfromservices.net^
 ||motorshook.com^
 ||motorsnag.com^
 ||motorstroke.com^
@@ -38020,7 +38010,6 @@
 ||parakeet.kenleyar.ai^
 ||parakeet.phantomphone.net^
 ||parakeet.quotetweet.com^
-||parallelepiped48.com^
 ||paralyzeddisreputablespin.com^
 ||paramedicwarlock.com^
 ||parameterscoal.com^
@@ -44983,7 +44972,6 @@
 ||sellinglitcedar.com^
 ||selphiu.com^
 ||selwrite.com^
-||semblehooping.com^
 ||semenaonline.sk^
 ||semestersets.com^
 ||semi-cod.nnmclub.ch^
@@ -47804,7 +47792,6 @@
 ||stinkyloadeddoctor.com^
 ||stinkymildred.com^
 ||stinkypaneltotally.com^
-||stintreedierobtund.cyou^
 ||stionicgeodist.com^
 ||stjmnallynran.online^
 ||stklvezvixdld.space^
@@ -54901,7 +54888,6 @@
 ||webcounter.goweb.de^
 ||webdisk.tbllreg.com^
 ||webed.dm-event.net^
-||webeetutie.net^
 ||webfanclub.com^
 ||webftp.ki-oon.com^
 ||weblog.coupang.com^
@@ -57882,7 +57868,6 @@
 ||xrymwt5bap.com^
 ||xrznrtxbswpuk.space^
 ||xs213.javgg.club^
-||xsapykbbsdm.net^
 ||xsbdujkox.com^
 ||xsbjtmzcpqlst.space^
 ||xsbsfifapiemx.site^
@@ -60153,7 +60138,6 @@
 ||zummnibfearqs.store^
 ||zumnervl.com^
 ||zumrieth.com^
-||zumsivonaiss.net^
 ||zunoptjciavj.in^
 ||zunpnwwmyufdd.space^
 ||zunptttqzjyr.f7t75ekbtq6mcm4f84h8t6u4fkm.cyou^

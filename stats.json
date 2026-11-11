@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-11 09:10:37 (UTC+8)",
+  "updated": "2026-11-11 17:12:13 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 301229,
+    "total": 302753,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,27 +12,27 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 88053,
-        "dns_ok": 88053,
-        "new": 88053,
+        "raw": 88466,
+        "dns_ok": 88466,
+        "new": 88466,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
-        "raw": 3570,
-        "dns_ok": 3570,
-        "new": 3570,
+        "raw": 3567,
+        "dns_ok": 3567,
+        "new": 3567,
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 18861,
-        "dns_ok": 18861,
-        "new": 18861,
+        "raw": 18846,
+        "dns_ok": 18846,
+        "new": 18846,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 188732,
-        "dns_ok": 188600,
-        "new": 188405,
+        "raw": 190259,
+        "dns_ok": 190127,
+        "new": 189932,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -63,12 +63,12 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 684784,
+    "total": 685410,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 224048,
-        "dns_ok": 224048,
-        "new": 224048,
+        "raw": 223978,
+        "dns_ok": 223978,
+        "new": 223978,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 60330,
-        "dns_ok": 60330,
-        "new": 60330,
+        "raw": 60314,
+        "dns_ok": 60314,
+        "new": 60314,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
@@ -108,9 +108,9 @@
         "desc": "StevenBlack hosts 全球广告+追踪+恶意统一 hosts"
       },
       "hostsVN": {
-        "raw": 18581,
-        "dns_ok": 18581,
-        "new": 18581,
+        "raw": 18607,
+        "dns_ok": 18607,
+        "new": 18607,
         "desc": "hostsVN 越南/东亚广告+恶意软件 hosts"
       }
     },
