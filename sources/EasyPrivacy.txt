@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611111916
+! Version: 202611120202
 ! Title: EasyPrivacy
-! Last modified: 11 Nov 2026 19:16 UTC
+! Last modified: 12 Nov 2026 02:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ffbf9e3573ff83ee065c3ed70bbf72225374160d
+! Commit: 0d9e0f73041d009c36c8f5e4184b8c1acf2df83e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2436,6 +2436,7 @@
 /tag/tag.jsp?
 /tag?name=PageView$xmlhttprequest
 /tag?tags=
+/tag_path/profile/visit/*
 /taganalyticscnil.js
 /tagAnalyticscnil.php
 /tagCNIL.js
@@ -7223,7 +7224,6 @@ omni.soundestlink.com$image
 ||clumsycar.com^
 ||clutchcourses.com^
 ||coalkitchen.com^
-||coalmerchants.com^
 ||coastersim.com^
 ||coatfood.com^
 ||cobaltoverture.com^
@@ -8357,6 +8357,7 @@ omni.soundestlink.com$image
 ||okaysurethat.com^
 ||oldfashionedoffer.com^
 ||oldportcoffee.com^
+||oldschoolthumbs.com^
 ||olivedaystee.com^
 ||omegaroutes.com^
 ||omgthink.com^
@@ -8852,6 +8853,7 @@ omni.soundestlink.com$image
 ||sheargovernor.com^
 ||shesubscriptions.com^
 ||shinypond.com^
+||shipsboats.com^
 ||shipsonwheels.com^
 ||shirtseasons.com^
 ||shirtsidewalk.com^
@@ -11865,10 +11867,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fp-cdn.azureedge.net^
 ||fp-flame.vercel.app^
 ||fp-it-acc.portal101.cn/deviceprofile/
+||fpkph.cdnpk.net^
 ||fraud.blockifyapp.com/s/api/block/update-time
 ||freecurrencyrates.com/statgif.
-||freedom.com^*/analytic/
-||freedom.com^*/analytics/
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||fresh.inlinkz.com^$third-party
 ||frog.editorx.com^
@@ -16076,8 +16077,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dubz.live/analytics/
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
-||duolingo.com/2017-06-30/tracking-status
+||duolingo.com/api/1/sync/batch
 ||dynatrace.att.com^
+||e.muckrack.com^
 ||e.quizlet.com^
 ||e.used.ca/event
 ||e2ma.net/track/
@@ -16170,10 +16172,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||everywatch.com/ingest/
 ||evs.icy-lake.kickstarter.com^
 ||evs.sgmt.loom.com^$script
-||excess.duolingo.com/batch
 ||exp.notion.so^
 ||expedia.*/cl/
-||experiences.wyng.com/api/*/event-api/events
 ||experte.com/t/events
 ||exporntoons.net/api/stats?
 ||expressvpn.com/__px.gif?
@@ -16253,8 +16253,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fpt.microsoft.com^
 ||freedownloadmanager.org/ajax/th_hit.php
 ||freedownloadmanager.org/ajax/th_view.php
-||freepik.*/download.gif?
-||freepik.com/_ga?
 ||freeplayervideo.com/cdn-cgi/trace
 ||freeprivacypolicy.com/track/
 ||fresnel-events.vimeocdn.com^

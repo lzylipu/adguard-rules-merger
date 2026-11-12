@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-12 03:29:44 (UTC+8)",
+  "updated": "2026-11-12 10:12:00 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 302909,
+    "total": 303016,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -30,9 +30,9 @@
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 190440,
-        "dns_ok": 190308,
-        "new": 190112,
+        "raw": 190544,
+        "dns_ok": 190412,
+        "new": 190216,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56607,
-        "dns_ok": 52305,
-        "new": 47485,
+        "raw": 56605,
+        "dns_ok": 52302,
+        "new": 47487,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -63,7 +63,7 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 685570,
+    "total": 685704,
     "sources": {
       "Hagezi-Pro": {
         "raw": 223960,
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 60430,
-        "dns_ok": 60430,
-        "new": 60430,
+        "raw": 62051,
+        "dns_ok": 62051,
+        "new": 62051,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
