@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611122200
+! Version: 202611130911
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2026 22:00 UTC
+! Last modified: 13 Nov 2026 09:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 995e5d833fd95f540b1c2b9fdb0dc40b77bbb59f
+! Commit: ce3ae51be45f144c9f9b9d8d28586cdb5aad4df9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8780,6 +8780,7 @@ omni.soundestlink.com$image
 ||scenicchicago.com^
 ||scenicdrops.com^
 ||scentedkindly.com^
+||scentsquare.com^
 ||scholarloop.com^
 ||scholarsark.com^
 ||schoolpaws.com^
@@ -8917,6 +8918,7 @@ omni.soundestlink.com$image
 ||skylightdata.com^
 ||slackpod.com^
 ||slaysweater.com^
+||sleepfrankly.com^
 ||slickcontent.com^
 ||slimesupplies.net^
 ||slimsense.net^
@@ -8990,6 +8992,7 @@ omni.soundestlink.com$image
 ||spareapp.com^
 ||sparkgoal.com^
 ||sparklingshelf.com^
+||spasmgame.com^
 ||specialreview.net^
 ||specialscissors.com^
 ||specialtypin.com^
@@ -12169,6 +12172,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jobvite.com/analytics.js
 ||jotform.io/getReferrer/$third-party
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
+||js.ciphera.net/script.js
 ||js.dashfi.net/dashfinet-analytics.js
 ||js.eruptr.io/epd.js
 ||js.go2sdk.com/v2/tune.js
