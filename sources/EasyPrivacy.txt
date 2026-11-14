@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611131916
+! Version: 202611140113
 ! Title: EasyPrivacy
-! Last modified: 13 Nov 2026 19:16 UTC
+! Last modified: 14 Nov 2026 01:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: da91f95130789c308ba2dd071749aa9c7f222066
+! Commit: a18acdf5dee9e0f18c33d3b7a93a41c9729f56a1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3544,6 +3544,7 @@ omni.soundestlink.com$image
 ||admediasales.com^
 ||admetrics.events^
 ||adnext.co^
+||adnz.co^
 ||adrsbl.io^
 ||adrtx.net^
 ||adscore.com^
@@ -8713,6 +8714,7 @@ omni.soundestlink.com$image
 ||rockagainst.com^
 ||rockcarving.com^
 ||rocketmonitor.com^
+||rocketserver.net^
 ||rockspreading.com^
 ||rockstarwriter.com^
 ||roguephilosopher.com^
@@ -9183,6 +9185,7 @@ omni.soundestlink.com$image
 ||tastesnake.com^
 ||tawdryson.com^
 ||taxisubsea.com^
+||taxiwear.com^
 ||tealjewel.com^
 ||teamstatus.net^
 ||tearfulglass.com^
@@ -11297,6 +11300,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
+||cdn.visits.dqapis.com^
 ||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdnjs.work/metrics.js
@@ -13312,6 +13316,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.atom.gamedistribution.com^
 ||tag.aumago.com^
 ||tag.brandcdn.com^
+||tag.decentriq.com^
 ||tag.digops.sincro.io^
 ||tag.elevaate.io^
 ||tag.flagship.io^
