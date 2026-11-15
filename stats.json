@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-15 01:54:25 (UTC+8)",
+  "updated": "2026-11-15 08:56:39 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 305061,
+    "total": 306233,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,27 +12,27 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 90272,
-        "dns_ok": 90272,
-        "new": 90272,
+        "raw": 91336,
+        "dns_ok": 91336,
+        "new": 91336,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
-        "raw": 3573,
-        "dns_ok": 3573,
-        "new": 3573,
+        "raw": 3575,
+        "dns_ok": 3575,
+        "new": 3575,
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 18898,
-        "dns_ok": 18898,
-        "new": 18898,
+        "raw": 18931,
+        "dns_ok": 18931,
+        "new": 18931,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 191589,
-        "dns_ok": 191457,
-        "new": 191261,
+        "raw": 191714,
+        "dns_ok": 191582,
+        "new": 191386,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56651,
-        "dns_ok": 52347,
-        "new": 47526,
+        "raw": 56653,
+        "dns_ok": 52349,
+        "new": 47528,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -54,21 +54,21 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 6985
+    "whitelist_removed": 6995
   },
   "whitelist": {
-    "total": 8391,
-    "unique_domains": 8177,
+    "total": 8392,
+    "unique_domains": 8178,
     "upstream_sources": 4,
     "custom_rules": 47
   },
   "full": {
-    "total": 689673,
+    "total": 697864,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 227848,
-        "dns_ok": 227848,
-        "new": 227848,
+        "raw": 236098,
+        "dns_ok": 236098,
+        "new": 236098,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
