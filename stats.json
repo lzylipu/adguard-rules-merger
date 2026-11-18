@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-18 04:45:26 (UTC+8)",
+  "updated": "2026-11-18 10:49:37 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 306821,
+    "total": 307033,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,27 +12,27 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 92878,
-        "dns_ok": 92878,
-        "new": 92878,
+        "raw": 92912,
+        "dns_ok": 92912,
+        "new": 92912,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
-        "raw": 3567,
-        "dns_ok": 3567,
-        "new": 3567,
+        "raw": 3570,
+        "dns_ok": 3570,
+        "new": 3570,
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 18814,
-        "dns_ok": 18814,
-        "new": 18814,
+        "raw": 18803,
+        "dns_ok": 18803,
+        "new": 18803,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 190935,
-        "dns_ok": 190803,
-        "new": 190607,
+        "raw": 191045,
+        "dns_ok": 190913,
+        "new": 190717,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56682,
-        "dns_ok": 52373,
-        "new": 47545,
+        "raw": 56688,
+        "dns_ok": 52376,
+        "new": 47548,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -54,7 +54,7 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 6905
+    "whitelist_removed": 6901
   },
   "whitelist": {
     "total": 8392,
@@ -63,12 +63,12 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 704206,
+    "total": 712568,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 242263,
-        "dns_ok": 242263,
-        "new": 242263,
+        "raw": 252163,
+        "dns_ok": 252163,
+        "new": 252163,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
