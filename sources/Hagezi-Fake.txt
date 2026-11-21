@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 20 Nov 2026 14:53 UTC
-! Version: 2026.1120.1453.35
+! Last modified: 21 Nov 2026 08:01 UTC
+! Version: 2026.1121.0801.00
 ! Syntax: AdBlock
-! Number of entries: 10732
+! Number of entries: 10745
 !
 ||acc.accgn.com^
 ||webtrader.aeratiqos.com^
@@ -40,7 +40,6 @@
 ||burton.co.at^
 ||cdlp.co.at^
 ||champion.co.at^
-||comme-des-garcons.co.at^
 ||damsonmadder.co.at^
 ||diesel.co.at^
 ||digitalinfo.co.kr^
@@ -525,6 +524,7 @@
 ||adler-ch.com^
 ||admiral-markets.com^
 ||admiralmarketsltd.com^
+||adour-combustibles.com^
 ||adrian-beck.de^
 ||adriaticljekarna.com^
 ||advancedgaming.online^
@@ -614,6 +614,7 @@
 ||aktivbike24.com^
 ||aktivmaxx.com^
 ||al-nassr.shop^
+||al-nassr.store^
 ||al-research.com^
 ||albacontainersgmbh.de^
 ||albuni-24.de^
@@ -1481,6 +1482,7 @@
 ||besttoyspielzeug.com^
 ||bestwassertechnik.com^
 ||bestwerkzeugeshop.com^
+||betakom-tec.com^
 ||betashop-gmbh.com^
 ||betonruttler.com^
 ||betonspot.com^
@@ -1677,6 +1679,7 @@
 ||bloombex-options.com^
 ||bloomszone.com^
 ||bludexe.com^
+||blue-diamond-invest.com^
 ||bluebike2.com^
 ||bluebikes8.com^
 ||blueforge.ltd^
@@ -1809,7 +1812,6 @@
 ||brennholz-brennstoff.com^
 ||brennholz-forstservice-gilbert.de^
 ||brennholz-friedrich.com^
-||brennholz-goignerog.at^
 ||brennholz-hans.de^
 ||brennholz-haus.de^
 ||brennholz-hofmann.de^
@@ -1888,6 +1890,7 @@
 ||brutaka.com^
 ||bryngrill.se^
 ||bryo-kaffee.de^
+||brysha.store^
 ||bs-gmbh.de^
 ||bs2best.at^
 ||bs2site.at^
@@ -2719,6 +2722,7 @@
 ||diamant-eventcenter.de^
 ||diamants-invest.com^
 ||diamondinvests.com^
+||diamoneo.com^
 ||diamonstore.com^
 ||diamony.com^
 ||diamsinvest.fr^
@@ -2796,6 +2800,7 @@
 ||diy-expert-deals.shop^
 ||diybuildsupplies.com^
 ||dj-audio.com^
+||dks-online.de^
 ||dlholzhandel.de^
 ||dly-home.com^
 ||dmrbremsbelag.com^
@@ -3600,6 +3605,7 @@
 ||finrally.com^
 ||finrocketpro.com^
 ||fintessxpert.com^
+||fintevex.io^
 ||fintrexia.org^
 ||finvestai.org^
 ||finvoire.com^
@@ -3823,7 +3829,6 @@
 ||gabbian.de^
 ||gabelglanz.de^
 ||gaborberlin.com^
-||gaborosterreich.at^
 ||gaborshoesoutlet.shop^
 ||gahas24.de^
 ||gaiabeautyproducts.com^
@@ -4502,6 +4507,7 @@
 ||haushaltsheld.com^
 ||haushaltsreich.de^
 ||haushaltswarendiscount.shop^
+||hausmarkt24.com^
 ||hausmobel-de.com^
 ||hausofvedashop.com^
 ||hausonline24.com^
@@ -4606,6 +4612,7 @@
 ||heizlogistik.de^
 ||heizo24.de^
 ||heizoel-24.com^
+||heizoel-24.net^
 ||heizoel-austria.com^
 ||heizoel-best.de^
 ||heizoel-deutschland.com^
@@ -4617,6 +4624,7 @@
 ||heizoel-kalkulator.de^
 ||heizoel-lieferung.com^
 ||heizoel-tankstelle.de^
+||heizoel24.shop^
 ||heizoel24-aktuell.com^
 ||heizoel24-preise.com^
 ||heizoelbp.de^
@@ -5645,6 +5653,7 @@
 ||kmgr.store^
 ||kmgr-shop.com^
 ||kmotorrad.de^
+||kna-99.buzz^
 ||knast-papier.com^
 ||kndpigjc.shop^
 ||knifeboker.com^
@@ -5686,6 +5695,7 @@
 ||konsolenladen.com^
 ||konsolenland.de^
 ||konsolenmarkt.com^
+||konsolenplatz.com^
 ||kontaktlinsenshopping.de^
 ||kontano.de^
 ||kopfsacheonline.de^
@@ -5955,6 +5965,7 @@
 ||lenaskunst.de^
 ||lennys-autoteile.at^
 ||leobabyjordanbjj.com^
+||leomans.com^
 ||leopold-mode.com^
 ||leoswc.com^
 ||leqaa-store.com^
@@ -7297,6 +7308,7 @@
 ||omnedealslab.online^
 ||omniluxaustria.com^
 ||on-at.com^
+||on-outlet.shop^
 ||on-runningdeutschland.de^
 ||onbestsellprods.com^
 ||oncloudoutlet.at^
@@ -7860,6 +7872,7 @@
 ||priceannihilator.com^
 ||priceslash.shop^
 ||pridesaunaclub.com^
+||prima-sport.de^
 ||primada.de^
 ||primalekarna.com^
 ||primavo24.de^
@@ -8426,7 +8439,6 @@
 ||salmingsuomi.com^
 ||salomon-deutschland.de^
 ||salomondeutschlandsale.de^
-||salomonosterreich.at^
 ||salomonoutletgermany.de^
 ||salomonoutletireland.com^
 ||salomonoutletstoresusa.com^
@@ -9683,6 +9695,7 @@
 ||topspink.com^
 ||topstore1game.com^
 ||topworldnewstoday.com^
+||torano.shop^
 ||torantriebemarkt.de^
 ||torbeschlagestobgriffe.com^
 ||tornadostore.de^
