@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611220926
+! Version: 202611221914
 ! Title: EasyPrivacy
-! Last modified: 22 Nov 2026 09:26 UTC
+! Last modified: 22 Nov 2026 19:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4080440f29333cfe843e773b8c83c8aeaa1a26d9
+! Commit: ac2c53ca9b582a2d1d618b49dabc50e02cb2b182
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8794,6 +8794,7 @@ omni.soundestlink.com$image
 ||sadloaf.com^
 ||safercarsearch.com^
 ||saffronrefuge.com^
+||sagemosaicart.com^
 ||sagetrack.net^
 ||saladbarrel.com^
 ||saladfuel.com^
@@ -9005,6 +9006,7 @@ omni.soundestlink.com$image
 ||snoresmile.com^
 ||snowmentor.com^
 ||snowpeaksoftware.com^
+||socialbackyard.com^
 ||sociallyscared.com^
 ||socialsend.net^
 ||sockpacks.com^
@@ -9209,6 +9211,7 @@ omni.soundestlink.com$image
 ||sustaindenim.com^
 ||swankysquare.com^
 ||swanwebcreations.com^
+||sweetbeat.net^
 ||sweetslope.com^
 ||sweetsoul.net^
 ||swellstocking.com^
@@ -9224,8 +9227,10 @@ omni.soundestlink.com$image
 ||synccache.com^
 ||synonymoussticks.com^
 ||synthesizescarecrow.com^
+||systemone.net^
 ||systemssummit.com^
 ||tabcarts.com^
+||tableheads.com^
 ||tableleaders.com^
 ||tackytrains.com^
 ||tacojournal.com^
@@ -9316,6 +9321,7 @@ omni.soundestlink.com$image
 ||timecrossed.com^
 ||timelessyes.com^
 ||tinybluewhale.com^
+||tinybodega.com^
 ||tinyswans.com^
 ||tinytendency.com^
 ||tireinside.com^
@@ -17230,6 +17236,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.gofile.io^
 ||s.infogram.com^
 ||s.joinhoney.com/evs
+||s.pdfroom.com/api/event
 ||s.sintra.ai^
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
