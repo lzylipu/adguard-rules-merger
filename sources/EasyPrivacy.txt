@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611221914
+! Version: 202611230126
 ! Title: EasyPrivacy
-! Last modified: 22 Nov 2026 19:14 UTC
+! Last modified: 23 Nov 2026 01:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ac2c53ca9b582a2d1d618b49dabc50e02cb2b182
+! Commit: 9b21f633b19254091a3ece0011959f0a4f9ce5bb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -375,6 +375,7 @@
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
+/api/event/collect|
 /api/front/v2/observability$ping
 /api/internal/pixel?
 /api/log-visit
@@ -2773,6 +2774,7 @@
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/snowplow-
 /vestigo/v1/measure
 /vglnk.js
 /video-ga.js
@@ -3554,9 +3556,11 @@ omni.soundestlink.com$image
 ||4tm4ezb2lqlx.com^
 ||5gtb.com^
 ||6dp0i7.ru^
+||6s83mz9kbtrj.com^
 ||a3kvau184uea.com^
 ||a47b.com^
 ||a8723.com^
+||a9f3k7z2m1.com^
 ||acsbapp.com^
 ||adcontroll.com^
 ||addefend-platform.com^
@@ -3599,6 +3603,7 @@ omni.soundestlink.com$image
 ||australiarevival.com^
 ||avads.net^
 ||awmonitor.com^
+||ayc0zsm69431gfebd.info.com^
 ||b3mxnuvcer.com^
 ||bfmio.com^
 ||bgalytics.com^
@@ -3624,18 +3629,14 @@ omni.soundestlink.com$image
 ||bx-cloud.com^
 ||bxtag.com^
 ||bydst.com^
+||bytes.media^
 ||c-stat.eu^
 ||cadsuta.net^
 ||cafirebreather.com^
 ||cbdatatracker.com^
 ||cdjbf8trk.com^
 ||cdn-vitals.com^
-||cdn.a9f3k7z2m1.com^
-||cdn.m2z7r9k4p1.com^
-||cdn.q4x8n6b2t5.com^
 ||cdn.sy-d.io^
-||cdn.t2037ulzqct5.com^
-||cdn.x7k9m2q4z8r1.com^
 ||cdnhst.xyz^
 ||cdnlogs.org^
 ||cdnwidget.com^
@@ -3830,6 +3831,7 @@ omni.soundestlink.com$image
 ||itsstats.wp1.site^
 ||jcpclick.com^
 ||jubbie.de^
+||jzkdrpijw30voy0.club^
 ||kit22.com^
 ||klarinsights.net^
 ||krxd.net^
@@ -3852,6 +3854,7 @@ omni.soundestlink.com$image
 ||lrkt-in.com^
 ||lsdm.co^
 ||lyfnh.io^
+||m2z7r9k4p1.com^
 ||maggieeatstheangel.com^
 ||mapixl.com^
 ||markadver.com^
@@ -3940,6 +3943,7 @@ omni.soundestlink.com$image
 ||pzapi-kg.com^
 ||pzimff.com^
 ||q0losid.com^
+||q4x8n6b2t5.com^
 ||qntm.pro^
 ||qovani.com^
 ||queen-one.net^
@@ -4009,6 +4013,7 @@ omni.soundestlink.com$image
 ||sy57d8wi.com^
 ||syncingbridge.com^
 ||t13.io^
+||t2037ulzqct5.com^
 ||takingbackjuly.com^
 ||targetemsecure.blob.core.windows.net^
 ||tatpek.com^
@@ -4072,6 +4077,7 @@ omni.soundestlink.com$image
 ||wlt-jupiter.de^
 ||wmgroup.us^
 ||woodpeckerlog.com^
+||x7k9m2q4z8r1.com^
 ||xanalytics.vip^
 ||y5kvsuy8wr7c.com^
 ||yardianalytics.com^
@@ -5805,6 +5811,7 @@ omni.soundestlink.com$image
 ||ptztvpremium.com^$third-party
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
+||pubfluencers.com^$third-party
 ||publicgood.com^$third-party
 ||publicidees.com^$third-party
 ||publytics.net^$third-party
@@ -7770,6 +7777,7 @@ omni.soundestlink.com$image
 ||fumblingform.com^
 ||functionalcrown.com^
 ||functionalfeather.com^
+||funkpit.com^
 ||funoverbored.com^
 ||funoverflow.com^
 ||funtoyplanet.com^
@@ -9271,6 +9279,7 @@ omni.soundestlink.com$image
 ||tendertest.com^
 ||tenhourweek.com^
 ||tennistie.com^
+||tentpick.com^
 ||terriblethumb.com^
 ||test2.uat.mundi.work^
 ||testadmiral.com^
@@ -9579,6 +9588,7 @@ omni.soundestlink.com$image
 ||worriedwine.com^
 ||wowboosters.com^
 ||wowfunnow.com^
+||wrathsecrets.com^
 ||wretchedfloor.com^
 ||writerhubs.com^
 ||writewealth.com^
@@ -11951,6 +11961,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||filament-stats.herokuapp.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
+||fingerprint.blockifyapp.com^
 ||fingerprinter-production.herokuapp.com^
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
@@ -12237,6 +12248,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||insiderdata360online.com/service/platform.js
 ||insight.mintel.com^$third-party
 ||insight.rapid7.com^$third-party
+||insights-tag.convertkit.com^
 ||insights.algolia.io^
 ||insights.playpilot.net^
 ||insights.sitesearch360.com^
@@ -13217,6 +13229,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||sr-cdn.shiprocket.in/sr-promise/static/iframe.html
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||src.freshmarketer.in^
 ||src.fwusercontent.com^
 ||srvmath.com^*/analytics.js
@@ -16491,6 +16505,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/measurement/
 ||google.com/pagead/1p-conversion/
 ||gpsvisualizer.com/ip2country.js
+||gpupartner.com/57df8107ae016629/script.js
 ||grabify.link/api/js
 ||graylog.prod.cams.run^
 ||grgnsht.nzxt.com^
@@ -16799,6 +16814,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||me-qr.com/metrics/
 ||me-qr.com/statistic/collect/
 ||medal.tv^$ping
+||media.audubon.org/js/aud_tracker.min.js
 ||media.io/trk
 ||medium.com/_/batch
 ||meduza.io/stat/
@@ -17126,6 +17142,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pulse.genki.world^
 ||pulsepoint.ideal.house^
 ||pumpkin.abine.com^
+||pureinfotech.com/media/api/send
 ||pushsquare.com/blank.gif
 ||px.srvcs.tumblr.com^
 ||pxl.indeed.com^
@@ -17241,7 +17258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
 ||s.wayfair.com^
-||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com
+||s.yimg.com/cv/apiv2/cv/apiv2/trueanthem/$domain=yahoo.com
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||s4vrsde.www.arturia.com^
 ||sa.uswitch.com^
@@ -17606,6 +17623,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thetimes.co.uk/track?
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
+||theverge.com/SendEventData
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
