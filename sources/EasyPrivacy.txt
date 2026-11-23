@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611230126
+! Version: 202611231026
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2026 01:26 UTC
+! Last modified: 23 Nov 2026 10:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9b21f633b19254091a3ece0011959f0a4f9ce5bb
+! Commit: f1df76f6d1d8c5cc1202fa75051e88223e3c3f92
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -117,6 +117,7 @@
 /?swift-performance-tracking
 /_/api/v2/analytics/?
 /_/lite/performance/*
+/__activity.gif?
 /__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
@@ -620,6 +621,7 @@
 /chartbeat.min.js
 /chcounter/counter.php
 /check.php?referrer=
+/checkout/offer/trackShow
 /chicken.gif?*=
 /cklink.gif?
 /cklog.js
@@ -4721,6 +4723,7 @@ omni.soundestlink.com$image
 ||demandscience.com^$third-party
 ||departapp.com^$third-party
 ||deqwas.net^$third-party
+||derbysoftsec.com^$third-party
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||device9.com^$third-party
@@ -9118,6 +9121,7 @@ omni.soundestlink.com$image
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
+||staradmiral.com^
 ||starfurniture.net^
 ||starrynets.com^
 ||starsmarter.com^
@@ -9337,6 +9341,7 @@ omni.soundestlink.com$image
 ||tiresomethunder.com^
 ||titangods.com^
 ||toasttutor.com^
+||toffeetribe.com^
 ||tofusquirrel.com^
 ||tomatobarrel.com^
 ||toolaward.com^
@@ -11000,6 +11005,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.sayprimer.com^
 ||analytics.scorpion.co^
 ||analytics.shareaholic.com^
+||analytics.shelbyklein.com^
 ||analytics.shorte.st^
 ||analytics.shorthand.com^
 ||analytics.sitewit.com^
@@ -12731,6 +12737,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orion.bendingspoons.com^
 ||orts.wixawin.com^$third-party
 ||osano.com/js/?action_name=
+||otel-hfo.fareharbor.engineering/v1/traces
 ||otg.mblycdn.com/bundles/cmp.js
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/

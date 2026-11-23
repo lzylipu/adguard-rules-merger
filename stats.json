@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-23 09:30:40 (UTC+8)",
+  "updated": "2026-11-23 18:37:33 (UTC+8)",
   "version": "4.0",
   "mode": "local",
   "standard": {
-    "total": 289723,
+    "total": 290562,
     "sources": {
       "GOODBYEADS-DNS": {
         "raw": 122005,
@@ -12,27 +12,27 @@
         "desc": "GOODBYEADS DNS去广告中文优先 🇨🇳"
       },
       "Hagezi-Light": {
-        "raw": 75486,
-        "dns_ok": 75486,
-        "new": 75486,
+        "raw": 76708,
+        "dns_ok": 76708,
+        "new": 76708,
         "desc": "HaGeZi 广告+追踪精简版"
       },
       "Hagezi-DOH": {
-        "raw": 3557,
-        "dns_ok": 3557,
-        "new": 3557,
+        "raw": 3552,
+        "dns_ok": 3552,
+        "new": 3552,
         "desc": "HaGeZi DoH绕过"
       },
       "Hagezi-Fake": {
-        "raw": 10444,
-        "dns_ok": 10444,
-        "new": 10444,
+        "raw": 10378,
+        "dns_ok": 10378,
+        "new": 10378,
         "desc": "HaGeZi 仿冒钓鱼域名"
       },
       "AdGuard-DNS-filter": {
-        "raw": 192548,
-        "dns_ok": 192416,
-        "new": 192220,
+        "raw": 190925,
+        "dns_ok": 190793,
+        "new": 190597,
         "desc": "AdGuard 官方DNS过滤器，17.9万规则 🛡️"
       },
       "halflife-ad-pc": {
@@ -42,9 +42,9 @@
         "desc": "halflife 国内桌面端(含乘风视频广告) 🇨🇳"
       },
       "EasyPrivacy": {
-        "raw": 56811,
-        "dns_ok": 52481,
-        "new": 47614,
+        "raw": 56818,
+        "dns_ok": 52486,
+        "new": 47618,
         "desc": "EasyList 隐私追踪"
       },
       "Yoyo": {
@@ -54,7 +54,7 @@
         "desc": "Yoyo 经典广告服务器"
       }
     },
-    "whitelist_removed": 7023
+    "whitelist_removed": 7030
   },
   "whitelist": {
     "total": 8392,
@@ -63,12 +63,12 @@
     "custom_rules": 47
   },
   "full": {
-    "total": 690920,
+    "total": 693715,
     "sources": {
       "Hagezi-Pro": {
-        "raw": 234113,
-        "dns_ok": 234113,
-        "new": 234113,
+        "raw": 236199,
+        "dns_ok": 236199,
+        "new": 236199,
         "desc": "HaGeZi 全覆盖专业版"
       },
       "217heidai-DNS": {
@@ -78,9 +78,9 @@
         "desc": "217heidai DNS规则合并（纯域名）"
       },
       "OISD-Small": {
-        "raw": 62223,
-        "dns_ok": 62223,
-        "new": 62223,
+        "raw": 62315,
+        "dns_ok": 62315,
+        "new": 62315,
         "desc": "OISD Small - Block.Don't break. 社区轻量推荐"
       },
       "1Hosts-Lite": {
