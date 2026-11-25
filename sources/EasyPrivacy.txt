@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611241203
+! Version: 202611250018
 ! Title: EasyPrivacy
-! Last modified: 24 Nov 2026 12:03 UTC
+! Last modified: 25 Nov 2026 00:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8b510d59fdaf4970f4dc9b50156b8398c0f01ce2
+! Commit: 2da4036ad6cc32daf6bd39892131b162052c2925
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8031,6 +8031,7 @@ omni.soundestlink.com$image
 ||itsdonelist.com^
 ||itsmatchtime.com^
 ||itsviral.net^
+||ivoryandcrow.com^
 ||ivykiosk.com^
 ||j93557g.com^
 ||jackalsmovie.com^
@@ -11103,6 +11104,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.picox.bendingspoons.com/v1/events
 ||api.reo.dev^$third-party
 ||api.sardine.ai/assets/loader.min.js$third-party
+||api.sided.co/embed/registerDebateEvent
+||api.sided.co/embed/updateSession
 ||api.sovendus.com/js/landing.js
 ||api.tally.so/forms/*/events
 ||api.transtore.app/api/v2/storefront/tracking
@@ -17803,6 +17806,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||umami.vidfast.pro^
 ||umami.wakarimasen.moe^
 ||uncensored.ai/*/trackevents
+||uniqueness.greenmangaming.com^
 ||unity3d.com/v1/events
 ||unl1zvy2zuyn.franchiseplus.nl^
 ||unleash.zenchef.com/api/frontend/client/metrics
@@ -18126,6 +18130,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
+||greynoise.io/nvhc9u4gxsagNjY3ZGQ0MGViYjgwOTVlODlmMjc1NjM5/
 ||idhtm.bb.com.br^
 ||idstatus.sky.com^
 ||img2021.navyfederal.org^
@@ -18141,9 +18146,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qfp.intuit.com^
 ||rba-screen.healthsafe-id.com^
 ||rsx.afterpay.com^
+||secure.valnetinc.com/discover
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||svc2.sc.com^
-||tips.delt.io
+||tiles.openfreemap.org/planet
+||tips.delt.io^
 ||tm-eps.neutrino.nu^
 ||tmetrix.my.chick-fil-a.com^
 ||tmx.bestbuy.com^
