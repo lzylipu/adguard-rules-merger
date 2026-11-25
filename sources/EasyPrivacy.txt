@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611251100
+! Version: 202611252127
 ! Title: EasyPrivacy
-! Last modified: 25 Nov 2026 11:00 UTC
+! Last modified: 25 Nov 2026 21:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 93a68d21ac68d62c083aa44904399798f24f85c2
+! Commit: 3d938b2917d4fd138d2d689ccb44a41bd7160b85
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6956,6 +6956,7 @@ omni.soundestlink.com$image
 ||awaybound.com^
 ||awzbijw.com^
 ||axcii.com^
+||axedint.com^
 ||axiomaticanger.com^
 ||axonsite.com^
 ||azuremystique.com^
@@ -7496,6 +7497,7 @@ omni.soundestlink.com$image
 ||dollardelta.com^
 ||dollarpuzzle.com^
 ||dollarthrill.com^
+||dolphinplate.com^
 ||dolphinsrule.com^
 ||domaincolumn.com^
 ||doomhedge.com^
@@ -7676,6 +7678,7 @@ omni.soundestlink.com$image
 ||figurehunter.net^
 ||fileshareengine.com^
 ||fillthemap.com^
+||filmcomm.net^
 ||filtercutter.com^
 ||finalizeforce.com^
 ||finalleague.com^
@@ -9335,6 +9338,7 @@ omni.soundestlink.com$image
 ||tiltonbots.com^
 ||timecrossed.com^
 ||timelessyes.com^
+||timeprince.com^
 ||tinybluewhale.com^
 ||tinybodega.com^
 ||tinyswans.com^
