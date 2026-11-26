@@ -186,6 +186,34 @@ def merge_sources(domain_map, new_map):
                 domain_map[k] = rule
     return added
 
+
+# 作用域白名单：@@||domain^$domain=a,b 只在 a/b 域下生效，不能当全局放行
+_SCOPED_WL_RE = re.compile(r'^@@\|\|([a-z0-9.*_-]+)\^\$(.*)$', re.IGNORECASE)
+
+def parse_whitelist_rule(norm):
+    """解析白名单规则。
+    返回 (global_domain, scoped_rule)：
+      - global_domain: 可全局放行的域名；作用域规则返回 None
+      - scoped_rule:   带 $domain= 的作用域规则（原样写入 whitelist.txt，交 AGH 执行）
+    """
+    m = _SCOPED_WL_RE.match(norm)
+    if not m:
+        return extract_domain(norm), None
+    modifiers = m.group(2)
+    dm = re.search(r'(?:^|,)domain=([^,]+)', modifiers, re.IGNORECASE)
+    if not dm:
+        return extract_domain(norm), None
+    scopes = [x.strip().lower() for x in dm.group(1).split('|') if x.strip()]
+    if not scopes:
+        return None, None
+    own = m.group(1).lower()
+    if own.startswith("*."):
+        own = own[2:]
+    # 作用域覆盖自身或父域时，等价于全局放行
+    if all(own == sc or own.endswith("." + sc) for sc in scopes):
+        return own, None
+    return None, norm
+
 def apply_whitelist(domain_map, wl_domains):
     removed = 0
     result = {}
@@ -207,6 +235,60 @@ def apply_whitelist(domain_map, wl_domains):
                 continue
         result[k] = rule
     return result, removed
+
+
+# 动态DNS / 短链 / 静态托管等「共享域」噪音：这些域下是用户自建内容，不是广告
+SHARED_DOMAIN_NOISE = {
+    "no-ip.biz", "no-ip.org", "no-ip.info", "ddns.net", "duckdns.org", "zapto.org",
+    "hopto.org", "sytes.net", "myftp.org", "redirectme.net", "servebeer.com",
+    "bounceme.net", "freedynamicdns.net", "gotdns.ch", "loginto.me", "myvnc.com",
+    "ontheweb.nu", "redhem.net", "servehttp.com", "serveftp.com", "ufcfan.org",
+    "withgoogle.com", "workisboring.com", "web.app", "glitch.me", "r2.dev",
+    "000webhostapp.com", "webwave.dev", "blogspot.com",
+}
+
+def is_shared_noise(domain):
+    """判断域名是否属于共享托管/动态DNS噪音（拦了会误伤用户自建服务）。"""
+    if not domain:
+        return False
+    d = domain.lower()
+    for n in SHARED_DOMAIN_NOISE:
+        if d == n or d.endswith("." + n):
+            return True
+    return False
+
+def drop_subdomain_redundancy(domain_map):
+    """删除「父域规则已存在且无修饰符」的子域规则。
+    AGH 语义下 ||parent^ 已覆盖全部子域，子域规则纯属冗余。
+    父域带 $ 修饰符（如 $third-party/$domain）时语义不同，保留子域。
+    子域本身是白名单或带修饰符时也保留。
+    """
+    dropped = set()
+    for d, rule in domain_map.items():
+        parts = d.split(".")
+        if len(parts) < 3:
+            continue
+        # 沿标签逐级向上找最近的祖先规则，只删「被祖先直接覆盖」的
+        prule = None
+        for i in range(1, len(parts) - 1):
+            cand = ".".join(parts[i:])
+            r = domain_map.get(cand)
+            if r is not None:
+                prule = r
+                break
+        if not prule:
+            continue
+        if "$" in prule or "$" in rule:
+            continue
+        if rule.startswith("@@") or prule.startswith("@@"):
+            continue
+        # 祖先规则必须真的覆盖该子域（祖先域名是它的后缀）
+        if not d.endswith("." + cand):
+            continue
+        dropped.add(d)
+    for d in dropped:
+        del domain_map[d]
+    return len(dropped)
 
 def write_blocklist(filepath, rules, header_extra, timestamp, sources_count, custom_count):
     header = """! 🛡️ AdGuard Home Merged DNS Blocklist
@@ -308,13 +390,17 @@ def main():
     wl_custom = wl_config.get("custom", [])
     wl_domains = set()
     wl_rules = []
+    scoped_total = 0
+    failed_sources = []
 
     for src in wl_sources:
         name, url, desc = src["name"], src["url"], src.get("desc", "")
         print("  📁 %s: %s" % (name, desc))
+        scoped_here = 0
         content = get_source_content(src)
         if not content:
-            print("      → ❌ failed")
+            print("      → ❌ failed (URL 失效，已跳过)")
+            failed_sources.append(name)
             continue
         count = 0
         for line in content.splitlines():
@@ -324,30 +410,65 @@ def main():
             norm = normalize_rule(line) or line  # 兼容 hosts/裸域名白名单源
             if not is_dns_compatible(norm):
                 continue
-            domain = extract_domain(norm)
-            if domain:
-                wl_domains.add(domain)
+            gdom, scoped = parse_whitelist_rule(norm)
+            if scoped:
+                wl_rules.append(scoped)
+                scoped_here += 1
+                continue
+            if gdom:
+                wl_domains.add(gdom)
                 wl_rules.append(norm)
                 count += 1
-        print("      → %s DNS白名单" % "{:,}".format(count))
+        msg = "      → %s DNS白名单" % "{:,}".format(count)
+        if scoped_here:
+            msg += " (+%s 作用域规则, 交 AGH 执行)" % "{:,}".format(scoped_here)
+        print(msg)
+        scoped_total += scoped_here
 
     custom_count = 0
     for rule in wl_custom:
-        domain = extract_domain(rule)
-        if domain:
-            wl_domains.add(domain)
+        gdom, scoped = parse_whitelist_rule(rule)
+        if scoped:
+            wl_rules.append(scoped)
+            scoped_total += 1
+            continue
+        if gdom:
+            wl_domains.add(gdom)
             wl_rules.append(rule)
             custom_count += 1
     print("  ✏️ Custom: %s rules, 总白名单域名: %s" % (custom_count, "{:,}".format(len(wl_domains))))
+    if scoped_total:
+        print("  ℹ️ 作用域白名单 %s 条已写入 whitelist.txt（不全局放行）" % "{:,}".format(scoped_total))
+    if failed_sources:
+        print("  ⚠️ 以下白名单源下载失败，请检查 URL: %s" % ", ".join(failed_sources))
+        if os.environ.get("STRICT_SOURCES") == "1":
+            raise SystemExit("白名单源必须全部可用（STRICT_SOURCES=1），终止。")
 
     # 4. 应用白名单
     print("\n✂️ Applying whitelist (标准版应用，完整版跳过)...")
     std_final, std_wl_rm = apply_whitelist(std_map, wl_domains)
-    full_final = dict(full_map)
+    full_final = full_map
     print("  标准版: 去掉 %s 条 → %s 条" % ("{:,}".format(std_wl_rm), "{:,}".format(len(std_final))))
     print("  完整版: 保留全量 %s 条 (不去白名单)" % "{:,}".format(len(full_final)))
 
     final_wl = list(dict.fromkeys(wl_rules))
+
+    # 4.5 精简：去共享域噪音 + 去子域冗余（语义等价，规则数大幅下降）
+    print("\n✂️ Trimming redundancy...")
+    noise_full = 0
+    for k in list(full_map):
+        if is_shared_noise(extract_domain(full_map[k])):
+            del full_map[k]
+            noise_full += 1
+    noise_std = 0
+    for k in list(std_final):
+        if is_shared_noise(extract_domain(std_final[k])):
+            del std_final[k]
+            noise_std += 1
+    sub_full = drop_subdomain_redundancy(full_map)
+    sub_std = drop_subdomain_redundancy(std_final)
+    print("  共享域噪音: 完整版 -%s, 标准版 -%s" % ("{:,}".format(noise_full), "{:,}".format(noise_std)))
+    print("  子域冗余:   完整版 -%s, 标准版 -%s" % ("{:,}".format(sub_full), "{:,}".format(sub_std)))
 
     # 5. 写文件
     print("\n💾 Writing output files...")

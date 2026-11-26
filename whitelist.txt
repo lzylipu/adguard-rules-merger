@@ -1,8 +1,8 @@
 ! ✅ AdGuard Home Merged DNS Whitelist
 ! Auto-merged by adguard-rules-merger v4 (local mode)
-! Updated: 2026-10-08 17:35:36 (UTC+8)
+! Updated: 2026-11-27 03:38:06 (UTC+8)
 ! Sources: 4 upstream + 47 custom
-! Rules: 8,376 (DNS-only, deduped)
+! Rules: 8,392 (DNS-only, deduped)
 ! ============================================================
 @@||*-go.kelkoogroup.net^
 @@||*cdn.exponea.com^
@@ -299,8 +299,10 @@
 @@||ad.kazakinfo.com^
 @@||ad.lifesight.io^
 @@||ad.ourgame.com^
+@@||ad.trafficgate.net^
 @@||ad.vivo.com.cn^$~third-party
 @@||ad13.adfarm1.adition.com^$domain=1und1.de
+@@||ad2.trafficgate.net^
 @@||adawareupdateservice.lavasoft.com^
 @@||adaway.org^
 @@||adaxxcloud.com^
@@ -415,6 +417,7 @@
 @@||aestheticcanvas.site^$stealth=referrer
 @@||aex.dev.azure.com^
 @@||af.mopo.jp^
+@@||af.moshimo.com^
 @@||af.opera.com^
 @@||afdxtest.z01.azurefd.net^
 @@||aff44.com^
@@ -1131,9 +1134,9 @@
 @@||bcvc.live^
 @@||bcvipva02.rightnowtech.com^$stealth=3p-auth,domain=custhelp.com
 @@||bdash-tracking.com^
+@@||bdstatic.com^$domain=17k.com|feiguaks.com
 @@||bdstatic.com^$domain=doupocangqiong1.com
 @@||bdstatic.com^$domain=dq.tieba.com
-@@||bdstatic.com^$domain=feiguaks.com|17k.com
 @@||bdwm.be^
 @@||bea4.v.fwmrm.net^$domain=mylifetime.com
 @@||beacon.bcn.to^
@@ -1493,7 +1496,7 @@
 @@||cdn.dbdtwitch.com^
 @@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.discordapp.com^
-@@||cdn.dotstream.buzz^$stealth=referrer,domain=megaplay.*
+@@||cdn.dotstream.buzz^$stealth=referrer,domain=megaplay.*|megaplay.buzz
 @@||cdn.downdetector.com^
 @@||cdn.download.clearlinux.org^
 @@||cdn.dragonagekeep.com^
@@ -1573,8 +1576,8 @@
 @@||cdn.sstatic.net^
 @@||cdn.statically.io^
 @@||cdn.staticaly.com^
+@@||cdn.staticfile.org^$domain=00ksw.com|147xiaoshuo.com|20me.net|49gtk.cc|56xiaoshuo.net|alexij.net|biqiuge5.org|biquge77.net|bxwx.live|cleavagecoverup.com|fbqg.cc|hshfm.com|lakyworld.com|lzbao.net|m-ia.net|memduh.net|tellgillian.com|xianguke.net|yourbiquge.com|yzbg.net
 @@||cdn.staticfile.org^$domain=aoi.hugemaker.com.cn
-@@||cdn.staticfile.org^$domain=lakyworld.com|biquge77.net|yzbg.net|alexij.net|hshfm.com|biqiuge5.org|49gtk.cc|20me.net|fbqg.cc|xianguke.net|tellgillian.com|m-ia.net|cleavagecoverup.com|memduh.net|56xiaoshuo.net|yourbiquge.com|00ksw.com|147xiaoshuo.com|bxwx.live|lzbao.net
 @@||cdn.statuspage.io^
 @@||cdn.steamstatic.com^
 @@||cdn.storeedgefd.dsx.mp.microsoft.com^
@@ -2223,6 +2226,7 @@
 @@||data-cdn.mbamupdates.com^
 @@||data.adpresenter.de^$domain=xswiper.com|sexeey.com|vidizzy.com
 @@||data.alicloudccp.com^$stealth,domain=aliyundrive.com
+@@||data.customermail.colruyt.be^
 @@||data.digital.costco.ca^
 @@||data.digital.costco.com^
 @@||data.email.philips-hue.com^
@@ -2256,6 +2260,7 @@
 @@||dcinside.com^$stealth
 @@||dct.klaviyodns.com^
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.goflink.com.first-party-js.datadome.co^$domain=goflink.com
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
 @@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
@@ -2443,6 +2448,7 @@
 @@||dns.quad9.net^
 @@||dns.sb^
 @@||do-not-tracker.org^
+@@||do-re.com.tr^$stealth=dpi
 @@||doc.opensuse.org^
 @@||doc.qbittorrent.org^
 @@||docker.io^
@@ -2875,7 +2881,6 @@
 @@||experience-apigw.superloop.com^
 @@||experienceleague.adobe.com^$~third-party
 @@||explodie.org^
-@@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||ext-twitch.tv^
 @@||extension-files.twitch.tv^
 @@||extension-updates.opera.com^
@@ -3851,6 +3856,7 @@
 @@||imgtmo.com^$stealth=referrer
 @@||imgtn.bdimg.com^$stealth
 @@||imgur.com^
+@@||imp.i*.net^
 @@||impactserving.com^
 @@||improvedtube.com^
 @@||improving.duckduckgo.com^
@@ -4169,8 +4175,8 @@
 @@||libretorrent.en.aptoide.com^
 @@||librewolf-community.gitlab.io^
 @@||librewolf.net^
+@@||libs.baidu.com^$domain=0794.org|11bqg.com|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aidu123.com|aikushuge.com|aiwx.info|aixs.la|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|xbiquke.com|xbotaodz.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|xvipxs.net|xwenxuem.com|yqd6.com|yunxs.info|zjsw.org|zyywenxue.com|zzs5.info
 @@||libs.baidu.com^$domain=m.supfree.net
-@@||libs.baidu.com^$domain=zyywenxue.com|11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|aidu123.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|xwenxuem.com|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||license.hulu.com^
 @@||licensing.mp.microsoft.com^
 @@||licensing.xboxlive.com^
@@ -4215,6 +4221,7 @@
 @@||links.mkt*.net^
 @@||links.notifications.soundcloud.com^
 @@||links.podia.com^
+@@||linksaffiliate.com^
 @@||linksflys.com^$document,stealth=referrer
 @@||linksmail.geosolinc.com^
 @@||linksnappy.com^
@@ -4290,6 +4297,7 @@
 @@||localrl.com^
 @@||localservicerl.com.au^
 @@||log-24f7f3c7.nab.com.au^
+@@||log.rlsbb.in^$stealth=ip
 @@||logging.apache.org^
 @@||logging.apache.org^$~third-party
 @@||logicool.co.jp^$content
@@ -4743,6 +4751,7 @@
 @@||mirrors.xtom.nl^
 @@||mirrorsecondary.math.princeton.edu^
 @@||mixpanel.com^$domain=mixpanel.com
+@@||mjt.lu^
 @@||mk0ghacksnety2pjrgh8.kinstacdn.com^
 @@||mkto-*.com^
 @@||mkto-sj250060.com^$domain=go.honeywellhome.com
@@ -5283,6 +5292,7 @@
 @@||panel.seedbox.io^
 @@||panels-images.twitch.tv^
 @@||panels.twitch.tv^
+@@||par.nsf.gov^$stealth=dpi
 @@||part.xbox.com^
 @@||partclone.org^
 @@||partimage.org^
@@ -6086,6 +6096,7 @@
 @@||securedownloads.superantispyware.com^
 @@||secureir.ebaystatic.com^
 @@||securepubads.g.doubleclick.net^$domain=hoyts.com.au
+@@||securepubads.g.doubleclick.net^$domain=sarkarijobcorner.com
 @@||securetoken.googleapis.com^
 @@||securetoken.googleapis.com^$stealth=referrer
 @@||securewebmetrics.com^
@@ -6349,8 +6360,10 @@
 @@||speedtest.syd.mhn.cloud^
 @@||speedtest.syd.netsg.net.au.prod.hosts.ooklaserver.net^
 @@||speedtest.syd.netsg.net.au^
+@@||speedwebgo.com^$stealth=referrer,domain=blacktoon425.com
 @@||spgo.io^
 @@||sphinx.acast.com^
+@@||sphinx.tongdun.net^$domain=hainanairlines.com
 @@||split-evaluator-prod.eax.ea.com^
 @@||split-evaluator.juno.ea.com^
 @@||spo-ring.msedge.net^
@@ -6750,6 +6763,7 @@
 @@||t.acg.rip^
 @@||t.adcell.com^
 @@||t.afi-b.com^
+@@||t.ajump.link^
 @@||t.castle.io^
 @@||t.cfjump.com^
 @@||t.clickwise.net^
@@ -6952,6 +6966,7 @@
 @@||to.klatsa.nl^
 @@||todosupport.microsoft.com^
 @@||together.plex.tv^
+@@||toho-one.com^$stealth=referrer,domain=toho-one.com
 @@||tokenized.play.google.com^
 @@||tokens-auth.touchtype-fluency.com^
 @@||tool-avpg.crsi.norton.com^
@@ -7262,6 +7277,7 @@
 @@||trkjkamaret.com^
 @@||trkn.us^
 @@||trkrcc.com^
+@@||trovaprezzi.it^$stealth=dpi
 @@||trueachievements.com^$stealth=useragent
 @@||tryit.w3schools.com^$document
 @@||ts-crl.ws.symantec.com^
